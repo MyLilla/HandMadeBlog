@@ -75,7 +75,7 @@ header {
 
 .baner {
     height: 507px;
-    background-image: url("/img/banner1.jpg");
+    background-image: url(.../img/banner1.jpg);
 
 }
 
