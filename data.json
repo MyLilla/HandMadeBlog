@@ -1,0 +1,169 @@
+[
+    {
+        "id": 1,
+        "imgPreview": "db/CoastalShell.JPG",
+        "title": "Coastal Shell",
+        "description": "A piece of shell from the Andalusian coast. After a harsh adventure on the seabed, this fragment of shell has found new life in theembrace of soft cotton.",
+        "price": 16,
+        "available": true,
+        "category": "jewelry",
+        "materials": [
+            "img/shell.png",
+            "img/thread.png"
+        ],
+        "imgs": [
+            "db/CoastalShell.JPG"
+        ]
+    },
+    {
+        "id": 2,
+        "imgPreview": "db/MagicTree.JPG",
+        "title": "Magic tree",
+        "description": "Traces of a city built by bark beetles in the Siberian forests. The unique curves of the corridors are forever imprinted onthis piece of wood.",
+        "price": 30,
+        "available": false,
+        "category": "jewelry",
+        "materials": [
+            "img/wood.png",
+            "img/thread.png"
+        ],
+        "imgs": [
+            "db/MagicTree.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "imgPreview": "db/SeaGlass.JPG",
+        "title": "Sea Glass",
+        "description": "Sea glass keychains from the Costa del Sol, Spain. When shards of a solid form become individuals and discover new combinations and life.",
+        "price": 7,
+        "available": true,
+        "category": "jewelry",
+        "materials": [
+            "img/stone.png",
+            "img/thread.png"
+        ],
+        "imgs": [
+            "db/SeaGlass.JPG",
+            "db/SeaGlass1.JPG"
+        ]
+    },
+    {
+        "id": 4,
+        "imgPreview": "db/BirdDances.JPG",
+        "title": "Bird Dances",
+        "description": "Lightweight quail feather earrings with stones and beads are able to catch every movement of the air.",
+        "price": 8,
+        "available": true,
+        "category": "jewelry",
+        "materials": [
+            "img/stone.png",
+            "img/light.png"
+        ],
+        "imgs": [
+            "db/BirdDances.JPG",
+            "db/BirdDances1.JPG",
+            "db/BirdDances2.JPG"
+        ]
+    },
+    {
+        "id": 5,
+        "imgPreview": "db/GrayMoon.JPG",
+        "title": "Gray Moon",
+        "description": "As the moon shone over the beach, the stone absorbed its waves and the energy of the sea.",
+        "price": 6,
+        "available": true,
+        "category": "jewelry",
+        "materials": [
+            "img/stone.png"
+        ],
+        "imgs": [
+            "db/GrayMoon.JPG",
+            "db/GrayMoon1.JPG"
+        ]
+    },
+    {
+        "id": 6,
+        "imgPreview": "db/MolluskCouple.JPG",
+        "title": "Mollusk couple",
+        "description": "The protective shell can be rough on the outside and shiny on the inside. The owners of these shells could well have been a couple.",
+        "price": 9,
+        "available": true,
+        "category": "jewelry",
+        "materials": [
+            "img/shell.png"
+        ],
+        "imgs": [
+            "db/GrayMoon.JPG",
+            "db/GrayMoon1.JPG"
+        ]
+    },
+    {
+        "id": 7,
+        "imgPreview": "db/MoonCandle.jpg",
+        "title": "Moon Land",
+        "description": "There's nothing special about cement, just like the surface of the moon— just dust. But in the light, this simplicity is transformed a hundredfold.",
+        "price": 7,
+        "available": true,
+        "category": "home",
+        "materials": [
+            "img/stone.png"
+        ],
+        "imgs": [
+            "db/GrayMoon.JPG",
+            "db/GrayMoon1.JPG"
+        ]
+    },
+    {
+        "id": 8,
+        "imgPreview": "db/Domino.jpg",
+        "title": "Domino Game",
+        "description": "Italian game originated in China (surprising fact). But in this set, the stones were replaced with plastic. The rules remain the same as in the 18th century.",
+        "price": 15,
+        "available": true,
+        "category": "souvenirs",
+        "materials": [
+            "img/stone.png"
+        ],
+        "imgs": [
+            "db/GrayMoon.JPG",
+            "db/GrayMoon1.JPG"
+        ]
+    },
+    {
+        "id": 9,
+        "imgPreview": "db/Indian.jpg",
+        "title": "Indian",
+        "description": "The protective shell can be rough on the outside and shiny on the inside. The owners of these shells could well have been a couple.",
+        "price": 6,
+        "available": true,
+        "category": "jewelry",
+        "materials": [
+            "img/thread.png",
+            "img/wood.png"
+        ],
+        "imgs": [
+            "db/Indian.JPG",
+            "db/Indian1.JPG"
+        ]
+    },
+    {
+        "id": 10,
+        "imgPreview": "db/DreamCatcher.jpg",
+        "title": "Indian",
+        "description": "The protective shell can be rough on the outside and shiny on the inside. The owners of these shells could well have been a couple.",
+        "price": 35,
+        "available": true,
+        "category": "home",
+        "materials": [
+            "img/thread.png",
+            "img/wood.png",
+            "img/light.png"
+        ],
+        "imgs": [
+            "db/DreamCatcher.JPG",
+            "db/DreamCatcher1.JPG",
+            "db/DreamCatcher2"
+        ]
+    }
+]

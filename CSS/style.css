@@ -37,7 +37,7 @@ button {
     color: #5D6848;
     font-size: 20px;
     font-family: 'Pacifico', sans-serif;
-    width: 150px;
+    min-width: 150px;
     height: 60px;
     border-width: 0px;
 }
@@ -75,7 +75,7 @@ header {
 
 .baner {
     height: 507px;
-    background-image: url(.../img/banner1.jpg);
+    background-image: url(/img/banner1.jpg);
 
 }
 
@@ -101,8 +101,8 @@ header {
 .ringBtn {
     border-radius: 50%;
     background-color: rgba(212, 144, 109, 0.7);
-    width: 150px;
-    height: 150px;
+    min-width: 150px;
+    min-height: 150px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     margin: 35px;
     transition: transform 0.8s ease;
@@ -131,18 +131,7 @@ header {
 .gelery {
     display: flex;
     justify-content: space-around;
-    margin-top: 55px;
-    transition: opacity 0.4s ease;
-    pointer-events: none;
-    opacity: 0;
-    height: 20px;
-}
-
-/* когда активна */
-.gelery.show {
-    opacity: 1;
-    pointer-events: all;
-    height: 800px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -151,6 +140,7 @@ header {
     width: 450px;
     height: 800px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 55px;
 }
 
 .photo {
@@ -188,7 +178,7 @@ header {
 
 footer {
 
-    background-image: url(../img/bannetStones.jpg);
+    background-image: url(/img/bannerStones.jpg);
     height: 200px;
     margin-top: 50px;
     text-align: center;
