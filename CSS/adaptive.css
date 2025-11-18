@@ -374,6 +374,29 @@
         width: 170px;
     }
 
+    .seller-price {
+        height: 60px;
+    }
+
+    footer {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    body {
+        max-width: 430px;
+    }
+
+    .container {
+        max-width: 425px;
+        margin: 5px;
+    }
+
+    .banner {
+        width: 480px;
+    }
+
     footer {
         width: 480px;
     }
@@ -389,10 +412,31 @@
         margin: 5px;
     }
 
-
     .banner {
         width: 390px;
         height: 150px;
+    }
+
+    .product-card {
+        width: 300px;
+        padding: 10px;
+        margin: 30px;
+    }
+
+    .contact {
+        justify-content: center;
+        width: 300px;
+        gap: 5px;
+    }
+
+    .icons a {
+        margin-left: 0px;
+        height: 38px;
+        width: 38px;
+    }
+
+    .contact p {
+        width: 170px;
     }
 
     footer {
@@ -421,10 +465,6 @@
 
     .product-card {
         margin: 50px 20px;
-    }
-
-    .seller-price {
-        height: 60px;
     }
 
     footer {

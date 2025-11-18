@@ -75,7 +75,7 @@ header {
 
 .banner {
     height: 507px;
-    background-image: url(.../img/banner1.jpg);
+    background-image: url(../img/banner1.jpg);
 
 }
 
@@ -178,7 +178,7 @@ header {
 
 footer {
 
-    background-image: url(.../img/bannerStones.jpg);
+    background-image: url(../img/bannerStones.jpg);
     height: 200px;
     margin-top: 50px;
     text-align: center;
@@ -227,6 +227,7 @@ footer p a {
 
 .product-card {
     display: flex;
+    justify-content: center;
     background: rgba(241, 194, 143, 0.14);
     border-radius: 20px;
     padding: 20px;
