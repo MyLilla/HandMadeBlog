@@ -28,7 +28,6 @@ h2 {
     font-size: 30px;
     text-align: center;
     margin: 0;
-    font-weight: 0px;
 }
 
 button {
@@ -49,6 +48,7 @@ button:hover {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     height: 160px;
     justify-content: space-evenly;
@@ -73,13 +73,13 @@ header {
     padding-right: 15px;
 }
 
-.baner {
+.banner {
     height: 507px;
-    background-image: url(/img/banner1.jpg);
+    background-image: url(.../img/banner1.jpg);
 
 }
 
-.baner h1 {
+.banner h1 {
     color: #5D6848;
     padding: 115px 300px 105px 1050px;
 }
@@ -101,8 +101,8 @@ header {
 .ringBtn {
     border-radius: 50%;
     background-color: rgba(212, 144, 109, 0.7);
-    min-width: 150px;
-    min-height: 150px;
+    width: 150px;
+    height: 150px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     margin: 35px;
     transition: transform 0.8s ease;
@@ -178,7 +178,7 @@ header {
 
 footer {
 
-    background-image: url(/img/bannerStones.jpg);
+    background-image: url(.../img/bannerStones.jpg);
     height: 200px;
     margin-top: 50px;
     text-align: center;
@@ -204,7 +204,6 @@ footer p a {
 
 
 
-
 #modal {
     position: fixed;
     top: 0;
@@ -213,22 +212,14 @@ footer p a {
     align-items: center;
     justify-content: center;
     pointer-events: none;
-    /* чтобы не кликалось, пока скрыта */
-
     transition: opacity 0.4s ease;
-    /* плавное появление фона */
-
     background-color: rgb(240 225 213 / 85%);
-    /* затемнение */
-
     backdrop-filter: blur(6px);
-    /* размывание заднего фона */
 
     -webkit-backdrop-filter: blur(6px);
-    /* для Safari */
+    /* Safari */
 }
 
-/* когда активна */
 #modal.show {
     opacity: 1;
     pointer-events: all;
@@ -244,13 +235,10 @@ footer p a {
     text-align: center;
     margin: 250px 410px;
     transform: translateY(-150px);
-    /* немного выше при скрытии */
     opacity: 0;
     transition: all 0.4s ease;
-    /* плавное всплытие */
 }
 
-/* X */
 .close {
     position: absolute;
     top: 10px;

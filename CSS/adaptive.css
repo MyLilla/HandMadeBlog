@@ -14,11 +14,11 @@
         margin: 0 180px;
     }
 
-    .baner {
+    .banner {
         width: 1440px;
     }
 
-    .baner h1 {
+    .banner h1 {
         padding: 100px 100px 105px 650px;
     }
 
@@ -47,11 +47,11 @@
         margin: 0 130px;
     }
 
-    .baner {
+    .banner {
         width: 1280px;
     }
 
-    .baner h1 {
+    .banner h1 {
         padding: 270px 70px 85px 250px;
     }
 
@@ -70,23 +70,364 @@
     }
 }
 
-/*
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1024px) {
+    body {
+        max-width: 1024px;
+    }
 
-   
+    .container {
+        max-width: 1024px;
+        margin: 0 90px;
+    }
+
+    .banner {
+        width: 1024px;
+    }
+
+    .banner h1 {
+        padding: 170px 70px 85px 200px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .logo {
+        width: 128px;
+        height: 128px;
+    }
+
+    .name {
+        padding-left: 10px;
+        width: 20px;
+    }
+
+    .insta {
+        padding-left: 100px;
+    }
+
+    #modal {
+        margin-top: 300px;
+    }
+
+    .product-card {
+        width: 800px;
+        margin: 200px 130px;
+    }
+
+    footer {
+        width: 1024px;
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 768px;
+    }
 
-    
+    .container {
+        max-width: 750px;
+        margin: 0 14px;
+    }
+
+    .banner {
+        width: 768px;
+        height: 250px;
+    }
+
+    .banner h1 {
+        padding: 50px 20px 85px 400px;
+    }
+
+    .menu {
+        height: 180px;
+    }
+
+    .buttons {
+        height: 180px;
+    }
+
+    .ringBtn {
+        width: 110px;
+        height: 110px;
+        margin: 15px;
+    }
+
+    .ringBtn h2 {
+        margin: 40px 15px 32px;
+        font-size: 20px;
+    }
+
+    .ringBtn:hover {
+        width: 130px;
+        height: 130px;
+    }
+
+    .ringBtn:hover h2 {
+        margin: 40px 10px;
+        font-size: 20px;
+    }
+
+    #modal {
+        margin-top: 300px;
+    }
+
+    .product-card {
+        width: 600px;
+        margin: 200px 100px;
+    }
+
+    footer {
+        width: 768px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        max-width: 600px;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 0 10px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .banner {
+        width: 600px;
+        height: 200px;
+    }
+
+    .banner h1 {
+        padding: 50px 20px 85px 300px;
+        font-size: 40px;
+    }
+
+    #modal {
+        margin-top: 300px;
+    }
+
+    .product-card {
+        width: 400px;
+        margin: 200px 100px;
+    }
+
+    .contact {
+        justify-content: center;
+        width: 300px;
+        gap: 10px;
+    }
+
+    .icons a {
+        display: flex;
+        margin-left: 15px;
+        height: 44px;
+        width: 44px;
+    }
+
+    footer {
+        width: 600px;
+    }
 }
 
 @media screen and (max-width: 480px) {
-   
+    body {
+        max-width: 480px;
+    }
+
+    .container {
+        max-width: 475px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 20px;
+        min-width: 100px;
+        height: 50px;
+    }
+
+    header {
+        justify-content: center;
+        height: 100px;
+    }
+
+    .logo {
+        width: 64px;
+        height: 64px;
+    }
+
+    .name {
+        padding-left: 10px;
+        width: 0px;
+    }
+
+    .insta {
+        width: 44px;
+        height: 44px;
+        padding-top: 15px;
+        padding-left: 60px;
+    }
+
+    .lang {
+        width: 44px;
+        height: 64px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .banner {
+        width: 480px;
+        height: 150px;
+    }
+
+    .banner h1 {
+        width: 200px;
+        padding: 30px 0px 85px 200px;
+        font-size: 30px;
+    }
+
+    .menu {
+        height: 100px;
+    }
+
+    .buttons {
+        height: 100px;
+    }
+
+    .ringBtn {
+        width: 64px;
+        height: 64px;
+        margin: 5px;
+    }
+
+    .ringBtn h2 {
+        margin: 25px 5px 22px;
+        font-size: 10px;
+    }
+
+    .ringBtn:hover {
+        width: 74px;
+        height: 74px;
+    }
+
+    .ringBtn:hover h2 {
+        margin: 25px 10px;
+        font-size: 12px;
+    }
+
+    .card {
+        width: 350px;
+        height: 550px;
+        margin-top: 35px;
+    }
+
+    .photo {
+        margin: 10px;
+        width: 280px;
+    }
+
+    .card h2 {
+        height: 30px;
+    }
+
+    .icon {
+        height: 44px;
+        width: 44px;
+        margin-left: 5px;
+    }
+
+    .product-card {
+        width: 300px;
+        padding: 10px;
+    }
+
+    .contact {
+        justify-content: center;
+        width: 300px;
+        gap: 5px;
+    }
+
+    .icons a {
+        margin-left: 0px;
+        height: 38px;
+        width: 38px;
+    }
+
+    .contact p {
+        width: 170px;
+    }
+
+    footer {
+        width: 480px;
+    }
 }
 
 @media screen and (max-width: 390px) {
+    body {
+        max-width: 390px;
+    }
 
+    .container {
+        max-width: 385px;
+        margin: 5px;
+    }
+
+
+    .banner {
+        width: 390px;
+        height: 150px;
+    }
+
+    footer {
+        width: 390px;
+    }
 }
 
-*/
+@media screen and (max-width: 375px) {
+    body {
+        max-width: 375px;
+    }
+
+    .container {
+        max-width: 370px;
+        margin: 5px;
+    }
+
+    .banner {
+        width: 375px;
+        height: 150px;
+    }
+
+    .banner h1 {
+        padding: 30px 10px 85px 100px;
+    }
+
+    .product-card {
+        margin: 50px 20px;
+    }
+
+    .seller-price {
+        height: 60px;
+    }
+
+    footer {
+        width: 375px;
+    }
+}
