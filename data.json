@@ -161,9 +161,9 @@
             "img/light.png"
         ],
         "imgs": [
-            "db/DreamCatcher.JPG",
-            "db/DreamCatcher1.JPG",
-            "db/DreamCatcher2.JPG"
+            "db/DreamCatcher.jpg",
+            "db/DreamCatcher1.jpg",
+            "db/DreamCatcher2.jpg"
         ]
     }
 ]
