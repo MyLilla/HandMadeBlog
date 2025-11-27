@@ -15,7 +15,31 @@ function createCard(item) {
     const tpl = document.getElementById("cardTemplate")
         .content.cloneNode(true);
 
-    tpl.querySelector(".photo").src = item.imgPreview;
+    const swiper = new Swiper('.swiper', {
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+    });
+
+    for (let i = 0; i < item.imgs.length; i++) {
+        let img = document.createElement("img")
+        img.className = "photo"
+        img.classList.add("swiper-slide")
+        tpl.querySelector(".swiper-wrapper").prepend(img)
+        tpl.querySelector(".photo").src = item.imgs[i];
+    }
+
     tpl.querySelector("h2").textContent = item.title;
     tpl.querySelector("p").textContent = item.description;
 
@@ -36,7 +60,6 @@ function createCard(item) {
 // modal
 let modal = document.getElementById('modal');
 let closeBtn = document.getElementById('closeModal');
-
 function modalLouded() {
     document.querySelectorAll('.openModal').forEach(button => {
 
@@ -54,7 +77,6 @@ function modalLouded() {
         })
     })
 }
-
 // close modal
 closeBtn.addEventListener('click', () => {
     modal.classList.remove('show');
@@ -64,6 +86,10 @@ modal.addEventListener('click', (e) => {
         modal.classList.remove('show');
     }
 })
+
+
+
+
 
 // in process
 let logInBtn = document.querySelector(".login").addEventListener("click",

@@ -1,3 +1,7 @@
+:root {
+    --swiper-theme-color: #5D6848;
+}
+
 body {
     font-family: 'Pacifico', sans-serif;
     background-color: #F0E6E1;
@@ -161,6 +165,10 @@ header {
 
 .photo {
     border-radius: 20px;
+}
+
+.swiper {
+    max-width: 400px;
     margin: 25px;
 }
 
@@ -219,6 +227,7 @@ footer p a {
 #modal {
     position: fixed;
     inset: 0;
+    z-index: 9999;
     display: flex;
     align-items: center;
     justify-content: center;

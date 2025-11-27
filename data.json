@@ -94,8 +94,9 @@
             "img/shell.png"
         ],
         "imgs": [
-            "db/GrayMoon.JPG",
-            "db/GrayMoon1.JPG"
+            "db/MolluskCouple.JPG",
+            "db/MolluskCouple1.JPG",
+            "db/MolluskCouple2.JPG"
         ]
     },
     {
@@ -126,15 +127,14 @@
             "img/stone.png"
         ],
         "imgs": [
-            "db/GrayMoon.JPG",
-            "db/GrayMoon1.JPG"
+            "db/Domino.jpg"
         ]
     },
     {
         "id": 9,
         "imgPreview": "db/Indian.jpg",
         "title": "Indian",
-        "description": "The protective shell can be rough on the outside and shiny on the inside. The owners of these shells could well have been a couple.",
+        "description": "Every soul in the world is unique, and this piece of driftwood is no exception. Although in reality, it's bark that drifted through the ocean.",
         "price": 6,
         "available": true,
         "category": "jewelry",
@@ -163,7 +163,7 @@
         "imgs": [
             "db/DreamCatcher.JPG",
             "db/DreamCatcher1.JPG",
-            "db/DreamCatcher2"
+            "db/DreamCatcher2.JPG"
         ]
     }
 ]
