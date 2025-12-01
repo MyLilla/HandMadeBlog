@@ -168,21 +168,21 @@
     }
 
     .menu {
-        height: 100px;
+        height: 80px;
     }
 
     .buttons {
-        height: 100px;
+        height: 100%;
     }
 
     .ringBtn {
-        width: 64px;
-        height: 64px;
+        width: 54px;
+        height: 54px;
         margin: 5px;
     }
 
     .ringBtn h2 {
-        margin: 25px 5px 22px;
+        margin: 20px 5px;
         font-size: 10px;
     }
 

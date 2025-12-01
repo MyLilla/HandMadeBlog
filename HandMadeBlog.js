@@ -1,13 +1,13 @@
 // reading
-
 let allData = [];
 let renderIndex = 0;
+let currentCategory = "All";
+let filteredData = [];
 
 fetch('data.json')
     .then(response => response.json())
     .then(data => {
-        allData = data
-
+        allData = data;
         renderBatch(6);
         modalLouded()
     })
@@ -62,10 +62,23 @@ function initSwiper(id) {
     });
 }
 
+function filterByCategory(category) {
+    renderIndex = 0;
+    let cards = document.getElementById("cards");
+    cards.innerHTML = "";
+
+    if (category === "All") {
+        filteredData = [];
+    } else {
+        filteredData = allData.filter(item => item.category === category);
+    }
+    renderBatch(6);
+    modalLouded();
+}
 function renderBatch(count) {
     let cards = document.getElementById("cards");
-
-    let slice = allData.slice(renderIndex, renderIndex + count);
+    let source = filteredData.length ? filteredData : allData;
+    let slice = source.slice(renderIndex, renderIndex + count);
 
     slice.forEach(item => {
         let card = createCard(item);
@@ -76,14 +89,16 @@ function renderBatch(count) {
     renderIndex += slice.length;
 
     // hide if no more
-    if (renderIndex >= allData.length) {
+    if (renderIndex >= source.length) {
         document.getElementById("loadMore").style.display = "none";
+    } else {
+        document.getElementById("loadMore").style.display = "block";
     }
 }
 
 // Load more button
 document.getElementById("loadMore").addEventListener("click", () => {
-    renderBatch(3);    // дальше по 3
+    renderBatch(3);
     modalLouded()
 });
 
@@ -118,14 +133,12 @@ modal.addEventListener('click', (e) => {
 })
 
 // menu btns
-let buttons = document.querySelectorAll(".ringBtn");
-buttons.forEach(btn => {
-    btn.onclick = function (e) {
-        console.log(e.target.textContent)
-        let category = e.target.textContent
-        categoryFiltr(category)
-    }
-})
+document.querySelectorAll(".menu .ringBtn h2").forEach(btn => {
+    btn.addEventListener("click", () => {
+        let category = btn.textContent.trim();
+        filterByCategory(category);
+    });
+});
 
 // // in process
 // let logInBtn = document.querySelector(".login").addEventListener("click",

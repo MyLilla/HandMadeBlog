@@ -200,6 +200,10 @@ header {
 }
 
 footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     background-image: url(../img/bannerStones.jpg);
     height: 200px;
     width: 100%;
@@ -357,9 +361,5 @@ small {
 }
 
 .icons {
-    gap: 15px;
-    margin-top: 15px;
-    margin-right: 25px;
-    height: 64px;
-    width: 64px;
+    gap: 25px;
 }

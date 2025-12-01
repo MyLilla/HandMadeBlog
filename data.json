@@ -6,7 +6,7 @@
         "description": "A piece of shell from the Andalusian coast. After a harsh adventure on the seabed, this fragment of shell has found new life in theembrace of soft cotton.",
         "price": 16,
         "available": true,
-        "category": "jewelry",
+        "category": "Jewelry",
         "materials": [
             "img/shell.png",
             "img/thread.png"
@@ -22,7 +22,7 @@
         "description": "Traces of a city built by bark beetles in the Siberian forests. The unique curves of the corridors are forever imprinted onthis piece of wood.",
         "price": 30,
         "available": false,
-        "category": "jewelry",
+        "category": "Jewelry",
         "materials": [
             "img/wood.png",
             "img/thread.png"
@@ -38,7 +38,7 @@
         "description": "Sea glass keychains from the Costa del Sol, Spain. When shards of a solid form become individuals and discover new combinations and life.",
         "price": 7,
         "available": true,
-        "category": "jewelry",
+        "category": "Souvenirs",
         "materials": [
             "img/stone.png",
             "img/thread.png"
@@ -55,7 +55,7 @@
         "description": "Asymmetrical, lightweight quail feather earrings with stones and beads are able to catch every movement of the air.",
         "price": 8,
         "available": true,
-        "category": "jewelry",
+        "category": "Jewelry",
         "materials": [
             "img/stone.png",
             "img/light.png"
@@ -73,7 +73,7 @@
         "description": "One of millions of coastal stones that absorb the energy of the sea and moon over the years. Transformed into a pendant, the stone will bestow its accumulated power.",
         "price": 6,
         "available": true,
-        "category": "jewelry",
+        "category": "Jewelry",
         "materials": [
             "img/stone.png"
         ],
@@ -89,7 +89,7 @@
         "description": "The protective shell can be rough on the outside and shiny on the inside. The owners of these shells could well have been a couple.",
         "price": 9,
         "available": true,
-        "category": "jewelry",
+        "category": "Jewelry",
         "materials": [
             "img/shell.png"
         ],
@@ -106,7 +106,7 @@
         "description": "There's nothing special about cement, just like the surface of the moon— just dust. But in the light, this simplicity is transformed a hundredfold.",
         "price": 7,
         "available": true,
-        "category": "home",
+        "category": "Home",
         "materials": [
             "img/stone.png"
         ],
@@ -122,7 +122,7 @@
         "description": "Italian game originated in China (surprising fact). But in this set, the stones were replaced with plastic. The rules remain the same as in the 18th century.",
         "price": 15,
         "available": true,
-        "category": "souvenirs",
+        "category": "Games",
         "materials": [
             "img/stone.png"
         ],
@@ -137,7 +137,7 @@
         "description": "Every soul in the world is unique, and this piece of driftwood is no exception. Although in reality, it's bark that drifted through the ocean.",
         "price": 6,
         "available": true,
-        "category": "jewelry",
+        "category": "Jewelry",
         "materials": [
             "img/thread.png",
             "img/wood.png"
@@ -154,7 +154,7 @@
         "description": "An Indian amulet, protector from nightmares. And may you dream of a green forest at sunset, when the summer sun gently touches the treetops.",
         "price": 35,
         "available": true,
-        "category": "home",
+        "category": "Home",
         "materials": [
             "img/thread.png",
             "img/wood.png",
@@ -164,6 +164,56 @@
             "db/DreamCatcher.jpg",
             "db/DreamCatcher1.jpg",
             "db/DreamCatcher2.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "imgPreview": "db/MemoryOfTheSea.jpg",
+        "title": "Memory Of The Sea",
+        "description": "A contrasting sea glass pendant in warm brown and shimmering metal branches. Severity and softness in one piece.",
+        "price": 11,
+        "available": true,
+        "category": "Jewelry",
+        "materials": [
+            "img/thread.png",
+            "img/stone.png"
+        ],
+        "imgs": [
+            "db/MemoryOfTheSea.jpg",
+            "db/MemoryOfTheSea1.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "imgPreview": "db/Orange.jpg",
+        "title": "Memory Of The Sea",
+        "description": "A pendant with a citrine crystal. A semi-precious stone that suits almost all zodiac signs. The crystal provides its owner with energetic support during periods of low energy, apathy, and depression.",
+        "price": 18,
+        "available": true,
+        "category": "Jewelry",
+        "materials": [
+            "img/thread.png",
+            "img/stone.png"
+        ],
+        "imgs": [
+            "db/Orange.jpg",
+            "db/Orange1.jpg"
+        ]
+    },
+    {
+        "id": 13,
+        "imgPreview": "db/TalismanStone.jpg",
+        "title": "Memory Of The Sea",
+        "description": "Keychains with talismanic stones based on your zodiac sign. Amazonite for Scorpios, Leos, and Aries. Aventurine for Virgos and Taurus. And the universal yellow Citrine.",
+        "price": 12,
+        "available": true,
+        "category": "Souvenirs",
+        "materials": [
+            "img/thread.png",
+            "img/stone.png"
+        ],
+        "imgs": [
+            "db/TalismanStone.jpg"
         ]
     }
 ]
