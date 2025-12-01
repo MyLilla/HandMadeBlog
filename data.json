@@ -121,7 +121,7 @@
         "title": "Domino Game",
         "description": "Italian game originated in China (surprising fact). But in this set, the stones were replaced with plastic. The rules remain the same as in the 18th century.",
         "price": 15,
-        "available": true,
+        "available": false,
         "category": "Games",
         "materials": [
             "img/stone.png"
