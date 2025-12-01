@@ -1,61 +1,91 @@
 // reading
+
+let allData = [];
+let renderIndex = 0;
+
 fetch('data.json')
     .then(response => response.json())
     .then(data => {
-        for (item of data) {
-            document.getElementById("cards")
-                .append(createCard(item));
-        }
+        allData = data
+
+        renderBatch(6);
         modalLouded()
     })
-    .catch(err => console.error(err));
+    .catch(console.error);
 
 function createCard(item) {
 
-    const tpl = document.getElementById("cardTemplate")
-        .content.cloneNode(true);
+    let tpl = document.getElementById("cardTemplate").content.cloneNode(true);
 
-    const swiper = new Swiper('.swiper', {
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
+    // Unique swiper id
+    let swiperId = "swp-" + Math.random().toString(36).slice(2);
+    let swiper = tpl.querySelector(".swiper");
+    swiper.classList.add(swiperId);
 
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
-        },
+    // Add slides
+    let wrapper = tpl.querySelector(".swiper-wrapper");
+    item.imgs.forEach(src => {
+        wrapper.insertAdjacentHTML("beforeend",
+            `<img class="swiper-slide photo" src="${src}">`
+        );
     });
-
-    for (let i = 0; i < item.imgs.length; i++) {
-        let img = document.createElement("img")
-        img.className = "photo"
-        img.classList.add("swiper-slide")
-        tpl.querySelector(".swiper-wrapper").prepend(img)
-        tpl.querySelector(".photo").src = item.imgs[i];
-    }
 
     tpl.querySelector("h2").textContent = item.title;
     tpl.querySelector("p").textContent = item.description;
+    tpl.querySelector(".price").textContent = item.price;
 
-    for (let i = 0; i < item.materials.length; i++) {
-
-        let icon = document.createElement("img");
-        icon.className = "icon"
-        tpl.querySelector(".cardMenu").prepend(icon)
-        tpl.querySelector(".icon").src = item.materials[i]
-    }
-    if (!item.available) tpl.querySelector("button").innerHTML = "not available"
-
-    tpl.querySelector(".price").textContent = item.price
-
-    return tpl;
+    // Materials icons
+    const menu = tpl.querySelector(".cardMenu");
+    item.materials.forEach(src =>
+        menu.insertAdjacentHTML("afterbegin",
+            `<img class="icon" src="${src}">`
+        )
+    );
+    if (!item.available) tpl.querySelector("button").textContent = "not available"
+    return { el: tpl, id: swiperId };
 }
+
+function initSwiper(id) {
+    new Swiper("." + id, {
+        pagination: {
+            el: "." + id + " .swiper-pagination",
+            clickable: true
+        },
+        navigation: {
+            nextEl: "." + id + " .swiper-button-next",
+            prevEl: "." + id + " .swiper-button-prev"
+        },
+        // autoplay: {
+        //     delay: 5000,
+        //     disableOnInteraction: false,
+        // },
+    });
+}
+
+function renderBatch(count) {
+    let cards = document.getElementById("cards");
+
+    let slice = allData.slice(renderIndex, renderIndex + count);
+
+    slice.forEach(item => {
+        let card = createCard(item);
+        cards.appendChild(card.el);
+        initSwiper(card.id);
+    });
+
+    renderIndex += slice.length;
+
+    // hide if no more
+    if (renderIndex >= allData.length) {
+        document.getElementById("loadMore").style.display = "none";
+    }
+}
+
+// Load more button
+document.getElementById("loadMore").addEventListener("click", () => {
+    renderBatch(3);    // дальше по 3
+    modalLouded()
+});
 
 // modal
 let modal = document.getElementById('modal');
@@ -87,30 +117,19 @@ modal.addEventListener('click', (e) => {
     }
 })
 
-
-
-
-
-// in process
-let logInBtn = document.querySelector(".login").addEventListener("click",
-    function () {
-        alert("this function in in process...")
-    }
-)
-
-document.querySelector(".more button").addEventListener("click", function (e) {
-    alert("this function in in process...")
-})
-
 // menu btns
 let buttons = document.querySelectorAll(".ringBtn");
 buttons.forEach(btn => {
     btn.onclick = function (e) {
-        if (!e.target.classList.contains("active")) {
-            btn.classList.add("active");
-            alert("this function in in process...")
-        } else {
-            btn.classList.remove("active");
-        }
+        console.log(e.target.textContent)
+        let category = e.target.textContent
+        categoryFiltr(category)
     }
 })
+
+// // in process
+// let logInBtn = document.querySelector(".login").addEventListener("click",
+//     function () {
+//         alert("this function in in process...")
+//     }
+// )

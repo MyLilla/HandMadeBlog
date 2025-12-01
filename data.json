@@ -52,7 +52,7 @@
         "id": 4,
         "imgPreview": "db/BirdDances.JPG",
         "title": "Bird Dances",
-        "description": "Lightweight quail feather earrings with stones and beads are able to catch every movement of the air.",
+        "description": "Asymmetrical, lightweight quail feather earrings with stones and beads are able to catch every movement of the air.",
         "price": 8,
         "available": true,
         "category": "jewelry",
@@ -70,7 +70,7 @@
         "id": 5,
         "imgPreview": "db/GrayMoon.JPG",
         "title": "Gray Moon",
-        "description": "As the moon shone over the beach, the stone absorbed its waves and the energy of the sea.",
+        "description": "One of millions of coastal stones that absorb the energy of the sea and moon over the years. Transformed into a pendant, the stone will bestow its accumulated power.",
         "price": 6,
         "available": true,
         "category": "jewelry",
@@ -111,8 +111,8 @@
             "img/stone.png"
         ],
         "imgs": [
-            "db/GrayMoon.JPG",
-            "db/GrayMoon1.JPG"
+            "db/MoonCandle.jpg",
+            "db/MoonCandle1.jpg"
         ]
     },
     {
