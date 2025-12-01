@@ -17,18 +17,18 @@
     },
     {
         "id": 2,
-        "imgPreview": "db/MagicTree.jpg",
-        "title": "Magic tree",
-        "description": "Traces of a city built by bark beetles in the Siberian forests. The unique curves of the corridors are forever imprinted onthis piece of wood.",
-        "price": 30,
-        "available": false,
-        "category": "Jewelry",
+        "imgPreview": "db/TalismanStone.jpg",
+        "title": "Memory Of The Sea",
+        "description": "Keychains with talismanic stones based on your zodiac sign. Amazonite for Scorpios, Leos, and Aries. Aventurine for Virgos and Taurus. And the universal yellow Citrine.",
+        "price": 12,
+        "available": true,
+        "category": "Souvenirs",
         "materials": [
-            "img/wood.png",
-            "img/thread.png"
+            "img/thread.png",
+            "img/stone.png"
         ],
         "imgs": [
-            "db/MagicTree.jpg"
+            "db/TalismanStone.jpg"
         ]
     },
     {
@@ -117,17 +117,19 @@
     },
     {
         "id": 8,
-        "imgPreview": "db/Domino.jpg",
-        "title": "Domino Game",
-        "description": "Italian game originated in China (surprising fact). But in this set, the stones were replaced with plastic. The rules remain the same as in the 18th century.",
-        "price": 15,
-        "available": false,
-        "category": "Games",
+        "imgPreview": "db/Orange.jpg",
+        "title": "Memory Of The Sea",
+        "description": "A pendant with a citrine crystal. A semi-precious stone that suits almost all zodiac signs. The crystal provides its owner with energetic support during periods of low energy, apathy, and depression.",
+        "price": 18,
+        "available": true,
+        "category": "Jewelry",
         "materials": [
+            "img/thread.png",
             "img/stone.png"
         ],
         "imgs": [
-            "db/Domino.jpg"
+            "db/Orange.jpg",
+            "db/Orange1.jpg"
         ]
     },
     {
@@ -143,8 +145,8 @@
             "img/wood.png"
         ],
         "imgs": [
-            "db/Indian.JPG",
-            "db/Indian1.JPG"
+            "db/Indian.jpg",
+            "db/Indian1.jpg"
         ]
     },
     {
@@ -185,35 +187,33 @@
     },
     {
         "id": 12,
-        "imgPreview": "db/Orange.jpg",
-        "title": "Memory Of The Sea",
-        "description": "A pendant with a citrine crystal. A semi-precious stone that suits almost all zodiac signs. The crystal provides its owner with energetic support during periods of low energy, apathy, and depression.",
-        "price": 18,
-        "available": true,
-        "category": "Jewelry",
+        "imgPreview": "db/Domino.jpg",
+        "title": "Domino Game",
+        "description": "Italian game originated in China (surprising fact). But in this set, the stones were replaced with plastic. The rules remain the same as in the 18th century.",
+        "price": 15,
+        "available": false,
+        "category": "Games",
         "materials": [
-            "img/thread.png",
             "img/stone.png"
         ],
         "imgs": [
-            "db/Orange.jpg",
-            "db/Orange1.jpg"
+            "db/Domino.jpg"
         ]
     },
     {
         "id": 13,
-        "imgPreview": "db/TalismanStone.jpg",
-        "title": "Memory Of The Sea",
-        "description": "Keychains with talismanic stones based on your zodiac sign. Amazonite for Scorpios, Leos, and Aries. Aventurine for Virgos and Taurus. And the universal yellow Citrine.",
-        "price": 12,
-        "available": true,
-        "category": "Souvenirs",
+        "imgPreview": "db/MagicTree.jpg",
+        "title": "Magic tree",
+        "description": "Traces of a city built by bark beetles in the Siberian forests. The unique curves of the corridors are forever imprinted onthis piece of wood.",
+        "price": 30,
+        "available": false,
+        "category": "Jewelry",
         "materials": [
-            "img/thread.png",
-            "img/stone.png"
+            "img/wood.png",
+            "img/thread.png"
         ],
         "imgs": [
-            "db/TalismanStone.jpg"
+            "db/MagicTree.jpg"
         ]
     }
 ]
