@@ -18,7 +18,7 @@
     {
         "id": 2,
         "imgPreview": "db/TalismanStone.jpg",
-        "title": "Memory Of The Sea",
+        "title": "Talisman Stone",
         "description": "Keychains with talismanic stones based on your zodiac sign. Amazonite for Scorpios, Leos, and Aries. Aventurine for Virgos and Taurus. And the universal yellow Citrine.",
         "price": 12,
         "available": true,
@@ -28,7 +28,11 @@
             "img/stone.png"
         ],
         "imgs": [
-            "db/TalismanStone.jpg"
+            "db/TalismanStone.jpg",
+            "db/TalismanStone1.jpg",
+            "db/TalismanStone2.jpg",
+            "db/TalismanStone3.jpg",
+            "db/TalismanStone4.jpg"
         ]
     },
     {
@@ -45,7 +49,8 @@
         ],
         "imgs": [
             "db/SeaGlass.JPG",
-            "db/SeaGlass1.JPG"
+            "db/SeaGlass1.JPG",
+            "db/SeaGlass2.JPG"
         ]
     },
     {
@@ -69,9 +74,9 @@
     {
         "id": 5,
         "imgPreview": "db/GrayMoon.JPG",
-        "title": "Gray Moon",
-        "description": "One of millions of coastal stones that absorb the energy of the sea and moon over the years. Transformed into a pendant, the stone will bestow its accumulated power.",
-        "price": 6,
+        "title": "Gray Moon set",
+        "description": "A set of jewelry that includes two chokers and a short pendant with a moon-colored coastal stone.",
+        "price": 12,
         "available": true,
         "category": "Jewelry",
         "materials": [
@@ -79,7 +84,9 @@
         ],
         "imgs": [
             "db/GrayMoon.JPG",
-            "db/GrayMoon1.JPG"
+            "db/GrayMoon1.JPG",
+            "db/GrayMoon2.JPG",
+            "db/GrayMoon3.JPG"
         ]
     },
     {
@@ -96,7 +103,8 @@
         "imgs": [
             "db/MolluskCouple.JPG",
             "db/MolluskCouple1.JPG",
-            "db/MolluskCouple2.JPG"
+            "db/MolluskCouple2.JPG",
+            "db/MolluskCouple3.JPG"
         ]
     },
     {
@@ -214,6 +222,23 @@
         ],
         "imgs": [
             "db/MagicTree.jpg"
+        ]
+    },
+    {
+        "id": 14,
+        "imgPreview": "db/ChristmasStars.jpg",
+        "title": "Christmas Stars",
+        "description": "Warm-toned decor made from natural materials will help create a cozy Christmas atmosphere without the clutter. Safe for pets and children.",
+        "price": 10,
+        "available": true,
+        "category": "Home",
+        "materials": [
+            "img/wood.png",
+            "img/thread.png"
+        ],
+        "imgs": [
+            "db/ChristmasStars.jpg",
+            "db/ChristmasStars.jpg"
         ]
     }
 ]
