@@ -194,6 +194,23 @@
         ]
     },
     {
+        "id": 14,
+        "imgPreview": "db/ChristmasStars.jpg",
+        "title": "Christmas Stars",
+        "description": "Warm-toned decor made from natural materials will help create a cozy Christmas atmosphere without the clutter. Safe for pets and children.",
+        "price": 10,
+        "available": true,
+        "category": "Home",
+        "materials": [
+            "img/wood.png",
+            "img/thread.png"
+        ],
+        "imgs": [
+            "db/ChristmasStars.jpg",
+            "db/ChristmasStars1.jpg"
+        ]
+    },
+    {
         "id": 12,
         "imgPreview": "db/Domino.jpg",
         "title": "Domino Game",
@@ -225,20 +242,21 @@
         ]
     },
     {
-        "id": 14,
-        "imgPreview": "db/ChristmasStars.jpg",
-        "title": "Christmas Stars",
-        "description": "Warm-toned decor made from natural materials will help create a cozy Christmas atmosphere without the clutter. Safe for pets and children.",
-        "price": 10,
-        "available": true,
-        "category": "Home",
+        "id": 15,
+        "imgPreview": "db/Rings.jpg",
+        "title": "Rings",
+        "description": "dp",
+        "price": 20.55,
+        "available": false,
+        "category": "Jewelry",
         "materials": [
             "img/wood.png",
             "img/thread.png"
         ],
         "imgs": [
-            "db/ChristmasStars.jpg",
-            "db/ChristmasStars1.jpg"
+            "db/Rings.jpg",
+            "db/Rings1.jpg",
+            "db/Rings2.jpg"
         ]
     }
 ]
