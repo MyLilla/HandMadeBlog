@@ -72,26 +72,17 @@ header {
     flex-wrap: wrap;
     align-items: center;
     height: 160px;
-    justify-content: space-evenly;
-}
-
-.name {
-    padding-left: 20px;
-    width: 230px;
+    justify-content: space-around;
 }
 
 .insta {
     width: 58px;
     height: 58px;
-    padding-top: 25px;
-    padding-left: 400px;
 }
 
 .lang {
     width: 58px;
     height: 88px;
-    padding-left: 13px;
-    padding-right: 15px;
 }
 
 .banner {
@@ -103,49 +94,47 @@ header {
 
 .banner h1 {
     color: #5D6848;
-    padding: 115px 300px 105px 1050px;
+    padding: 5%;
+    text-align: right;
 }
 
 .menu {
     background-color: rgba(241, 194, 143, 0.14);
-    height: 250px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    padding: 3%;
 }
 
 .buttons {
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 250px;
+    height: 100%;
     user-select: none;
 }
 
 .ringBtn {
     border-radius: 50%;
     background-color: rgba(212, 144, 109, 0.7);
+    text-align: center;
     width: 150px;
     height: 150px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    margin: 35px;
     transition: transform 0.8s ease;
 }
 
 .ringBtn h2 {
     color: #5D6848;
-    margin: 40px 15px 32px;
     transition: transform 1.8s ease;
+    margin-top: 30%;
 }
 
 .ringBtn:hover {
     background-color: rgba(93, 104, 72, 0.7);
-    width: 200px;
-    height: 200px;
     transform: scale(1.1);
 }
 
 .ringBtn:hover h2 {
     color: #775846;
-    margin: 70px 20px;
-    font-size: 40px;
+    margin-top: 30%;
     transform: scale(1.1);
 }
 
@@ -287,56 +276,6 @@ footer p a {
 
 .content h2 {
     color: #5D6848;
-}
-
-.slider {
-    width: 100%;
-    background-color: rgba(212, 144, 109, 0.7);
-    height: 10px;
-    border-radius: 20px;
-    position: relative;
-}
-
-.sliderBtn {
-    height: 25px;
-    width: 25px;
-    background-color: #775846;
-    border-radius: 20px;
-    position: absolute;
-    top: -7px;
-}
-
-.sliderPrice {
-    margin-top: 10px;
-}
-
-.recommend {
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.recommend input {
-    flex: 1;
-    padding: 8px;
-    border: 1px solid #cdb8a3;
-    border-radius: 10px;
-    background-color: rgba(241, 194, 143, 0.14);
-}
-
-/* input::placeholder {
-    color: rgba(119, 88, 70, 0.5);
-    font-family: 'Delius', sans-serif;
-    font-size: 14px;
-} */
-
-.seller-price {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgba(241, 194, 143, 0.14);
-    border-radius: 20px;
-    margin-top: 15px;
-    height: 140px;
 }
 
 .price {

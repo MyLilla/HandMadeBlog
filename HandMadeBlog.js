@@ -47,6 +47,7 @@ function createCard(item) {
 
 function initSwiper(id) {
     new Swiper("." + id, {
+        loop: true,
         pagination: {
             el: "." + id + " .swiper-pagination",
             clickable: true
@@ -113,9 +114,6 @@ function modalLouded() {
 
             let price = card.querySelector('.price').textContent.trim();
             document.querySelector('.sellerPrice')
-                .textContent = price + " €";
-
-            document.querySelector('.sliderPrice')
                 .textContent = price + " €";
             modal.classList.add('show');
 

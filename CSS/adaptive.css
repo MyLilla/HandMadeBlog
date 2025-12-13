@@ -1,19 +1,6 @@
-@media screen and (max-width: 1440px) {
-    .banner h1 {
-        padding: 100px 100px 105px 650px;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-    .banner h1 {
-        font-size: 6rem;
-        padding: 120px 70px 85px 650px;
-    }
-}
-
 @media screen and (max-width: 1024px) {
-    .banner h1 {
-        font-size: 4rem;
+    .banner {
+        height: 300px;
     }
 
     .product-card {
@@ -23,21 +10,6 @@
     h1 {
         font-size: 50px;
     }
-
-    .logo {
-        width: 128px;
-        height: 128px;
-    }
-
-    .name {
-        padding-left: 10px;
-        width: 20px;
-    }
-
-    .insta {
-        padding-left: 100px;
-    }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -46,39 +18,21 @@
         height: 250px;
     }
 
-    .banner h1 {
-        font-size: 2.5rem;
-        padding: 3rem 1rem;
-    }
-
-    .menu,
-    .buttons {
-        height: 120px;
-    }
-
     .product-card {
         max-width: 600px;
         margin: 3rem auto;
     }
 
     .ringBtn {
-        width: 110px;
-        height: 110px;
-        margin: 15px;
+        width: 100px;
+        height: 100px;
     }
 
     .ringBtn h2 {
-        margin: 40px 15px 32px;
         font-size: 20px;
     }
 
-    .ringBtn:hover {
-        width: 130px;
-        height: 130px;
-    }
-
     .ringBtn:hover h2 {
-        margin: 40px 10px;
         font-size: 20px;
     }
 }
@@ -86,11 +40,6 @@
 @media screen and (max-width: 600px) {
     p {
         font-size: 14px;
-    }
-
-    .banner h1 {
-        padding: 50px 20px 85px 300px;
-        font-size: 40px;
     }
 
     .product-card {
@@ -133,7 +82,6 @@
     }
 
     header {
-        justify-content: center;
         height: 100px;
     }
 
@@ -142,58 +90,32 @@
         height: 64px;
     }
 
-    .name {
-        padding-left: 10px;
-        width: 0px;
-    }
-
     .insta {
         width: 44px;
         height: 44px;
         padding-top: 15px;
-        padding-left: 60px;
     }
 
     .lang {
         width: 44px;
         height: 64px;
-        padding-left: 10px;
-        padding-right: 10px;
     }
 
-    .banner h1 {
-        width: 200px;
-        padding: 30px 0px 85px 200px;
-        font-size: 30px;
-    }
-
-    .menu {
-        height: 80px;
-    }
-
-    .buttons {
-        height: 100%;
+    .banner {
+        height: 150px;
     }
 
     .ringBtn {
         width: 54px;
         height: 54px;
-        margin: 5px;
     }
 
     .ringBtn h2 {
-        margin: 20px 5px;
-        font-size: 10px;
-    }
-
-    .ringBtn:hover {
-        width: 74px;
-        height: 74px;
+        font-size: 11px;
     }
 
     .ringBtn:hover h2 {
-        margin: 25px 10px;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .card {
@@ -269,10 +191,6 @@
     .lang {
         width: 34px;
         height: 50px;
-    }
-
-    .banner h1 {
-        padding: 90px 10px 0px 150px;
     }
 
     .card {
