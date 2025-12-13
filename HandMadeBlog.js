@@ -56,10 +56,6 @@ function initSwiper(id) {
             nextEl: "." + id + " .swiper-button-next",
             prevEl: "." + id + " .swiper-button-prev"
         },
-        // autoplay: {
-        //     delay: 5000,
-        //     disableOnInteraction: false,
-        // },
     });
 }
 
@@ -137,10 +133,3 @@ document.querySelectorAll(".menu .ringBtn h2").forEach(btn => {
         filterByCategory(category);
     });
 });
-
-// // in process
-// let logInBtn = document.querySelector(".login").addEventListener("click",
-//     function () {
-//         alert("this function in in process...")
-//     }
-// )
