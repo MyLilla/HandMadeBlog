@@ -19,7 +19,7 @@
         "id": 2,
         "imgPreview": "db/TalismanStone.jpg",
         "title": "Talisman Stone",
-        "description": "Keychains with talismanic stones based on your zodiac sign. Amazonite for Scorpios, Leos, and Aries. Aventurine for Virgos and Taurus. And the universal yellow Citrine.",
+        "description": "Keychains with talismanic stones corresponding to your zodiac sign. Amazonite, Citrine, Aventurine, Blue Apatite, or your personal stone.",
         "price": 12,
         "available": true,
         "category": "Souvenirs",
@@ -39,7 +39,7 @@
         "id": 3,
         "imgPreview": "db/SeaGlass.JPG",
         "title": "Sea Glass",
-        "description": "Sea glass keychains from the Costa del Sol, Spain. When shards of a solid form become individuals and discover new combinations and life.",
+        "description": "Sea glass keychains from the Costa del Sol. Fragments of a whole become individual personalities, taking on new life.",
         "price": 7,
         "available": true,
         "category": "Souvenirs",
@@ -58,7 +58,7 @@
         "imgPreview": "db/BirdDances.JPG",
         "title": "Bird Dances",
         "description": "Asymmetrical, lightweight quail feather earrings with stones and beads are able to catch every movement of the air.",
-        "price": 8,
+        "price": 7,
         "available": true,
         "category": "Jewelry",
         "materials": [
@@ -93,7 +93,7 @@
         "id": 6,
         "imgPreview": "db/MolluskCouple.JPG",
         "title": "Mollusk couple",
-        "description": "The protective shell can be rough on the outside and shiny on the inside. The owners of these shells could well have been a couple.",
+        "description": "Light necklace with shell. The pearl shine is always reminiscent of the brightness of the summer sun.",
         "price": 9,
         "available": true,
         "category": "Jewelry",
@@ -105,22 +105,6 @@
             "db/MolluskCouple1.JPG",
             "db/MolluskCouple2.JPG",
             "db/MolluskCouple3.JPG"
-        ]
-    },
-    {
-        "id": 7,
-        "imgPreview": "db/MoonCandle.jpg",
-        "title": "Moon Land",
-        "description": "There's nothing special about cement, just like the surface of the moon— just dust. But in the light, this simplicity is transformed a hundredfold.",
-        "price": 7,
-        "available": true,
-        "category": "Home",
-        "materials": [
-            "img/stone.png"
-        ],
-        "imgs": [
-            "db/MoonCandle.jpg",
-            "db/MoonCandle1.jpg"
         ]
     },
     {
@@ -144,8 +128,8 @@
         "id": 9,
         "imgPreview": "db/Indian.jpg",
         "title": "Indian",
-        "description": "Every soul in the world is unique, and this piece of driftwood is no exception. Although in reality, it's bark that drifted through the ocean.",
-        "price": 6,
+        "description": "An ethnic pendant crafted from tree bark on a braided cord in a warm shade. Incredibly lightweight, it's perfect for both summer and fall looks.",
+        "price": 9,
         "available": true,
         "category": "Jewelry",
         "materials": [
@@ -161,7 +145,7 @@
         "id": 10,
         "imgPreview": "db/DreamCatcher.jpg",
         "title": "Forest Dreams",
-        "description": "An Indian amulet, protector from nightmares. And may you dream of a green forest at sunset, when the summer sun gently touches the treetops.",
+        "description": "An Indian amulet, with the spirit of the green forest. A decorative home decoration in warm green tones that also protects against nightmares.",
         "price": 35,
         "available": true,
         "category": "Home",
@@ -215,14 +199,33 @@
         "imgPreview": "db/Domino.jpg",
         "title": "Domino Game",
         "description": "Italian game originated in China (surprising fact). But in this set, the stones were replaced with plastic. The rules remain the same as in the 18th century.",
-        "price": 15,
-        "available": false,
+        "price": 28,
+        "available": true,
         "category": "Games",
         "materials": [
             "img/stone.png"
         ],
         "imgs": [
-            "db/Domino.jpg"
+            "db/Domino.jpg",
+            "db/Domino1.jpg"
+        ]
+    },
+    {
+        "id": 16,
+        "imgPreview": "db/SoundOfTheSea.jpg",
+        "title": "Sound of the Sea",
+        "description": "A wind chime made from natural shells with a soft, marine sound. Create a peaceful, summary atmosphere for your home, patio, or garden.",
+        "price": 28,
+        "available": true,
+        "category": "Home",
+        "materials": [
+            "img/shell.png",
+            "img/thread.png"
+        ],
+        "imgs": [
+            "db/SoundOfTheSea.jpg",
+            "db/SoundOfTheSea1.jpg",
+            "db/SoundOfTheSea2.jpg"
         ]
     },
     {
@@ -245,10 +248,10 @@
         "id": 15,
         "imgPreview": "db/Rings.jpg",
         "title": "Rings",
-        "description": "dp",
+        "description": "A delicate amulet, made entirely by hand. Cotton thread, wood, and a few stones.",
         "price": 20.55,
         "available": false,
-        "category": "Jewelry",
+        "category": "Home",
         "materials": [
             "img/wood.png",
             "img/thread.png"
@@ -257,6 +260,22 @@
             "db/Rings.jpg",
             "db/Rings1.jpg",
             "db/Rings2.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "imgPreview": "db/MoonCandle.jpg",
+        "title": "Moon Land",
+        "description": "There's nothing special about cement, just like the surface of the moon— just dust. But in the light, this simplicity is transformed a hundredfold.",
+        "price": 7,
+        "available": false,
+        "category": "Home",
+        "materials": [
+            "img/stone.png"
+        ],
+        "imgs": [
+            "db/MoonCandle.jpg",
+            "db/MoonCandle1.jpg"
         ]
     }
 ]
