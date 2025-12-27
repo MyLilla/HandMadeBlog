@@ -5,7 +5,7 @@
         "title": "Coastal Shell",
         "description": "A piece of shell from the Andalusian coast. After a harsh adventure on the seabed, this fragment of shell has found new life in theembrace of soft cotton.",
         "price": 16,
-        "available": true,
+        "available": false,
         "category": "Jewelry",
         "materials": [
             "img/shell.png",
@@ -216,7 +216,7 @@
         "title": "Sound of the Sea",
         "description": "A wind chime made from natural shells with a soft, marine sound. Create a peaceful, summary atmosphere for your home, patio, or garden.",
         "price": 28,
-        "available": true,
+        "available": false,
         "category": "Home",
         "materials": [
             "img/shell.png",
