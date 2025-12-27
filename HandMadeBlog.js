@@ -133,3 +133,29 @@ document.querySelectorAll(".menu .ringBtn h2").forEach(btn => {
         filterByCategory(category);
     });
 });
+
+gsap.from("#bannerText", {
+    x: -400,
+    duration: 2
+});
+
+gsap.from(".logo ", {
+    duration: 2,
+    x: 200,
+    rotation: 360,
+});
+
+gsap.from(".insta ", {
+    duration: 2,
+    x: -200,
+    rotation: 360,
+});
+
+let buttons = document.querySelectorAll(".ringBtn");
+
+for (let i = 0; i <= buttons.length; i++) {
+    gsap.from(buttons[i], {
+        y: 250,
+        duration: i,
+    })
+}
