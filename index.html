@@ -4,17 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <title>Soo</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Delius&family=Oswald:wght@200..700&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/adaptive.css">
@@ -25,88 +22,90 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
 
     <header class="container">
-        <img class="logo" src="img/logo.png">
+        <img class="logo" src="img/logo.png" alt="Soo logo" loading="eager">
         <h1 class="name">Soo</h1>
-        <a href="https://www.instagram.com/o_olgiveris/" id="instaLink" target="_blank">
-            <img class="insta" src="img/insta.png">
+        <a href="https://www.instagram.com/o_olgiveris/" id="instaLink" target="_blank" rel="noopener noreferrer"
+            aria-label="Instagram">
+            <img class="insta" src="img/insta.png" alt="Instagram" loading="lazy">
         </a>
     </header>
+    <main>
+        <section class="banner">
+            <h1 id="bannerText">Hand Made <br> room</h1>
+        </section>
 
-    <section class="banner">
-        <h1 id="bannerText">Hand Made <br> room</h1>
-    </section>
+        <section class="about container">
+            <h2>Nothing is more original than nature</h2>
+            <p>Here you'll find jewelry, decorative items, souvenirs, and perhaps other random handmade products. <br>
+                Each of them has a touch of nature that gives them their own unique character.</p>
+        </section>
 
-    <section class="about container">
-        <h2>Nothing is more original than nature</h2>
-        <p>Here you'll find jewelry, decorative items, souvenirs, and perhaps other random handmade products. <br>
-            Each of them has a touch of nature that gives them their own unique character.</p>
-    </section>
-
-    <section class="menu">
-        <div class="container">
-            <div class="buttons">
-                <div class="ringBtn">
-                    <h2>All</h2>
-                </div>
-                <div class="ringBtn">
-                    <h2>Home</h2>
-                </div>
-                <div class="ringBtn">
-                    <h2>Jewelry</h2>
-                </div>
-                <div class="ringBtn">
-                    <h2>Souvenirs</h2>
-                </div>
-                <div class="ringBtn">
-                    <h2>Games</h2>
+        <section class="menu">
+            <div class="container">
+                <div class="buttons">
+                    <div class="ringBtn">
+                        <h2>All</h2>
+                    </div>
+                    <div class="ringBtn">
+                        <h2>Home</h2>
+                    </div>
+                    <div class="ringBtn">
+                        <h2>Jewelry</h2>
+                    </div>
+                    <div class="ringBtn">
+                        <h2>Souvenirs</h2>
+                    </div>
+                    <div class="ringBtn">
+                        <h2>Games</h2>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <template id="cardTemplate">
+            <div class="card">
+
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <h2></h2>
+                <p></p>
+
+                <div class="cardMenu">
+                    <button class="openModal">available</button>
+                    <div class="price" hidden></div>
+                </div>
+            </div>
+        </template>
+
+        <section class="gelery container" id="cards">
+
+        </section>
+
+        <div class="more">
+            <button id="loadMore">...more...</button>
         </div>
-    </section>
+    </main>
 
-    <template id="cardTemplate">
-        <div class="card">
-
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                </div>
-
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-
-                <div class="swiper-pagination"></div>
-            </div>
-
-            <h2></h2>
-            <p></p>
-
-            <div class="cardMenu">
-                <button class="openModal">available</button>
-                <div class="price" hidden></div>
-            </div>
-        </div>
-    </template>
-
-    <section class="gelery container" id="cards">
-
-    </section>
-
-    <div class="more">
-        <button id="loadMore">...more...</button>
-    </div>
-
-    <footer>
+    <footer role="contentinfo">
         <div class="info">
             <h3> 2025 </h3>
             <h3> © All Rights Reserved</h3>
         </div>
         <div class="icons">
             <h2>Contact me</h2>
-            <a href="mailto:olga.host.80@gmail.com" target="_blank">
-                <img class="mail" src="img/mail.png">
+            <a href="mailto:olga.host.80@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+                <img class="mail" src="img/mail.png" alt="Email" loading="lazy">
             </a>
-            <a href="https://wa.me/34646251809" target="_blank">
-                <img class="whatsapp" src="img/whatsapp.png">
+            <a href="https://wa.me/34646251809" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <img class="whatsapp" src="img/whatsapp.png" alt="WhatsApp" loading="lazy">
             </a>
         </div>
     </footer>
@@ -146,6 +145,12 @@
         </div>
     </section>
 </body>
+<noscript>
+    <div style="padding:1rem;background:#fff3cd;color:#856404;">
+        JS is disabled - some functionality is unavailable. Please contact us by email.: olga.host.80@gmail.com
+    </div>
+</noscript>
+
 <script src="HandMadeBlog.js"></script>
 
 </html>

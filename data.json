@@ -113,7 +113,7 @@
         "title": "Orange",
         "description": "Citrine crystal. A semi-precious stone that suits almost all zodiac signs. The crystal provides its owner with energetic support during periods of low energy, apathy, and depression.",
         "price": 18,
-        "available": true,
+        "available": false,
         "category": "Jewelry",
         "materials": [
             "img/thread.png",
