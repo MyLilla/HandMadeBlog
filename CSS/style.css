@@ -104,7 +104,8 @@ header,
 .gelery,
 .cardMenu,
 .contact,
-.icons {
+.icons,
+.order {
     display: flex;
 }
 
@@ -276,7 +277,8 @@ footer a:hover {
 }
 
 .mail,
-.whatsapp {
+.whatsapp,
+.vinted {
     height: 2.75rem;
     width: auto;
     transition: transform 0.2s;
@@ -315,7 +317,7 @@ footer a:hover {
     background: var(--card-bg);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
-    width: clamp(18.75rem, 90%, 68.75rem);
+    width: clamp(20rem, 40%, 50rem);
     padding: 1.5rem;
     max-height: 90vh;
     overflow-y: auto;
@@ -351,6 +353,11 @@ footer a:hover {
 .content h2 {
     color: var(--accent-dark);
     margin: 0;
+}
+
+.order {
+    align-items: center;
+    gap: 1rem;
 }
 
 .sellerPrice {

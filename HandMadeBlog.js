@@ -33,6 +33,8 @@ function createCard(item) {
     tpl.querySelector("h2").textContent = item.title;
     tpl.querySelector("p").textContent = item.description;
     tpl.querySelector(".price").textContent = item.price;
+    tpl.querySelector(".link").textContent = item.link;
+    tpl.querySelector(".status").textContent = item.available;
 
     // Materials icons
     const menu = tpl.querySelector(".cardMenu");
@@ -113,6 +115,19 @@ function modalLouded() {
                 .textContent = price + " €";
             modal.classList.add('show');
 
+            let vinted = card.querySelector('.link').textContent.trim();
+            document.querySelector('.orderLink').setAttribute("href", vinted);
+
+            let status = card.querySelector('.status').textContent.trim();
+            if (status === "true") {
+                document.querySelector('.orderLink').style.display = "block";
+                document.querySelector('.order p').textContent = "At the moment, you can purchase the product here:";
+            } else {
+                document.querySelector('.orderLink').style.display = "none";
+                document.querySelector('.order p').textContent = "The product is currently not available for purchase. You can order it.";
+            }
+            document.querySelector('.orderLink').setAttribute("href", vinted);
+
         })
     })
 }
@@ -156,6 +171,6 @@ let buttons = document.querySelectorAll(".ringBtn");
 for (let i = 0; i <= buttons.length; i++) {
     gsap.from(buttons[i], {
         y: 250,
-        duration: i,
+        duration: i / 2,
     })
 }

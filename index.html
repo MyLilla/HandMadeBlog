@@ -55,9 +55,6 @@
                     <div class="ringBtn">
                         <h2>Souvenirs</h2>
                     </div>
-                    <div class="ringBtn">
-                        <h2>Games</h2>
-                    </div>
                 </div>
             </div>
         </section>
@@ -81,6 +78,8 @@
                 <div class="cardMenu">
                     <button class="openModal">available</button>
                     <div class="price" hidden></div>
+                    <div class="link" hidden></div>
+                    <div class="status" hidden></div>
                 </div>
             </div>
         </template>
@@ -114,11 +113,14 @@
         <div class="product-card">
             <div class="content">
                 <span id="closeModal" class="close">&times;</span>
-                <p>
-                    Each item here is unique, and it's impossible to determine the exact price.
-                    <br><br>
-                    So.. You can give your recommendations by WhatsApp or email:
-                </p>
+
+                <div class="order">
+                    <p>
+
+                    </p>
+                    <a class="orderLink" target="_blank">
+                        <img class="vinted" src="img/vinted-svgrepo-com.png"></a>
+                </div>
 
                 <h2>Seller price </h2>
                 <h1 class="sellerPrice"></h1>
@@ -126,7 +128,7 @@
                 <small>*Without delivery</small>
                 <div class="contact">
                     <p>
-                        To purchase and order, contact me:
+                        You can give your recommendations and contact me by WhatsApp or email
                     </p>
 
                     <div class="icons">
