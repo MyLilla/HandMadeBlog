@@ -171,6 +171,45 @@
         "link": "https://www.vinted.es/items/7690623582-stars-decoration"
     },
     {
+        "id": 10,
+        "imgPreview": "db/Chaos.jpg",
+        "title": "Chaos",
+        "description": "Wind chimes in a chaotic style with random shells, each of which sounds different. A great gift for those who love the sea and its sounds.",
+        "price": 20,
+        "available": true,
+        "category": "Home",
+        "materials": [
+            "img/shell.png",
+            "img/thread.png"
+        ],
+        "imgs": [
+            "db/Chaos.jpg",
+            "db/Chaos1.jpg",
+            "db/Chaos2.jpg"
+        ],
+        "link": "https://www.vinted.es/items/7897012463-sea-sound-chaos"
+    },
+    {
+        "id": 11,
+        "imgPreview": "db/Spirals.jpg",
+        "title": "Spirals",
+        "description": "A set of earrings in different colors in the shape of spirals, you can change and combine them with each other",
+        "price": 15,
+        "available": true,
+        "category": "Jewelry",
+        "materials": [],
+        "imgs": [
+            "db/Spirals.jpg",
+            "db/Spirals1.jpg",
+            "db/Spirals2.jpg",
+            "db/Spirals3.jpg",
+            "db/Spirals4.jpg",
+            "db/Spirals5.jpg",
+            "db/Spirals6.jpg"
+        ],
+        "link": "https://www.vinted.es/items/7896984753-spirals-earrings"
+    },
+    {
         "id": 101,
         "imgPreview": "db/SoundOfTheSea.jpg",
         "title": "Sound of the Sea",

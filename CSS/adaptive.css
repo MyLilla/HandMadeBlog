@@ -76,7 +76,8 @@
         max-height: 4rem;
     }
 
-    .insta {
+    .insta,
+    .vinted {
         width: 2.75rem;
         height: 2.75rem;
     }
@@ -172,7 +173,8 @@
         font-size: 0.875rem;
     }
 
-    .insta {
+    .insta,
+    .vinted {
         width: 2.125rem;
         height: 2.125rem;
     }

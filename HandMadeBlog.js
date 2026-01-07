@@ -142,7 +142,7 @@ modal.addEventListener('click', (e) => {
 })
 
 // menu btns
-document.querySelectorAll(".menu .ringBtn h2").forEach(btn => {
+document.querySelectorAll(".menu .ringBtn").forEach(btn => {
     btn.addEventListener("click", () => {
         let category = btn.textContent.trim();
         filterByCategory(category);
@@ -160,7 +160,7 @@ gsap.from(".logo ", {
     rotation: 360,
 });
 
-gsap.from(".insta ", {
+gsap.from(".insta, .vinted ", {
     duration: 2,
     x: -200,
     rotation: 360,

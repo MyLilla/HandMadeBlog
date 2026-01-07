@@ -125,7 +125,8 @@ header {
     width: auto;
 }
 
-.insta {
+.insta,
+.vinted {
     width: 3.625rem;
     height: 3.625rem;
     transition: transform 0.2s;
