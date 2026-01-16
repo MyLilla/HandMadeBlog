@@ -33,7 +33,8 @@ function createCard(item) {
     tpl.querySelector("h2").textContent = item.title;
     tpl.querySelector("p").textContent = item.description;
     tpl.querySelector(".price").textContent = item.price;
-    tpl.querySelector(".link").textContent = item.link;
+    tpl.querySelector(".vinted").textContent = item.vinted;
+    tpl.querySelector(".wallapop").textContent = item.wallapop;
     tpl.querySelector(".status").textContent = item.available;
 
     // Materials icons
@@ -115,18 +116,22 @@ function modalLouded() {
                 .textContent = price + " €";
             modal.classList.add('show');
 
-            let vinted = card.querySelector('.link').textContent.trim();
-            document.querySelector('.orderLink').setAttribute("href", vinted);
+            let vinted = card.querySelector('.vinted').textContent.trim();
+            document.querySelector('.vintedLink').setAttribute("href", vinted);
+
+            let wallapop = card.querySelector('.wallapop').textContent.trim();
+            document.querySelector('.wallapopLink').setAttribute("href", wallapop);
 
             let status = card.querySelector('.status').textContent.trim();
             if (status === "true") {
-                document.querySelector('.orderLink').style.display = "block";
+                document.querySelector('.vintedLink').style.display = "block";
                 document.querySelector('.order p').textContent = "At the moment, you can purchase the product here:";
             } else {
-                document.querySelector('.orderLink').style.display = "none";
+                document.querySelector('.vintedLink').style.display = "none";
                 document.querySelector('.order p').textContent = "The product is currently not available for purchase. You can order it.";
             }
-            document.querySelector('.orderLink').setAttribute("href", vinted);
+            document.querySelector('.vintedLink').setAttribute("href", vinted);
+            document.querySelector('.wallapopLink').setAttribute("href", wallapop);
 
         })
     })

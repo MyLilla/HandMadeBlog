@@ -18,7 +18,8 @@
             "db/TalismanStone3.jpg",
             "db/TalismanStone4.jpg"
         ],
-        "link": "https://www.vinted.es/items/7879207041-talisman-stone"
+        "vinted": "https://www.vinted.es/items/7879207041-talisman-stone",
+        "wallapop": "https://es.wallapop.com/item/colgante-piedra-natural-macrame-1219647774"
     },
     {
         "id": 2,
@@ -34,10 +35,11 @@
         ],
         "imgs": [
             "db/SeaGlass.JPG",
-            "db/SeaGlass1.JPG",
-            "db/SeaGlass2.JPG"
+            "db/SeaGlass3.JPG",
+            "db/SeaGlass1.JPG"
         ],
-        "link": "https://www.vinted.es/items/7879367323-sea-glass-keychains"
+        "vinted": "https://www.vinted.es/items/7879367323-sea-glass-keychains",
+        "wallapop": "https://es.wallapop.com/item/llaveros-de-vidrio-marino-artesanales-1219648511"
     },
     {
         "id": 3,
@@ -56,7 +58,8 @@
             "db/BirdDances1.JPG",
             "db/BirdDances2.JPG"
         ],
-        "link": "https://www.vinted.es/items/7377203890-earrings-bird-dances"
+        "vinted": "https://www.vinted.es/items/7377203890-earrings-bird-dances",
+        "wallapop": "https://es.wallapop.com/item/pendientes-de-plumas-y-piedras-1219649860"
     },
     {
         "id": 4,
@@ -75,7 +78,8 @@
             "db/GrayMoon2.JPG",
             "db/GrayMoon3.JPG"
         ],
-        "link": "https://www.vinted.es/items/7260849607-gray-moon-set"
+        "vinted": "https://www.vinted.es/items/7260849607-gray-moon-set",
+        "wallapop": "https://es.wallapop.com/item/gargantillas-y-colgante-corto-1219651410"
     },
     {
         "id": 5,
@@ -94,7 +98,8 @@
             "db/MolluskCouple2.JPG",
             "db/MolluskCouple3.JPG"
         ],
-        "link": "https://www.vinted.es/items/7377198687-mollusk-couple-necklaces"
+        "vinted": "https://www.vinted.es/items/7377198687-mollusk-couple-necklaces",
+        "wallapop": "https://es.wallapop.com/item/collar-ligero-concha-rosa-y-marron-1219652229"
     },
     {
         "id": 6,
@@ -112,7 +117,8 @@
             "db/Indian.jpg",
             "db/Indian1.jpg"
         ],
-        "link": "https://www.vinted.es/items/7695552234-indian-necklace"
+        "vinted": "https://www.vinted.es/items/7695552234-indian-necklace",
+        "wallapop": "https://es.wallapop.com/item/colgante-etnico-madera-y-cuerda-1219652830"
     },
     {
         "id": 7,
@@ -132,7 +138,8 @@
             "db/DreamCatcher1.jpg",
             "db/DreamCatcher2.jpg"
         ],
-        "link": "https://www.vinted.es/items/7548105516-dream-catcher"
+        "vinted": "https://www.vinted.es/items/7548105516-dream-catcher",
+        "wallapop": "https://es.wallapop.com/item/atrapasuenos-artesanal-1219654030"
     },
     {
         "id": 8,
@@ -150,7 +157,8 @@
             "db/MemoryOfTheSea.jpg",
             "db/MemoryOfTheSea1.jpg"
         ],
-        "link": "https://www.vinted.es/items/7695556528-necklace-memory-of-the-sea"
+        "vinted": "https://www.vinted.es/items/7695556528-necklace-memory-of-the-sea",
+        "wallapop": "https://es.wallapop.com/item/colgante-vidrio-marino-marron-y-plata-1219656778"
     },
     {
         "id": 9,
@@ -168,7 +176,8 @@
             "db/ChristmasStars.jpg",
             "db/ChristmasStars1.jpg"
         ],
-        "link": "https://www.vinted.es/items/7690623582-stars-decoration"
+        "vinted": "https://www.vinted.es/items/7690623582-stars-decoration",
+        "wallapop": "https://es.wallapop.com/item/estrellas-decorativas-madera-y-yute-1219657861"
     },
     {
         "id": 10,
@@ -187,7 +196,8 @@
             "db/Chaos1.jpg",
             "db/Chaos2.jpg"
         ],
-        "link": "https://www.vinted.es/items/7897012463-sea-sound-chaos"
+        "vinted": "",
+        "wallapop": "https://es.wallapop.com/item/colgante-de-conchas-estilo-caotico-1219659164"
     },
     {
         "id": 11,
@@ -207,7 +217,30 @@
             "db/Spirals5.jpg",
             "db/Spirals6.jpg"
         ],
-        "link": "https://www.vinted.es/items/7896984753-spirals-earrings"
+        "vinted": "https://www.vinted.es/items/7896984753-spirals-earrings",
+        "wallapop": "https://es.wallapop.com/item/pendientes-largos-espiral-con-cuentas-1219660368"
+    },
+    {
+        "id": 12,
+        "imgPreview": "db/MotherOfPearl.jpg",
+        "title": "Mother of Pearl",
+        "description": "A hanging interior decor made from natural seashells and mother-of-pearl. It softly reflects light, creating an atmosphere of calm and comfort.",
+        "price": 15,
+        "available": true,
+        "category": "Home",
+        "materials": [
+            "img/shell.png",
+            "img/thread.png",
+            "img/wood.png"
+        ],
+        "imgs": [
+            "db/MotherOfPearl.jpg",
+            "db/MotherOfPearl2.jpg",
+            "db/MotherOfPearl3.jpg",
+            "db/MotherOfPearl4.jpg"
+        ],
+        "vinted": "https://www.vinted.es/items/7923042652-hanging-interior-decor",
+        "wallapop": "https://es.wallapop.com/item/decoracion-colgante-de-conchas-y-cuentas-1219661358"
     },
     {
         "id": 101,
