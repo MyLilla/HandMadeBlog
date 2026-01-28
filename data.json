@@ -180,26 +180,6 @@
         "wallapop": "https://es.wallapop.com/item/estrellas-decorativas-madera-y-yute-1219657861"
     },
     {
-        "id": 10,
-        "imgPreview": "db/Chaos.jpg",
-        "title": "Chaos",
-        "description": "Wind chimes in a chaotic style with random shells, each of which sounds different. A great gift for those who love the sea and its sounds.",
-        "price": 20,
-        "available": true,
-        "category": "Home",
-        "materials": [
-            "img/shell.png",
-            "img/thread.png"
-        ],
-        "imgs": [
-            "db/Chaos.jpg",
-            "db/Chaos1.jpg",
-            "db/Chaos2.jpg"
-        ],
-        "vinted": "",
-        "wallapop": "https://es.wallapop.com/item/colgante-de-conchas-estilo-caotico-1219659164"
-    },
-    {
         "id": 11,
         "imgPreview": "db/Spirals.jpg",
         "title": "Spirals",
@@ -358,5 +338,25 @@
             "db/Orange.jpg",
             "db/Orange1.jpg"
         ]
+    },
+    {
+        "id": 108,
+        "imgPreview": "db/Chaos.jpg",
+        "title": "Chaos",
+        "description": "Wind chimes in a chaotic style with random shells, each of which sounds different. A great gift for those who love the sea and its sounds.",
+        "price": 20,
+        "available": false,
+        "category": "Home",
+        "materials": [
+            "img/shell.png",
+            "img/thread.png"
+        ],
+        "imgs": [
+            "db/Chaos.jpg",
+            "db/Chaos1.jpg",
+            "db/Chaos2.jpg"
+        ],
+        "vinted": "",
+        "wallapop": "https://es.wallapop.com/item/colgante-de-conchas-estilo-caotico-1219659164"
     }
 ]
