@@ -30,7 +30,8 @@ function updateProductData() {
             ...item,
             title: translated.title || item.title,
             description: translated.description || item.description,
-            category: translated.category || item.category
+            category: translated.category || item.category,
+            originalCategory: item.category  // Сохраняем оригинальную категорию
         };
     });
 }
@@ -106,7 +107,8 @@ function filterByCategory(category) {
     if (category === "All") {
         filteredData = [];
     } else {
-        filteredData = allData.filter(item => item.category === category);
+        // Используем оригинальную категорию для фильтрации
+        filteredData = allData.filter(item => item.originalCategory === category);
     }
     renderBatch(6);
     modalLouded();
