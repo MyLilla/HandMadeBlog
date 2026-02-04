@@ -223,6 +223,26 @@
         "wallapop": "https://es.wallapop.com/item/decoracion-colgante-de-conchas-y-cuentas-1219661358"
     },
     {
+        "id": 13,
+        "imgPreview": "db/StrongWind.jpg",
+        "title": "Strong Wind",
+        "description": "Wind Chime hanging decoration made from natural seashells. Suitable for outdoor use.",
+        "price": 15,
+        "available": true,
+        "category": "Home",
+        "materials": [
+            "img/shell.png",
+            "img/thread.png",
+            "img/wood.png"
+        ],
+        "imgs": [
+            "db/StrongWind.jpg",
+            "db/StrongWind1.jpg"
+        ],
+        "vinted": "",
+        "wallapop": "https://es.wallapop.com/item/carillon-de-viento-de-conchas-marinas-1227149940"
+    },
+    {
         "id": 101,
         "imgPreview": "db/SoundOfTheSea.jpg",
         "title": "Sound of the Sea",

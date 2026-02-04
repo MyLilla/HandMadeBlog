@@ -42,7 +42,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     margin: 0;
     font-family: var(--font-display);
     text-align: center;
@@ -142,13 +143,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 2rem 1rem;
+    padding: 2rem 5rem;
 }
 
 .banner h1 {
     color: var(--accent-dark);
     margin: 0;
     text-align: right;
+}
+
+.about p {
+    text-align: center;
 }
 
 .menu {
@@ -279,7 +284,8 @@ footer a:hover {
 
 .mail,
 .whatsapp,
-.vinted .wallapop {
+.vinted,
+.wallapop {
     height: 2.75rem;
     width: auto;
     transition: transform 0.2s;
