@@ -117,8 +117,24 @@ header {
     justify-content: space-around;
     gap: 1rem;
     padding: 1rem 0;
+    position: relative;
 }
 
+.header-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.language-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language-toggle:hover .lang-icon {
+    transform: scale(1.1);
+}
 
 .logo {
     max-height: 10rem;
@@ -127,7 +143,8 @@ header {
 }
 
 .insta,
-.vinted {
+.vinted,
+.lang-icon {
     width: 3.625rem;
     height: 3.625rem;
     transition: transform 0.2s;
@@ -217,6 +234,7 @@ header {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .swiper {
@@ -229,10 +247,12 @@ header {
     color: var(--accent-dark);
     padding: 0 1rem;
     min-height: 2.5rem;
+    text-align: center;
 }
 
 .card p {
     margin: 0.625rem 1.25rem;
+    text-align: center;
 }
 
 .cardMenu {
@@ -394,4 +414,43 @@ small {
 .contact p {
     flex: 1;
     min-width: 200px;
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(212, 144, 109, 0.7);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all 0.3s ease;
+    z-index: 999;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.scroll-to-top:hover {
+    background-color: rgba(212, 144, 109, 0.9);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-to-top:active {
+    transform: translateY(-1px);
+}
+
+.scroll-to-top.show {
+    display: flex;
+}
+
+.scroll-to-top svg {
+    width: 1.5rem;
+    height: 1.5rem;
 }

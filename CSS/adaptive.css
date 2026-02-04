@@ -78,7 +78,8 @@
 
     .insta,
     .vinted,
-    .wallapop {
+    .wallapop,
+    .lang-icon {
         width: 2.75rem;
         height: 2.75rem;
     }
@@ -176,7 +177,8 @@
 
     .insta,
     .vinted,
-    .wallapop {
+    .wallapop,
+    .lang-icon {
         width: 2.125rem;
         height: 2.125rem;
     }

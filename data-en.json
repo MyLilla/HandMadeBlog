@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "title": "Talisman Stone",
+        "description": "Keychains with talismanic stones corresponding to your zodiac sign. Amazonite, Citrine, Aventurine, Blue Apatite, or your personal stone.",
+        "category": "Souvenirs"
+    },
+    {
+        "id": 2,
+        "title": "Sea Glass",
+        "description": "Sea glass keychains from the Costa del Sol. Fragments of a whole become individual personalities, taking on new life.",
+        "category": "Souvenirs"
+    },
+    {
+        "id": 3,
+        "title": "Bird Dances",
+        "description": "Asymmetrical, lightweight quail feather earrings with stones and beads are able to catch every movement of the air.",
+        "category": "Jewelry"
+    },
+    {
+        "id": 4,
+        "title": "Gray Moon set",
+        "description": "A set of jewelry that includes two chokers and a short pendant with a moon-colored coastal stone.",
+        "category": "Jewelry"
+    },
+    {
+        "id": 5,
+        "title": "Mollusk couple",
+        "description": "Light necklace with shell. The pearl shine is always reminiscent of the brightness of the summer sun.",
+        "category": "Jewelry"
+    },
+    {
+        "id": 6,
+        "title": "Indian",
+        "description": "An ethnic pendant crafted from tree bark on a braided cord in a warm shade. Incredibly lightweight, it's perfect for both summer and fall looks.",
+        "category": "Jewelry"
+    },
+    {
+        "id": 7,
+        "title": "Forest Dreams",
+        "description": "An Indian amulet, with the spirit of the green forest. A decorative home decoration in warm green tones that also protects against nightmares.",
+        "category": "Home"
+    },
+    {
+        "id": 8,
+        "title": "Memory Of The Sea",
+        "description": "A contrasting sea glass pendant in warm brown and shimmering metal branches. Severity and softness in one piece.",
+        "category": "Jewelry"
+    },
+    {
+        "id": 9,
+        "title": "Stars",
+        "description": "Warm-toned decor made from natural materials will help create a cozy atmosphere without the clutter. Safe for pets and children.",
+        "category": "Home"
+    },
+    {
+        "id": 11,
+        "title": "Spirals",
+        "description": "A set of earrings in different colors in the shape of spirals, you can change and combine them with each other",
+        "category": "Jewelry"
+    },
+    {
+        "id": 12,
+        "title": "Mother of Pearl",
+        "description": "A hanging interior decor made from natural seashells and mother-of-pearl. It softly reflects light, creating an atmosphere of calm and comfort.",
+        "category": "Home"
+    },
+    {
+        "id": 13,
+        "title": "Strong Wind",
+        "description": "Wind Chime hanging decoration made from natural seashells. Suitable for outdoor use.",
+        "category": "Home"
+    },
+    {
+        "id": 101,
+        "title": "Sound of the Sea",
+        "description": "A wind chime made from natural shells with a soft, marine sound. Create a peaceful, summary atmosphere for your home, patio, or garden.",
+        "category": "Home"
+    },
+    {
+        "id": 102,
+        "title": "Domino Game",
+        "description": "Italian game originated in China (surprising fact). But in this set, the stones were replaced with plastic. The rules remain the same as in the 18th century.",
+        "category": "Souvenirs"
+    },
+    {
+        "id": 103,
+        "title": "Magic tree",
+        "description": "Traces of a city built by bark beetles in the Siberian forests. The unique curves of the corridors are forever imprinted onthis piece of wood.",
+        "category": "Jewelry"
+    },
+    {
+        "id": 104,
+        "title": "Rings",
+        "description": "A delicate amulet, made entirely by hand. Cotton thread, wood, and a few stones.",
+        "category": "Home"
+    },
+    {
+        "id": 105,
+        "title": "Moon Land",
+        "description": "There's nothing special about cement, just like the surface of the moon— just dust. But in the light, this simplicity is transformed a hundredfold.",
+        "category": "Home"
+    },
+    {
+        "id": 106,
+        "title": "Coastal Shell",
+        "description": "A piece of shell from the Andalusian coast. After a harsh adventure on the seabed, this fragment of shell has found new life in theembrace of soft cotton.",
+        "category": "Jewelry"
+    },
+    {
+        "id": 107,
+        "title": "Orange",
+        "description": "Citrine crystal. A semi-precious stone that suits almost all zodiac signs. The crystal provides its owner with energetic support during periods of low energy, apathy, and depression.",
+        "category": "Jewelry"
+    },
+    {
+        "id": 108,
+        "title": "Chaos",
+        "description": "Wind chimes in a chaotic style with random shells, each of which sounds different. A great gift for those who love the sea and its sounds.",
+        "category": "Home"
+    }
+]

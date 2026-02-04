@@ -198,7 +198,7 @@
             "db/Spirals6.jpg"
         ],
         "vinted": "https://www.vinted.es/items/7896984753-spirals-earrings",
-        "wallapop": "https://es.wallapop.com/item/pendientes-largos-espiral-con-cuentas-1219660368"
+        "wallapop": "https://es.wallapop.com/user/olgak-440412669"
     },
     {
         "id": 12,
@@ -206,7 +206,7 @@
         "title": "Mother of Pearl",
         "description": "A hanging interior decor made from natural seashells and mother-of-pearl. It softly reflects light, creating an atmosphere of calm and comfort.",
         "price": 15,
-        "available": true,
+        "available": false,
         "category": "Home",
         "materials": [
             "img/shell.png",

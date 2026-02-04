@@ -1,17 +1,46 @@
 // reading
 let allData = [];
+let baseData = [];
 let renderIndex = 0;
 let currentCategory = "All";
 let filteredData = [];
 
-fetch('data.json')
-    .then(response => response.json())
-    .then(data => {
-        allData = data;
-        renderBatch(6);
-        modalLouded()
-    })
-    .catch(console.error);
+async function initializeApp() {
+    // Ждем загрузки переводов и данных
+    await translator.waitForTranslations();
+    
+    // Загружаем базовые данные для ID и изображений
+    fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+            baseData = data;
+            updateProductData();
+            renderBatch(6);
+            modalLouded()
+        })
+        .catch(console.error);
+}
+
+function updateProductData() {
+    // Объединяем базовые данные с переведенными
+    const translatedData = translator.getProductData();
+    allData = baseData.map(item => {
+        const translated = translatedData.find(t => t.id === item.id) || {};
+        return {
+            ...item,
+            title: translated.title || item.title,
+            description: translated.description || item.description,
+            category: translated.category || item.category
+        };
+    });
+}
+
+// Инициализация приложения
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeApp);
+} else {
+    initializeApp();
+}
 
 function createCard(item) {
 
@@ -44,7 +73,14 @@ function createCard(item) {
             `<img class="icon" src="${src}">`
         )
     );
-    if (!item.available) tpl.querySelector("button").textContent = "not available"
+    const btn = tpl.querySelector("button");
+    if (!item.available) {
+        btn.textContent = translator.get("card.notAvailable");
+        btn.setAttribute("data-unavailable", "true");
+    } else {
+        btn.textContent = translator.get("card.available");
+        btn.removeAttribute("data-unavailable");
+    }
     return { el: tpl, id: swiperId };
 }
 
@@ -125,10 +161,10 @@ function modalLouded() {
             let status = card.querySelector('.status').textContent.trim();
             if (status === "true") {
                 document.querySelector('.vintedLink').style.display = "block";
-                document.querySelector('.order p').textContent = "At the moment, you can purchase the product here:";
+                document.querySelector('.order p').textContent = translator.get("modal.available");
             } else {
                 document.querySelector('.vintedLink').style.display = "none";
-                document.querySelector('.order p').textContent = "The product is currently not available for purchase. You can order it.";
+                document.querySelector('.order p').textContent = translator.get("modal.notAvailableOrder")
             }
             document.querySelector('.vintedLink').setAttribute("href", vinted);
             document.querySelector('.wallapopLink').setAttribute("href", wallapop);
@@ -136,6 +172,7 @@ function modalLouded() {
         })
     })
 }
+
 // close modal
 closeBtn.addEventListener('click', () => {
     modal.classList.remove('show');
@@ -146,11 +183,90 @@ modal.addEventListener('click', (e) => {
     }
 })
 
-// menu btns
-document.querySelectorAll(".menu .ringBtn").forEach(btn => {
-    btn.addEventListener("click", () => {
-        let category = btn.textContent.trim();
-        filterByCategory(category);
+// Маппинг переведенных названий в оригинальные
+const categoryMap = {
+    'All': 'All',
+    'Home': 'Home',
+    'Jewelry': 'Jewelry',
+    'Souvenirs': 'Souvenirs',
+    'Все': 'All',
+    'Дом': 'Home',
+    'Украшения': 'Jewelry',
+    'Сувениры': 'Souvenirs'
+};
+
+// Обновление текста при смене языка
+window.addEventListener('languageChanged', () => {
+    // Обновить данные товаров
+    updateProductData();
+    
+    // Перерендерить карточки
+    renderIndex = 0;
+    document.getElementById("cards").innerHTML = "";
+    filterByCategory("All");
+    
+    // Обновить текст на карточках
+    document.querySelectorAll('.openModal').forEach(btn => {
+        const unavailable = btn.getAttribute('data-unavailable');
+        if (unavailable === 'true') {
+            btn.textContent = translator.get("card.notAvailable");
+        } else {
+            btn.textContent = translator.get("card.available");
+        }
+    });
+
+    // Обновить текст модального окна
+    const orderParagraph = document.querySelector('.order p');
+    if (orderParagraph) {
+        // Проверить, содержит ли текст "available" или "notAvailable"
+        const currentText = orderParagraph.textContent;
+        if (currentText.includes("purchase the product") || currentText.includes("приобрести продукт")) {
+            orderParagraph.textContent = translator.get("modal.available");
+        } else if (currentText.includes("not available") || currentText.includes("недоступен")) {
+            orderParagraph.textContent = translator.get("modal.notAvailableOrder");
+        } else {
+            orderParagraph.textContent = translator.get("modal.recommendations");
+        }
+    }
+});
+
+// menu btns - обработчик на основе переведенного текста
+function attachMenuHandlers() {
+    document.querySelectorAll(".menu .ringBtn").forEach(btn => {
+        btn.removeEventListener("click", handleMenuClick); // Удалить старые слушатели
+        btn.addEventListener("click", handleMenuClick);
+    });
+}
+
+function handleMenuClick(e) {
+    const category = this.textContent.trim();
+    const originalCategory = categoryMap[category] || category;
+    filterByCategory(originalCategory);
+}
+
+// Первоначальное добавление обработчиков
+attachMenuHandlers();
+
+// Переприсоединить обработчики при смене языка
+window.addEventListener('languageChanged', () => {
+    attachMenuHandlers();
+});
+
+// Scroll to Top Button functionality
+const scrollToTopBtn = document.getElementById('scrollToTop');
+
+window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 300) {
+        scrollToTopBtn.classList.add('show');
+    } else {
+        scrollToTopBtn.classList.remove('show');
+    }
+});
+
+scrollToTopBtn.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
     });
 });
 
@@ -165,7 +281,7 @@ gsap.from(".logo ", {
     rotation: 360,
 });
 
-gsap.from(".insta, .vinted ", {
+gsap.from(".insta, .vinted, .lang-icon ", {
     duration: 2,
     x: -200,
     rotation: 360,

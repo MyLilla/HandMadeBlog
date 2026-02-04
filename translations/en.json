@@ -1,0 +1,39 @@
+{
+    "header": {
+        "instagram": "Instagram",
+        "vinted": "Vinted",
+        "wallapop": "Wallapop"
+    },
+    "banner": {
+        "title": "Hand Made <br> room"
+    },
+    "about": {
+        "heading": "Nothing is more original than nature",
+        "description": "Here you'll find jewelry, decorative items, souvenirs, and perhaps other random handmade products. <br>\n                Each of them has a touch of nature that gives them their own unique character."
+    },
+    "menu": {
+        "all": "All",
+        "home": "Home",
+        "jewelry": "Jewelry",
+        "souvenirs": "Souvenirs"
+    },
+    "card": {
+        "available": "available",
+        "notAvailable": "not available"
+    },
+    "buttons": {
+        "loadMore": "...more..."
+    },
+    "modal": {
+        "sellerPrice": "Seller price",
+        "without_delivery": "*Without delivery",
+        "recommendations": "You can give your recommendations and contact me by WhatsApp or email",
+        "contact": "Contact me",
+        "available": "At the moment, you can purchase the product here:",
+        "notAvailableOrder": "The product is currently not available for purchase. You can order it."
+    },
+    "footer": {
+        "year": "2025",
+        "rights": "© All Rights Reserved"
+    }
+}

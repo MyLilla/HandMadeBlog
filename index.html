@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/adaptive.css">
+    <script src="translator.js"></script>
 </head>
 
 <body>
@@ -24,27 +25,33 @@
     <header class="container">
         <img class="logo" src="img/logo.png" alt="Soo logo" loading="eager">
         <h1 class="name">Soo</h1>
-        <a href="https://www.instagram.com/o_olgiveris/" id="instaLink" target="_blank" rel="noopener noreferrer"
-            aria-label="Instagram">
-            <img class="insta" src="img/insta.png" alt="Instagram" loading="lazy">
-        </a>
-        <a href="https://www.vinted.es/member/188854989" id="vintedLink" target="_blank" rel="noopener noreferrer"
-            aria-label="Vinted">
-            <img class="vinted" src="img/vinted-svgrepo-com.png" alt="Vinted" loading="lazy">
-        </a>
-        <a href="https://es.wallapop.com/app/profile/info" id="wallapopLink" target="_blank" rel="noopener noreferrer"
-            aria-label="Wallapop">
-            <img class="vinted" src="img/Wallapop.png" alt="Wallapop" loading="lazy">
-        </a>
+        <div class="header-links">
+            <a href="https://www.instagram.com/o_olgiveris/" id="instaLink" target="_blank" rel="noopener noreferrer"
+                data-i18n-aria="header.instagram">
+                <img class="insta" src="img/insta.png" data-i18n-alt="header.instagram" loading="lazy">
+            </a>
+            <a href="https://www.vinted.es/member/188854989" id="vintedLink" target="_blank" rel="noopener noreferrer"
+                data-i18n-aria="header.vinted">
+                <img class="vinted" src="img/vinted-svgrepo-com.png" data-i18n-alt="header.vinted" loading="lazy">
+            </a>
+            <a href="https://es.wallapop.com/app/profile/info" id="wallapopLink" target="_blank"
+                rel="noopener noreferrer" data-i18n-aria="header.wallapop">
+                <img class="vinted" src="img/Wallapop.png" data-i18n-alt="header.wallapop" loading="lazy">
+            </a>
+            <a href="#" id="languageToggle" class="language-toggle" role="button" aria-label="Toggle language">
+                <img class="lang-icon" src="img/lang.png" alt="Language" loading="lazy">
+            </a>
+        </div>
     </header>
     <main>
         <section class="banner">
-            <h1 id="bannerText">Hand Made <br> room</h1>
+            <h1 id="bannerText" data-i18n="banner.title">Hand Made <br> room</h1>
         </section>
 
         <section class="about container">
-            <h2>Nothing is more original than nature</h2>
-            <p>Here you'll find jewelry, decorative items, souvenirs, and perhaps other random handmade products. <br>
+            <h2 data-i18n="about.heading">Nothing is more original than nature</h2>
+            <p data-i18n="about.description">Here you'll find jewelry, decorative items, souvenirs, and perhaps other
+                random handmade products. <br>
                 Each of them has a touch of nature that gives them their own unique character.</p>
         </section>
 
@@ -52,16 +59,16 @@
             <div class="container">
                 <div class="buttons">
                     <div class="ringBtn">
-                        <h2>All</h2>
+                        <h2 data-i18n="menu.all">All</h2>
                     </div>
                     <div class="ringBtn">
-                        <h2>Home</h2>
+                        <h2 data-i18n="menu.home">Home</h2>
                     </div>
                     <div class="ringBtn">
-                        <h2>Jewelry</h2>
+                        <h2 data-i18n="menu.jewelry">Jewelry</h2>
                     </div>
                     <div class="ringBtn">
-                        <h2>Souvenirs</h2>
+                        <h2 data-i18n="menu.souvenirs">Souvenirs</h2>
                     </div>
                 </div>
             </div>
@@ -84,7 +91,7 @@
                 <p></p>
 
                 <div class="cardMenu">
-                    <button class="openModal">available</button>
+                    <button class="openModal" data-i18n="card.available">available</button>
                     <div class="price" hidden></div>
                     <div class="vinted" hidden></div>
                     <div class="wallapop" hidden></div>
@@ -98,17 +105,17 @@
         </section>
 
         <div class="more">
-            <button id="loadMore">...more...</button>
+            <button id="loadMore" data-i18n="buttons.loadMore">...more...</button>
         </div>
     </main>
 
     <footer role="contentinfo">
         <div class="info">
-            <h3> 2025 </h3>
-            <h3> © All Rights Reserved</h3>
+            <h3 data-i18n="footer.year"> 2025 </h3>
+            <h3 data-i18n="footer.rights"> © All Rights Reserved</h3>
         </div>
         <div class="icons">
-            <h2>Contact me</h2>
+            <h2 data-i18n="modal.contact">Contact me</h2>
             <a href="mailto:olga.host.80@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
                 <img class="mail" src="img/mail.png" alt="Email" loading="lazy">
             </a>
@@ -133,12 +140,12 @@
                         <img class="wallapop" src="img/Wallapop.png"></a>
                 </div>
 
-                <h2>Seller price </h2>
+                <h2 data-i18n="modal.sellerPrice">Seller price </h2>
                 <h1 class="sellerPrice"></h1>
 
-                <small>*Without delivery</small>
+                <small data-i18n="modal.without_delivery">*Without delivery</small>
                 <div class="contact">
-                    <p>
+                    <p data-i18n="modal.recommendations">
                         You can give your recommendations and contact me by WhatsApp or email
                     </p>
 
@@ -157,6 +164,14 @@
 
         </div>
     </section>
+
+    <!-- Кнопка к началу страницы -->
+    <div id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top" title="Вверх" role="button" tabindex="0">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </div>
+    </main>
 </body>
 <noscript>
     <div style="padding:1rem;background:#fff3cd;color:#856404;">
