@@ -72,6 +72,18 @@
         "category": "Home"
     },
     {
+        "id": 14,
+        "title": "Paired Bracelets",
+        "description": "Stylish unity in the details. Matching bracelets with tiger's eye beads and other natural stones. Adjustable, perfect for a couple or as a gift.",
+        "category": "Jewelry"
+    },
+    {
+        "id": 15,
+        "title": "Deep Color",
+        "description": "Each bracelet is unique, as each stone is one-of-a-kind. We can put together your perfect set.",
+        "category": "Jewelry"
+    },
+    {
         "id": 101,
         "title": "Sound of the Sea",
         "description": "A wind chime made from natural shells with a soft, marine sound. Create a peaceful, summary atmosphere for your home, patio, or garden.",

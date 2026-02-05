@@ -243,6 +243,45 @@
         "wallapop": "https://es.wallapop.com/item/carillon-de-viento-de-conchas-marinas-1227149940"
     },
     {
+        "id": 14,
+        "imgPreview": "db/PairedBracelets.jpg",
+        "title": "Paired Bracelets",
+        "description": "Stylish unity in the details. Matching bracelets with tiger's eye beads and other natural stones. Adjustable, perfect for a couple or as a gift.",
+        "price": 8,
+        "available": true,
+        "category": "Jewelry",
+        "materials": [
+            "img/stone.png",
+            "img/thread.png"
+        ],
+        "imgs": [
+            "db/PairedBracelets.jpg",
+            "db/PairedBracelets1.jpg",
+            "db/PairedBracelets2.jpg"
+        ],
+        "vinted": "https://www.vinted.es/items/8109645167-pulseras-emparejadas",
+        "wallapop": "https://es.wallapop.com/item/pulseras-macrame-con-piedras-naturales-1227765347"
+    },
+    {
+        "id": 15,
+        "imgPreview": "db/DeepWinter.jpg",
+        "title": "Deep Color",
+        "description": "Each bracelet is unique, as each stone is one-of-a-kind. We can put together your perfect set.",
+        "price": 5,
+        "available": true,
+        "category": "Jewelry",
+        "materials": [
+            "img/stone.png",
+            "img/thread.png"
+        ],
+        "imgs": [
+            "db/DeepColor.jpg",
+            "db/DeepColor1.jpg"
+        ],
+        "vinted": "https://www.vinted.es/items/8109669795-pulseras-con-piedras-naturales",
+        "wallapop": "https://es.wallapop.com/item/pulseras-macrame-piedras-naturales-1227766636"
+    },
+    {
         "id": 101,
         "imgPreview": "db/SoundOfTheSea.jpg",
         "title": "Sound of the Sea",
