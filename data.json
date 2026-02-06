@@ -22,24 +22,25 @@
         "wallapop": "https://es.wallapop.com/item/colgante-piedra-natural-macrame-1219647774"
     },
     {
-        "id": 2,
-        "imgPreview": "db/SeaGlass.JPG",
-        "title": "Sea Glass",
-        "description": "Sea glass keychains from the Costa del Sol. Fragments of a whole become individual personalities, taking on new life.",
-        "price": 7,
+        "id": 7,
+        "imgPreview": "db/DreamCatcher.jpg",
+        "title": "Forest Dreams",
+        "description": "An Indian amulet, with the spirit of the green forest. A decorative home decoration in warm green tones that also protects against nightmares.",
+        "price": 35,
         "available": true,
-        "category": "Souvenirs",
+        "category": "Home",
         "materials": [
-            "img/stone.png",
-            "img/thread.png"
+            "img/thread.png",
+            "img/wood.png",
+            "img/light.png"
         ],
         "imgs": [
-            "db/SeaGlass.JPG",
-            "db/SeaGlass3.JPG",
-            "db/SeaGlass1.JPG"
+            "db/DreamCatcher.jpg",
+            "db/DreamCatcher1.jpg",
+            "db/DreamCatcher2.jpg"
         ],
-        "vinted": "https://www.vinted.es/items/7879367323-sea-glass-keychains",
-        "wallapop": "https://es.wallapop.com/item/llaveros-de-vidrio-marino-artesanales-1219648511"
+        "vinted": "https://www.vinted.es/items/7548105516-dream-catcher",
+        "wallapop": "https://es.wallapop.com/item/atrapasuenos-artesanal-1219654030"
     },
     {
         "id": 3,
@@ -60,6 +61,26 @@
         ],
         "vinted": "https://www.vinted.es/items/7377203890-earrings-bird-dances",
         "wallapop": "https://es.wallapop.com/item/pendientes-de-plumas-y-piedras-1219649860"
+    },
+    {
+        "id": 2,
+        "imgPreview": "db/SeaGlass.JPG",
+        "title": "Sea Glass",
+        "description": "Sea glass keychains from the Costa del Sol. Fragments of a whole become individual personalities, taking on new life.",
+        "price": 7,
+        "available": true,
+        "category": "Souvenirs",
+        "materials": [
+            "img/stone.png",
+            "img/thread.png"
+        ],
+        "imgs": [
+            "db/SeaGlass.JPG",
+            "db/SeaGlass3.JPG",
+            "db/SeaGlass1.JPG"
+        ],
+        "vinted": "https://www.vinted.es/items/7879367323-sea-glass-keychains",
+        "wallapop": "https://es.wallapop.com/item/llaveros-de-vidrio-marino-artesanales-1219648511"
     },
     {
         "id": 4,
@@ -119,27 +140,6 @@
         ],
         "vinted": "https://www.vinted.es/items/7695552234-indian-necklace",
         "wallapop": "https://es.wallapop.com/item/colgante-etnico-madera-y-cuerda-1219652830"
-    },
-    {
-        "id": 7,
-        "imgPreview": "db/DreamCatcher.jpg",
-        "title": "Forest Dreams",
-        "description": "An Indian amulet, with the spirit of the green forest. A decorative home decoration in warm green tones that also protects against nightmares.",
-        "price": 35,
-        "available": true,
-        "category": "Home",
-        "materials": [
-            "img/thread.png",
-            "img/wood.png",
-            "img/light.png"
-        ],
-        "imgs": [
-            "db/DreamCatcher.jpg",
-            "db/DreamCatcher1.jpg",
-            "db/DreamCatcher2.jpg"
-        ],
-        "vinted": "https://www.vinted.es/items/7548105516-dream-catcher",
-        "wallapop": "https://es.wallapop.com/item/atrapasuenos-artesanal-1219654030"
     },
     {
         "id": 8,

@@ -147,7 +147,7 @@ header {
 .lang-icon {
     width: 3.625rem;
     height: 3.625rem;
-    transition: transform 0.2s;
+    transition: transform 0.1s;
 }
 
 .banner {
@@ -302,6 +302,11 @@ footer a:hover {
     gap: 1.5rem;
 }
 
+.icon {
+    width: auto;
+    height: 3rem;
+}
+
 .mail,
 .whatsapp,
 .vinted,
@@ -344,10 +349,42 @@ footer a:hover {
     background: var(--card-bg);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
-    width: clamp(20rem, 40%, 50rem);
+    width: clamp(20rem, 70%, 70rem);
     padding: 1.5rem;
     max-height: 90vh;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-content-wrapper {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.modal-swiper-container {
+    flex: 0 0 35%;
+    min-width: 200px;
+}
+
+.modal-swiper {
+    width: 100%;
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.modal-swiper .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-swiper img.photo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .close {
@@ -453,4 +490,8 @@ small {
 .scroll-to-top svg {
     width: 1.5rem;
     height: 1.5rem;
+}
+
+.photo {
+    border-radius: 20px;
 }

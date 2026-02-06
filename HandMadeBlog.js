@@ -5,10 +5,20 @@ let renderIndex = 0;
 let currentCategory = "All";
 let filteredData = [];
 
+// Функция для перемешивания массива в случайный порядок (Fisher-Yates shuffle)
+function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
+
 async function initializeApp() {
     // Ждем загрузки переводов и данных
     await translator.waitForTranslations();
-    
+
     // Загружаем базовые данные для ID и изображений
     fetch('data.json')
         .then(response => response.json())
@@ -34,6 +44,8 @@ function updateProductData() {
             originalCategory: item.category  // Сохраняем оригинальную категорию
         };
     });
+    // Перемешиваем данные в случайный порядок
+    allData = shuffleArray(allData);
 }
 
 // Инициализация приложения
@@ -82,6 +94,8 @@ function createCard(item) {
         btn.textContent = translator.get("card.available");
         btn.removeAttribute("data-unavailable");
     }
+    // Сохраняем фото в атрибут кнопки
+    btn.setAttribute("data-imgs", JSON.stringify(item.imgs));
     return { el: tpl, id: swiperId };
 }
 
@@ -107,8 +121,9 @@ function filterByCategory(category) {
     if (category === "All") {
         filteredData = [];
     } else {
-        // Используем оригинальную категорию для фильтрации
-        filteredData = allData.filter(item => item.originalCategory === category);
+        // Используем оригинальную категорию для фильтрации и перемешиваем результаты
+        const filtered = allData.filter(item => item.originalCategory === category);
+        filteredData = shuffleArray(filtered);
     }
     renderBatch(6);
     modalLouded();
@@ -143,6 +158,8 @@ document.getElementById("loadMore").addEventListener("click", () => {
 // modal
 let modal = document.getElementById('modal');
 let closeBtn = document.getElementById('closeModal');
+let modalSwiperInstance = null;
+
 function modalLouded() {
     document.querySelectorAll('.openModal').forEach(button => {
 
@@ -170,6 +187,35 @@ function modalLouded() {
             }
             document.querySelector('.vintedLink').setAttribute("href", vinted);
             document.querySelector('.wallapopLink').setAttribute("href", wallapop);
+
+            // Обновляем фото в слайдере модального окна
+            const imgsData = e.target.getAttribute('data-imgs');
+            if (imgsData) {
+                const imgs = JSON.parse(imgsData);
+                const wrapper = document.getElementById('modalSwiperWrapper');
+                wrapper.innerHTML = '';
+                imgs.forEach(src => {
+                    wrapper.insertAdjacentHTML('beforeend',
+                        `<img class="swiper-slide photo" src="${src}">`
+                    );
+                });
+
+                // Уничтожим старый свайпер и создадим новый
+                if (modalSwiperInstance) {
+                    modalSwiperInstance.destroy();
+                }
+                modalSwiperInstance = new Swiper('.modal-swiper', {
+                    loop: true,
+                    pagination: {
+                        el: '.modal-swiper .swiper-pagination',
+                        clickable: true
+                    },
+                    navigation: {
+                        nextEl: '.modal-swiper .swiper-button-next',
+                        prevEl: '.modal-swiper .swiper-button-prev'
+                    },
+                });
+            }
 
         })
     })
@@ -201,12 +247,12 @@ const categoryMap = {
 window.addEventListener('languageChanged', () => {
     // Обновить данные товаров
     updateProductData();
-    
+
     // Перерендерить карточки
     renderIndex = 0;
     document.getElementById("cards").innerHTML = "";
     filterByCategory("All");
-    
+
     // Обновить текст на карточках
     document.querySelectorAll('.openModal').forEach(btn => {
         const unavailable = btn.getAttribute('data-unavailable');

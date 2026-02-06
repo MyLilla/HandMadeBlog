@@ -1,5 +1,16 @@
 /* Адаптивные стили — оптимизированы с использованием переменных и clamp() */
 
+/* Экраны меньше 930px - скрыть слайдер в модальном окне */
+@media (max-width: 58.125rem) {
+    .modal-swiper-container {
+        display: none;
+    }
+
+    .modal-content-wrapper {
+        flex-direction: column;
+    }
+}
+
 /* Планшеты: 1024px и меньше */
 @media (max-width: 64rem) {
     h1 {
@@ -8,6 +19,14 @@
 
     .product-card {
         max-width: 50rem;
+    }
+
+    .modal-content-wrapper {
+        flex-direction: column;
+    }
+
+    .modal-swiper-container {
+        flex: 0 0 100%;
     }
 }
 
@@ -121,6 +140,15 @@
         width: clamp(16rem, 95%, 25rem);
         padding: 1rem 0.5rem;
         max-height: 95vh;
+    }
+
+    .modal-content-wrapper {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .modal-swiper-container {
+        flex: 0 0 100%;
     }
 
     .close {
