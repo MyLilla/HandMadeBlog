@@ -3,7 +3,6 @@
         "id": 1,
         "imgPreview": "db/TalismanStone.jpg",
         "title": "Talisman Stone",
-        "description": "Keychains with talismanic stones corresponding to your zodiac sign. Amazonite, Citrine, Aventurine, Blue Apatite, or your personal stone.",
         "price": 12,
         "available": true,
         "category": "Souvenirs",
@@ -16,51 +15,11 @@
             "db/TalismanStone1.jpg",
             "db/TalismanStone2.jpg",
             "db/TalismanStone3.jpg",
-            "db/TalismanStone4.jpg"
+            "db/TalismanStone4.jpg",
+            "db/TalismanStone5.jpg"
         ],
         "vinted": "https://www.vinted.es/items/7879207041-talisman-stone",
         "wallapop": "https://es.wallapop.com/item/colgante-piedra-natural-macrame-1219647774"
-    },
-    {
-        "id": 7,
-        "imgPreview": "db/DreamCatcher.jpg",
-        "title": "Forest Dreams",
-        "description": "An Indian amulet, with the spirit of the green forest. A decorative home decoration in warm green tones that also protects against nightmares.",
-        "price": 35,
-        "available": true,
-        "category": "Home",
-        "materials": [
-            "img/thread.png",
-            "img/wood.png",
-            "img/light.png"
-        ],
-        "imgs": [
-            "db/DreamCatcher.jpg",
-            "db/DreamCatcher1.jpg",
-            "db/DreamCatcher2.jpg"
-        ],
-        "vinted": "https://www.vinted.es/items/7548105516-dream-catcher",
-        "wallapop": "https://es.wallapop.com/item/atrapasuenos-artesanal-1219654030"
-    },
-    {
-        "id": 3,
-        "imgPreview": "db/BirdDances.JPG",
-        "title": "Bird Dances",
-        "description": "Asymmetrical, lightweight quail feather earrings with stones and beads are able to catch every movement of the air.",
-        "price": 7,
-        "available": true,
-        "category": "Jewelry",
-        "materials": [
-            "img/stone.png",
-            "img/light.png"
-        ],
-        "imgs": [
-            "db/BirdDances.JPG",
-            "db/BirdDances1.JPG",
-            "db/BirdDances2.JPG"
-        ],
-        "vinted": "https://www.vinted.es/items/7377203890-earrings-bird-dances",
-        "wallapop": "https://es.wallapop.com/item/pendientes-de-plumas-y-piedras-1219649860"
     },
     {
         "id": 2,
@@ -83,10 +42,29 @@
         "wallapop": "https://es.wallapop.com/item/llaveros-de-vidrio-marino-artesanales-1219648511"
     },
     {
+        "id": 3,
+        "imgPreview": "db/BirdDances.JPG",
+        "title": "Bird Dances",
+        "price": 7,
+        "available": true,
+        "category": "Jewelry",
+        "materials": [
+            "img/stone.png",
+            "img/light.png"
+        ],
+        "imgs": [
+            "db/BirdDances.JPG",
+            "db/BirdDances1.JPG",
+            "db/BirdDances2.JPG",
+            "db/BirdDances3.JPG"
+        ],
+        "vinted": "https://www.vinted.es/items/7377203890-earrings-bird-dances",
+        "wallapop": "https://es.wallapop.com/item/pendientes-de-plumas-y-piedras-1219649860"
+    },
+    {
         "id": 4,
-        "imgPreview": "db/GrayMoon.JPG",
+        "imgPreview": "db/GrayMoon.jpg",
         "title": "Gray Moon set",
-        "description": "A set of jewelry that includes two chokers and a short pendant with a moon-colored coastal stone.",
         "price": 12,
         "available": true,
         "category": "Jewelry",
@@ -94,10 +72,10 @@
             "img/stone.png"
         ],
         "imgs": [
-            "db/GrayMoon.JPG",
-            "db/GrayMoon1.JPG",
-            "db/GrayMoon2.JPG",
-            "db/GrayMoon3.JPG"
+            "db/GrayMoon.jpg",
+            "db/GrayMoon1.jpg",
+            "db/GrayMoon2.jpg",
+            "db/GrayMoon3.jpg"
         ],
         "vinted": "https://www.vinted.es/items/7260849607-gray-moon-set",
         "wallapop": "https://es.wallapop.com/item/gargantillas-y-colgante-corto-1219651410"
@@ -106,7 +84,6 @@
         "id": 5,
         "imgPreview": "db/MolluskCouple.JPG",
         "title": "Mollusk couple",
-        "description": "Light necklace with shell. The pearl shine is always reminiscent of the brightness of the summer sun.",
         "price": 9,
         "available": true,
         "category": "Jewelry",
@@ -126,7 +103,6 @@
         "id": 6,
         "imgPreview": "db/Indian.jpg",
         "title": "Indian",
-        "description": "An ethnic pendant crafted from tree bark on a braided cord in a warm shade. Incredibly lightweight, it's perfect for both summer and fall looks.",
         "price": 9,
         "available": true,
         "category": "Jewelry",
@@ -142,10 +118,29 @@
         "wallapop": "https://es.wallapop.com/item/colgante-etnico-madera-y-cuerda-1219652830"
     },
     {
+        "id": 7,
+        "imgPreview": "db/DreamCatcher.jpg",
+        "title": "Forest Dreams",
+        "price": 35,
+        "available": true,
+        "category": "Home",
+        "materials": [
+            "img/thread.png",
+            "img/wood.png",
+            "img/light.png"
+        ],
+        "imgs": [
+            "db/DreamCatcher.jpg",
+            "db/DreamCatcher1.jpg",
+            "db/DreamCatcher2.jpg"
+        ],
+        "vinted": "https://www.vinted.es/items/7548105516-dream-catcher",
+        "wallapop": "https://es.wallapop.com/item/atrapasuenos-artesanal-1219654030"
+    },
+    {
         "id": 8,
         "imgPreview": "db/MemoryOfTheSea.jpg",
         "title": "Memory Of The Sea",
-        "description": "A contrasting sea glass pendant in warm brown and shimmering metal branches. Severity and softness in one piece.",
         "price": 11,
         "available": true,
         "category": "Jewelry",
@@ -164,7 +159,6 @@
         "id": 9,
         "imgPreview": "db/ChristmasStars.jpg",
         "title": "Stars",
-        "description": "Warm-toned decor made from natural materials will help create a cozy atmosphere without the clutter. Safe for pets and children.",
         "price": 10,
         "available": true,
         "category": "Home",
@@ -183,7 +177,6 @@
         "id": 11,
         "imgPreview": "db/Spirals.jpg",
         "title": "Spirals",
-        "description": "A set of earrings in different colors in the shape of spirals, you can change and combine them with each other",
         "price": 15,
         "available": true,
         "category": "Jewelry",
@@ -202,31 +195,8 @@
     },
     {
         "id": 12,
-        "imgPreview": "db/MotherOfPearl.jpg",
-        "title": "Mother of Pearl",
-        "description": "A hanging interior decor made from natural seashells and mother-of-pearl. It softly reflects light, creating an atmosphere of calm and comfort.",
-        "price": 15,
-        "available": false,
-        "category": "Home",
-        "materials": [
-            "img/shell.png",
-            "img/thread.png",
-            "img/wood.png"
-        ],
-        "imgs": [
-            "db/MotherOfPearl.jpg",
-            "db/MotherOfPearl2.jpg",
-            "db/MotherOfPearl3.jpg",
-            "db/MotherOfPearl4.jpg"
-        ],
-        "vinted": "https://www.vinted.es/items/7923042652-hanging-interior-decor",
-        "wallapop": "https://es.wallapop.com/item/decoracion-colgante-de-conchas-y-cuentas-1219661358"
-    },
-    {
-        "id": 13,
         "imgPreview": "db/StrongWind.jpg",
         "title": "Strong Wind",
-        "description": "Wind Chime hanging decoration made from natural seashells. Suitable for outdoor use.",
         "price": 15,
         "available": true,
         "category": "Home",
@@ -243,10 +213,9 @@
         "wallapop": "https://es.wallapop.com/item/carillon-de-viento-de-conchas-marinas-1227149940"
     },
     {
-        "id": 14,
+        "id": 13,
         "imgPreview": "db/PairedBracelets.jpg",
         "title": "Paired Bracelets",
-        "description": "Stylish unity in the details. Matching bracelets with tiger's eye beads and other natural stones. Adjustable, perfect for a couple or as a gift.",
         "price": 8,
         "available": true,
         "category": "Jewelry",
@@ -263,10 +232,9 @@
         "wallapop": "https://es.wallapop.com/item/pulseras-macrame-con-piedras-naturales-1227765347"
     },
     {
-        "id": 15,
+        "id": 14,
         "imgPreview": "db/DeepWinter.jpg",
         "title": "Deep Color",
-        "description": "Each bracelet is unique, as each stone is one-of-a-kind. We can put together your perfect set.",
         "price": 5,
         "available": true,
         "category": "Jewelry",
@@ -285,7 +253,6 @@
         "id": 101,
         "imgPreview": "db/SoundOfTheSea.jpg",
         "title": "Sound of the Sea",
-        "description": "A wind chime made from natural shells with a soft, marine sound. Create a peaceful, summary atmosphere for your home, patio, or garden.",
         "price": 28,
         "available": false,
         "category": "Home",
@@ -303,7 +270,6 @@
         "id": 102,
         "imgPreview": "db/Domino.jpg",
         "title": "Domino Game",
-        "description": "Italian game originated in China (surprising fact). But in this set, the stones were replaced with plastic. The rules remain the same as in the 18th century.",
         "price": 28,
         "available": false,
         "category": "Souvenirs",
@@ -319,7 +285,6 @@
         "id": 103,
         "imgPreview": "db/MagicTree.jpg",
         "title": "Magic tree",
-        "description": "Traces of a city built by bark beetles in the Siberian forests. The unique curves of the corridors are forever imprinted onthis piece of wood.",
         "price": 30,
         "available": false,
         "category": "Jewelry",
@@ -335,8 +300,7 @@
         "id": 104,
         "imgPreview": "db/Rings.jpg",
         "title": "Rings",
-        "description": "A delicate amulet, made entirely by hand. Cotton thread, wood, and a few stones.",
-        "price": 20.55,
+        "price": 20,
         "available": false,
         "category": "Home",
         "materials": [
@@ -353,7 +317,6 @@
         "id": 105,
         "imgPreview": "db/MoonCandle.jpg",
         "title": "Moon Land",
-        "description": "There's nothing special about cement, just like the surface of the moon— just dust. But in the light, this simplicity is transformed a hundredfold.",
         "price": 7,
         "available": false,
         "category": "Home",
@@ -369,7 +332,6 @@
         "id": 106,
         "imgPreview": "db/CoastalShell.JPG",
         "title": "Coastal Shell",
-        "description": "A piece of shell from the Andalusian coast. After a harsh adventure on the seabed, this fragment of shell has found new life in theembrace of soft cotton.",
         "price": 16,
         "available": false,
         "category": "Jewelry",
@@ -385,7 +347,6 @@
         "id": 107,
         "imgPreview": "db/Orange.jpg",
         "title": "Orange",
-        "description": "Citrine crystal. A semi-precious stone that suits almost all zodiac signs. The crystal provides its owner with energetic support during periods of low energy, apathy, and depression.",
         "price": 18,
         "available": false,
         "category": "Jewelry",
@@ -402,7 +363,6 @@
         "id": 108,
         "imgPreview": "db/Chaos.jpg",
         "title": "Chaos",
-        "description": "Wind chimes in a chaotic style with random shells, each of which sounds different. A great gift for those who love the sea and its sounds.",
         "price": 20,
         "available": false,
         "category": "Home",
@@ -417,5 +377,26 @@
         ],
         "vinted": "",
         "wallapop": "https://es.wallapop.com/item/colgante-de-conchas-estilo-caotico-1219659164"
+    },
+    {
+        "id": 109,
+        "imgPreview": "db/MotherOfPearl.jpg",
+        "title": "Mother of Pearl",
+        "price": 15,
+        "available": false,
+        "category": "Home",
+        "materials": [
+            "img/shell.png",
+            "img/thread.png",
+            "img/wood.png"
+        ],
+        "imgs": [
+            "db/MotherOfPearl.jpg",
+            "db/MotherOfPearl2.jpg",
+            "db/MotherOfPearl3.jpg",
+            "db/MotherOfPearl4.jpg"
+        ],
+        "vinted": "https://www.vinted.es/items/7923042652-hanging-interior-decor",
+        "wallapop": "https://es.wallapop.com/item/decoracion-colgante-de-conchas-y-cuentas-1219661358"
     }
 ]

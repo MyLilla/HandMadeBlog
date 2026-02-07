@@ -61,24 +61,18 @@
     },
     {
         "id": 12,
-        "title": "Mother of Pearl",
-        "description": "A hanging interior decor made from natural seashells and mother-of-pearl. It softly reflects light, creating an atmosphere of calm and comfort.",
-        "category": "Home"
-    },
-    {
-        "id": 13,
         "title": "Strong Wind",
         "description": "Wind Chime hanging decoration made from natural seashells. Suitable for outdoor use.",
         "category": "Home"
     },
     {
-        "id": 14,
+        "id": 13,
         "title": "Paired Bracelets",
         "description": "Stylish unity in the details. Matching bracelets with tiger's eye beads and other natural stones. Adjustable, perfect for a couple or as a gift.",
         "category": "Jewelry"
     },
     {
-        "id": 15,
+        "id": 14,
         "title": "Deep Color",
         "description": "Each bracelet is unique, as each stone is one-of-a-kind. We can put together your perfect set.",
         "category": "Jewelry"
@@ -129,6 +123,12 @@
         "id": 108,
         "title": "Chaos",
         "description": "Wind chimes in a chaotic style with random shells, each of which sounds different. A great gift for those who love the sea and its sounds.",
+        "category": "Home"
+    },
+    {
+        "id": 109,
+        "title": "Mother of Pearl",
+        "description": "A hanging interior decor made from natural seashells and mother-of-pearl. It softly reflects light, creating an atmosphere of calm and comfort.",
         "category": "Home"
     }
 ]

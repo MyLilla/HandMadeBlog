@@ -22,15 +22,15 @@
         "notAvailable": "not available"
     },
     "buttons": {
-        "loadMore": "...more..."
+        "loadMore": "See more"
     },
     "modal": {
         "sellerPrice": "Seller price",
         "without_delivery": "*Without delivery",
-        "recommendations": "You can give your recommendations and contact me by WhatsApp or email",
+        "recommendations": "I would be grateful for recommendations and feedback.",
         "contact": "Contact me",
         "available": "At the moment, you can purchase the product here:",
-        "notAvailableOrder": "The product is currently not available for purchase. You can order it."
+        "notAvailableOrder": "Sold out. You can order something similar by contacting me via WhatsApp or email."
     },
     "footer": {
         "year": "2025",
