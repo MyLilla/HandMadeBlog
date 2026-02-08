@@ -180,9 +180,11 @@ function modalLouded() {
             let status = card.querySelector('.status').textContent.trim();
             if (status === "true") {
                 document.querySelector('.vintedLink').style.display = "block";
+                document.querySelector('.wallapopLink').style.display = "block";
                 document.querySelector('.order p').textContent = translator.get("modal.available");
             } else {
                 document.querySelector('.vintedLink').style.display = "none";
+                document.querySelector('.wallapopLink').style.display = "none";
                 document.querySelector('.order p').textContent = translator.get("modal.notAvailableOrder")
             }
             document.querySelector('.vintedLink').setAttribute("href", vinted);

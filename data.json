@@ -31,9 +31,9 @@
             "img/thread.png"
         ],
         "imgs": [
-            "db/SeaGlass.JPG",
-            "db/SeaGlass3.JPG",
-            "db/SeaGlass1.JPG"
+            "db/SeaGlass.jpg",
+            "db/SeaGlass2.JPG",
+            "db/SeaGlass3.JPG"
         ],
         "vinted": "https://www.vinted.es/items/7879367323-sea-glass-keychains",
         "wallapop": "https://es.wallapop.com/item/llaveros-de-vidrio-marino-artesanales-1219648511"
@@ -69,10 +69,8 @@
             "img/stone.png"
         ],
         "imgs": [
-            "db/GrayMoon.JPG",
-            "db/GrayMoon1.JPG",
-            "db/GrayMoon2.JPG",
-            "db/GrayMoon3.JPG"
+            "db/GrayMoon.jpg",
+            "db/GrayMoon1.JPG"
         ],
         "vinted": "https://www.vinted.es/items/7260849607-gray-moon-set",
         "wallapop": "https://es.wallapop.com/item/gargantillas-y-colgante-corto-1219651410"
@@ -253,7 +251,7 @@
         "imgs": [
             "db/SoundOfTheSea.jpg",
             "db/SoundOfTheSea1.jpg",
-            "db/SoundOfTheSea3.jpg"
+            "db/SoundOfTheSea2.jpg"
         ]
     },
     {
