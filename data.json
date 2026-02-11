@@ -20,7 +20,7 @@
     },
     {
         "id": 2,
-        "imgPreview": "db/SeaGlass.jpg",
+        "imgPreview": "db/SeaGlass3.jpg",
         "title": "Sea Glass",
         "description": "Sea glass keychains from the Costa del Sol. Fragments of a whole become individual personalities, taking on new life.",
         "price": 13,
@@ -250,7 +250,8 @@
         "imgs": [
             "db/Domino.jpg",
             "db/Domino1.jpg",
-            "db/Domino2.jpg"
+            "db/Domino2.jpg",
+            "db/Domino3.jpg"
         ],
         "vinted": "https://www.vinted.es/items/8148845802-domino-game",
         "wallapop": "https://es.wallapop.com/item/juego-de-domino-negro-con-detalles-dorados-1229671076"
