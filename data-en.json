@@ -18,12 +18,6 @@
         "category": "Jewelry"
     },
     {
-        "id": 4,
-        "title": "Gray Moon set",
-        "description": "A set of jewelry that includes two chokers and a short pendant with a moon-colored coastal stone.",
-        "category": "Jewelry"
-    },
-    {
         "id": 5,
         "title": "Mollusk couple",
         "description": "Light necklace with shell. The pearl shine is always reminiscent of the brightness of the summer sun.",
@@ -130,5 +124,11 @@
         "title": "Mother of Pearl",
         "description": "A hanging interior decor made from natural seashells and mother-of-pearl. It softly reflects light, creating an atmosphere of calm and comfort.",
         "category": "Home"
+    },
+    {
+        "id": 110,
+        "title": "Gray Moon set",
+        "description": "A set of jewelry that includes two chokers and a short pendant with a moon-colored coastal stone.",
+        "category": "Jewelry"
     }
 ]

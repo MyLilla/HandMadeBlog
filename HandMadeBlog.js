@@ -339,9 +339,22 @@ gsap.from(".insta, .vinted, .lang-icon ", {
 
 let buttons = document.querySelectorAll(".ringBtn");
 
-for (let i = 0; i <= buttons.length; i++) {
+for (let i = 0; i < buttons.length; i++) {
     gsap.from(buttons[i], {
         y: 250,
-        duration: i / 2,
+        duration: (i + 1) / 2,
     })
 }
+
+// Disable text selection (except form controls) and prevent dragging images
+document.addEventListener('selectstart', function (e) {
+    const tag = e.target.tagName;
+    if (tag !== 'INPUT' && tag !== 'TEXTAREA' && tag !== 'SELECT' && tag !== 'BUTTON') {
+        e.preventDefault();
+    }
+});
+
+// Ensure images are not draggable
+document.querySelectorAll('img').forEach(img => {
+    img.setAttribute('draggable', 'false');
+});

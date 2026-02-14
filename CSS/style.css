@@ -256,6 +256,13 @@ header {
     text-align: center;
 }
 
+/* Fixed height for card paragraph — JS will shrink font-size if needed */
+.card p {
+    height: 5.5rem;
+    overflow: initial;
+    line-height: 1.2;
+}
+
 .cardMenu {
     justify-content: space-around;
     align-items: center;
@@ -495,4 +502,33 @@ small {
 
 .photo {
     border-radius: 20px;
+}
+
+/* Disable selection and image dragging across the site (allow form controls) */
+html,
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+input,
+textarea,
+select,
+button {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    user-drag: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
