@@ -14,6 +14,12 @@ function shuffleArray(array) {
     }
     return shuffled;
 }
+// Функция для сортировки по доступности: сначала доступные, затем недоступные
+function availableArray(array) {
+    const availableItems = array.filter(item => item.available);
+    const unavailableItems = array.filter(item => !item.available);
+    return [...availableItems, ...unavailableItems];
+}
 
 async function initializeApp() {
     // Ждем загрузки переводов и данных
@@ -45,7 +51,8 @@ function updateProductData() {
         };
     });
     // Перемешиваем данные в случайный порядок
-    allData = shuffleArray(allData);
+    const randomData = shuffleArray(allData);
+    allData = availableArray(randomData);
 }
 
 // Инициализация приложения
@@ -123,7 +130,8 @@ function filterByCategory(category) {
     } else {
         // Используем оригинальную категорию для фильтрации и перемешиваем результаты
         const filtered = allData.filter(item => item.originalCategory === category);
-        filteredData = shuffleArray(filtered);
+        const randomData = shuffleArray(filtered);
+        filteredData = availableArray(randomData);
     }
     renderBatch(6);
     modalLouded();
