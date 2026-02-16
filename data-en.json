@@ -48,12 +48,6 @@
         "category": "Home"
     },
     {
-        "id": 9,
-        "title": "Spirals",
-        "description": "A set of earrings in different colors in the shape of spirals, you can change and combine them with each other",
-        "category": "Jewelry"
-    },
-    {
         "id": 10,
         "title": "Strong Wind",
         "description": "Wind Chime hanging decoration made from natural seashells. Suitable for outdoor use.",
@@ -67,8 +61,8 @@
     },
     {
         "id": 12,
-        "title": "Deep Color",
-        "description": "Each bracelet is unique, as each stone is one-of-a-kind. We can put together your perfect set.",
+        "title": "Harmony of the Elements",
+        "description": "Minimalist bracelets with natural stones in warm shades. Hand-woven, adjustable clasp. A stylish everyday accessory or a symbolic gift.",
         "category": "Jewelry"
     },
     {
@@ -111,12 +105,6 @@
         "id": 20,
         "title": "Chaos",
         "description": "Wind chimes in a chaotic style with random shells, each of which sounds different. A great gift for those who love the sea and its sounds.",
-        "category": "Home"
-    },
-    {
-        "id": 21,
-        "title": "Mother of Pearl",
-        "description": "A hanging interior decor made from natural seashells and mother-of-pearl. It softly reflects light, creating an atmosphere of calm and comfort.",
         "category": "Home"
     }
 ]

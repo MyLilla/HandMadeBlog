@@ -48,12 +48,6 @@
         "category": "Home"
     },
     {
-        "id": 9,
-        "title": "Espirales",
-        "description": "Un conjunto de pendientes en diferentes colores en forma de espirales, puedes cambiar y combinarlos entre sí.",
-        "category": "Jewelry"
-    },
-    {
         "id": 10,
         "title": "Viento Fuerte",
         "description": "Decoración colgante de viento hecha de conchas naturales. Apta para uso exterior.",
@@ -67,8 +61,8 @@
     },
     {
         "id": 12,
-        "title": "Color Profundo",
-        "description": "Cada pulsera es única, ya que cada piedra es única. Podemos armar tu conjunto perfecto.",
+        "title": "Armonía de los Elementos",
+        "description": "Pulseras minimalistas con piedras naturales en tonos cálidos. Hechas a mano, con cierre ajustable. Un accesorio elegante para el día a día o un regalo simbólico.",
         "category": "Jewelry"
     },
     {
@@ -111,12 +105,6 @@
         "id": 20,
         "title": "Caos",
         "description": "Carillones de viento en un estilo caótico con conchas aleatorias, cada una de las cuales suena diferente. Un gran regalo para aquellos que aman el mar y sus sonidos.",
-        "category": "Home"
-    },
-    {
-        "id": 21,
-        "title": "Madreperla",
-        "description": "Una decoración interior colgante hecha de conchas naturales y madreperla. Refleja suavemente la luz, creando una atmósfera de calma y comodidad.",
         "category": "Home"
     }
 ]

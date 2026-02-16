@@ -152,22 +152,6 @@
         "wallapop": "https://es.wallapop.com/item/estrellas-decorativas-madera-y-yute-1219657861"
     },
     {
-        "id": 9,
-        "imgPreview": "db/Spirals.jpg",
-        "title": "Spirals",
-        "price": 15,
-        "available": true,
-        "category": "Jewelry",
-        "materials": [],
-        "imgs": [
-            "db/Spirals.jpg",
-            "db/Spirals1.jpg",
-            "db/Spirals2.jpg"
-        ],
-        "vinted": "https://www.vinted.es/items/7896984753-spirals-earrings",
-        "wallapop": "https://es.wallapop.com/user/olgak-440412669"
-    },
-    {
         "id": 10,
         "imgPreview": "db/StrongWind.jpg",
         "title": "Strong Wind",
@@ -205,9 +189,9 @@
     },
     {
         "id": 12,
-        "imgPreview": "db/DeepWinter.jpg",
-        "title": "Deep Color",
-        "price": 5,
+        "imgPreview": "db/DeepColor.jpg",
+        "title": "Harmony of the Elements",
+        "price": 10,
         "available": true,
         "category": "Jewelry",
         "materials": [
@@ -333,25 +317,5 @@
         ],
         "vinted": "",
         "wallapop": "https://es.wallapop.com/item/colgante-de-conchas-estilo-caotico-1219659164"
-    },
-    {
-        "id": 21,
-        "imgPreview": "db/MotherOfPearl.jpg",
-        "title": "Mother of Pearl",
-        "price": 15,
-        "available": false,
-        "category": "Home",
-        "materials": [
-            "img/shell.png",
-            "img/thread.png",
-            "img/wood.png"
-        ],
-        "imgs": [
-            "db/MotherOfPearl.jpg",
-            "db/MotherOfPearl2.jpg",
-            "db/MotherOfPearl3.jpg"
-        ],
-        "vinted": "https://www.vinted.es/items/7923042652-hanging-interior-decor",
-        "wallapop": "https://es.wallapop.com/item/decoracion-colgante-de-conchas-y-cuentas-1219661358"
     }
 ]
