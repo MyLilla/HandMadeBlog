@@ -1,0 +1,41 @@
+{
+    "header": {
+        "instagram": "Instagram",
+        "vinted": "Vinted",
+        "wallapop": "Wallapop"
+    },
+    "banner": {
+        "title": "Tienda <br> Hecha a Mano"
+    },
+    "about": {
+        "heading": "Nada es más original que la naturaleza",
+        "description": "Aquí encontrarás joyas, artículos decorativos, souvenirs y quizás otros productos hechos a mano. <br>\n                Cada uno de ellos tiene un toque de naturaleza que les da su propio carácter único."
+    },
+    "menu": {
+        "all": "Todo",
+        "home": "Casa",
+        "jewelry": "Joyas",
+        "souvenirs": "Souvenirs",
+        "archive": "Archivo",
+        "availableOnly": "Solo disponibles"
+    },
+    "card": {
+        "available": "disponible",
+        "notAvailable": "no disponible"
+    },
+    "buttons": {
+        "loadMore": "Ver más"
+    },
+    "modal": {
+        "sellerPrice": "Precio del vendedor",
+        "without_delivery": "*Sin envío",
+        "recommendations": "Estaré agradecida por recomendaciones y comentarios.",
+        "contact": "Contáctame",
+        "available": "En este momento, puedes comprar el producto aquí:",
+        "notAvailableOrder": "Agotado. Puedes pedir algo similar poniéndome en contacto vía WhatsApp o correo electrónico."
+    },
+    "footer": {
+        "year": "2026",
+        "rights": "© Creado por mí e IA"
+    }
+}

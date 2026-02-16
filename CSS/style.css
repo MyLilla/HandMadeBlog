@@ -128,8 +128,21 @@ header {
 
 .language-toggle {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 0.25rem;
+}
+
+.lang-abbr {
+    font-size: 0.65rem;
+    font-weight: bold;
+    color: var(--color-text);
+    min-width: 18px;
+    text-align: center;
+    line-height: 1;
+    text-decoration: none !important;
+    display: block;
 }
 
 .language-toggle:hover .lang-icon {

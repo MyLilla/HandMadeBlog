@@ -17,12 +17,14 @@ class Translator {
 
     async initTranslations() {
         try {
-            const [enRes, ruRes] = await Promise.all([
+            const [enRes, ruRes, esRes] = await Promise.all([
                 fetch('translations/en.json'),
-                fetch('translations/ru.json')
+                fetch('translations/ru.json'),
+                fetch('translations/es.json')
             ]);
             this.translations.en = await enRes.json();
             this.translations.ru = await ruRes.json();
+            this.translations.es = await esRes.json();
         } catch (error) {
             console.error('Error loading translations:', error);
         }
@@ -30,12 +32,14 @@ class Translator {
 
     async initData() {
         try {
-            const [enRes, ruRes] = await Promise.all([
+            const [enRes, ruRes, esRes] = await Promise.all([
                 fetch('data-en.json'),
-                fetch('data-ru.json')
+                fetch('data-ru.json'),
+                fetch('data-es.json')
             ]);
             this.data.en = await enRes.json();
             this.data.ru = await ruRes.json();
+            this.data.es = await esRes.json();
         } catch (error) {
             console.error('Error loading data:', error);
         }
@@ -55,7 +59,7 @@ class Translator {
     get(key, language = this.currentLanguage) {
         const keys = key.split('.');
         let value = this.translations[language];
-        
+
         for (const k of keys) {
             if (value && typeof value === 'object') {
                 value = value[k];
@@ -104,8 +108,21 @@ class Translator {
         // Обновить язык в HTML
         if (this.currentLanguage === 'ru') {
             document.documentElement.lang = 'ru';
+        } else if (this.currentLanguage === 'es') {
+            document.documentElement.lang = 'es';
         } else {
             document.documentElement.lang = 'en';
+        }
+
+        // Обновить аббревиатуру языка
+        const langAbbr = document.querySelector('.lang-abbr');
+        if (langAbbr) {
+            const abbreviations = {
+                'en': 'EN',
+                'ru': 'РУ',
+                'es': 'ES'
+            };
+            langAbbr.textContent = abbreviations[this.currentLanguage] || 'EN';
         }
 
         // Пересчитать размеры модального окна если оно открыто
@@ -130,13 +147,30 @@ translator.waitForTranslations().then(() => {
 document.addEventListener('DOMContentLoaded', function () {
     // Обновить еще раз когда DOM готов
     translator.updatePageLanguage();
-    
+
     // Обработчик кнопки переключения языка
     const languageToggle = document.getElementById('languageToggle');
     if (languageToggle) {
         languageToggle.addEventListener('click', function (e) {
             e.preventDefault();
-            const newLang = translator.getCurrentLanguage() === 'en' ? 'ru' : 'en';
+            const currentLang = translator.getCurrentLanguage();
+            let newLang;
+
+            // Цикл переключения: en -> ru -> es -> en
+            switch (currentLang) {
+                case 'en':
+                    newLang = 'ru';
+                    break;
+                case 'ru':
+                    newLang = 'es';
+                    break;
+                case 'es':
+                    newLang = 'en';
+                    break;
+                default:
+                    newLang = 'en';
+            }
+
             translator.setLanguage(newLang);
         });
     }

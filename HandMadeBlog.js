@@ -5,6 +5,7 @@ let renderIndex = 0;
 let currentCategory = "All";
 let filteredData = [];
 let showOnlyAvailable = false; // Состояние фильтра по доступности
+let isFiltered = false; // Флаг, наличествует ли активный фильтр
 
 // Функция для перемешивания массива в случайный порядок (Fisher-Yates shuffle)
 function shuffleArray(array) {
@@ -130,6 +131,7 @@ function filterByCategory(category) {
     renderIndex = 0;
     let cards = document.getElementById("cards");
     cards.innerHTML = "";
+    currentCategory = category;
 
     let dataToFilter = allData;
 
@@ -141,18 +143,20 @@ function filterByCategory(category) {
     if (category === "All") {
         // Используем отфильтрованные данные (или все, если фильтр отключен)
         filteredData = dataToFilter;
+        isFiltered = false;
     } else {
         // Фильтруем по категории
         const filtered = dataToFilter.filter(item => item.originalCategory === category);
         const randomData = shuffleArray(filtered);
         filteredData = randomData;
+        isFiltered = true;
     }
     renderBatch(6);
     modalLouded();
 }
 function renderBatch(count) {
     let cards = document.getElementById("cards");
-    let source = filteredData.length > 0 ? filteredData : allData;
+    let source = isFiltered || filteredData.length > 0 ? filteredData : allData;
     let slice = source.slice(renderIndex, renderIndex + count);
 
     slice.forEach(item => {
@@ -264,7 +268,10 @@ const categoryMap = {
     'Все': 'All',
     'Дом': 'Home',
     'Украшения': 'Jewelry',
-    'Сувениры': 'Souvenirs'
+    'Сувениры': 'Souvenirs',
+    'Todo': 'All',
+    'Casa': 'Home',
+    'Joyas': 'Jewelry'
 };
 
 // Обновление текста при смене языка
@@ -380,21 +387,6 @@ gsap.from(".logo ", {
     x: 200,
     rotation: 360,
 });
-
-gsap.from(".insta, .vinted, .lang-icon ", {
-    duration: 2,
-    x: -200,
-    rotation: 360,
-});
-
-let buttons = document.querySelectorAll(".ringBtn");
-
-for (let i = 0; i < buttons.length; i++) {
-    gsap.from(buttons[i], {
-        y: 250,
-        duration: (i + 1) / 2,
-    })
-}
 
 // Disable text selection (except form controls) and prevent dragging images
 document.addEventListener('selectstart', function (e) {
