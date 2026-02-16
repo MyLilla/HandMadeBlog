@@ -4,6 +4,7 @@ let baseData = [];
 let renderIndex = 0;
 let currentCategory = "All";
 let filteredData = [];
+let showOnlyAvailable = false; // Состояние фильтра по доступности
 
 // Функция для перемешивания массива в случайный порядок (Fisher-Yates shuffle)
 function shuffleArray(array) {
@@ -32,7 +33,12 @@ async function initializeApp() {
             baseData = data;
             updateProductData();
             renderBatch(6);
-            modalLouded()
+            modalLouded();
+            // Устанавливаем первую кнопку как активную
+            const firstBtn = document.querySelector('.menu .ringBtn');
+            if (firstBtn) {
+                firstBtn.classList.add('active');
+            }
         })
         .catch(console.error);
 }
@@ -52,7 +58,7 @@ function updateProductData() {
     });
     // Перемешиваем данные в случайный порядок
     const randomData = shuffleArray(allData);
-    allData = availableArray(randomData);
+    allData = randomData;
 }
 
 // Инициализация приложения
@@ -125,20 +131,28 @@ function filterByCategory(category) {
     let cards = document.getElementById("cards");
     cards.innerHTML = "";
 
+    let dataToFilter = allData;
+
+    // Применяем фильтр по доступности если включен
+    if (showOnlyAvailable) {
+        dataToFilter = allData.filter(item => item.available);
+    }
+
     if (category === "All") {
-        filteredData = [];
+        // Используем отфильтрованные данные (или все, если фильтр отключен)
+        filteredData = dataToFilter;
     } else {
-        // Используем оригинальную категорию для фильтрации и перемешиваем результаты
-        const filtered = allData.filter(item => item.originalCategory === category);
+        // Фильтруем по категории
+        const filtered = dataToFilter.filter(item => item.originalCategory === category);
         const randomData = shuffleArray(filtered);
-        filteredData = availableArray(randomData);
+        filteredData = randomData;
     }
     renderBatch(6);
     modalLouded();
 }
 function renderBatch(count) {
     let cards = document.getElementById("cards");
-    let source = filteredData.length ? filteredData : allData;
+    let source = filteredData.length > 0 ? filteredData : allData;
     let slice = source.slice(renderIndex, renderIndex + count);
 
     slice.forEach(item => {
@@ -263,6 +277,15 @@ window.addEventListener('languageChanged', () => {
     document.getElementById("cards").innerHTML = "";
     filterByCategory("All");
 
+    // Переустановить первую кнопку как активную
+    document.querySelectorAll('.menu .ringBtn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    const firstBtn = document.querySelector('.menu .ringBtn');
+    if (firstBtn) {
+        firstBtn.classList.add('active');
+    }
+
     // Обновить текст на карточках
     document.querySelectorAll('.openModal').forEach(btn => {
         const unavailable = btn.getAttribute('data-unavailable');
@@ -297,6 +320,13 @@ function attachMenuHandlers() {
 }
 
 function handleMenuClick(e) {
+    // Удаляем класс active у всех кнопок
+    document.querySelectorAll(".menu .ringBtn").forEach(btn => {
+        btn.classList.remove("active");
+    });
+    // Добавляем класс active текущей кнопке
+    this.classList.add("active");
+
     const category = this.textContent.trim();
     const originalCategory = categoryMap[category] || category;
     filterByCategory(originalCategory);
@@ -304,6 +334,18 @@ function handleMenuClick(e) {
 
 // Первоначальное добавление обработчиков
 attachMenuHandlers();
+
+// Обработчик для toggle фильтра по доступности
+const availableToggle = document.getElementById('availableToggle');
+availableToggle.addEventListener('change', (e) => {
+    showOnlyAvailable = e.target.checked;
+    // Перефильтруем текущую категорию при изменении toggle
+    const currentCategoryBtn = document.querySelector('.ringBtn.active');
+    const category = currentCategoryBtn
+        ? categoryMap[currentCategoryBtn.textContent.trim()] || 'All'
+        : 'All';
+    filterByCategory(category);
+});
 
 // Переприсоединить обработчики при смене языка
 window.addEventListener('languageChanged', () => {

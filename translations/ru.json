@@ -15,7 +15,9 @@
         "all": "Все",
         "home": "Дом",
         "jewelry": "Украшения",
-        "souvenirs": "Сувениры"
+        "souvenirs": "Сувениры",
+        "archive": "Архив",
+        "availableOnly": "Доступные"
     },
     "card": {
         "available": "Доступно",

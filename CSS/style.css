@@ -220,6 +220,77 @@ header {
     transform: scale(1.02);
 }
 
+.ringBtn.active {
+    background-color: rgba(93, 104, 72, 0.7);
+}
+
+.ringBtn.active h2 {
+    color: var(--color-text);
+}
+
+/* Toggle Switch Styles */
+.filter-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.toggle-label {
+    font-size: 1rem;
+    color: var(--color-text);
+    user-select: none;
+    min-width: 140px;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .3s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .3s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: var(--accent);
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
 .gelery {
     justify-content: space-around;
     flex-wrap: wrap;

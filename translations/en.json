@@ -15,7 +15,9 @@
         "all": "All",
         "home": "Home",
         "jewelry": "Jewelry",
-        "souvenirs": "Souvenirs"
+        "souvenirs": "Souvenirs",
+        "archive": "Archive",
+        "availableOnly": "Available"
     },
     "card": {
         "available": "available",

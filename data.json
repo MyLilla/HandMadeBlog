@@ -3,7 +3,7 @@
         "id": 1,
         "imgPreview": "db/TalismanStone.jpg",
         "title": "Talisman Stone",
-        "price": 12,
+        "price": 15,
         "available": true,
         "category": "Souvenirs",
         "materials": [
