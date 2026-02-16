@@ -13,7 +13,9 @@
         "imgs": [
             "db/TalismanStone.jpg",
             "db/TalismanStone1.jpg",
-            "db/TalismanStone2.jpg"
+            "db/TalismanStone2.jpg",
+            "db/TalismanStone3.jpg",
+            "db/TalismanStone4.jpg"
         ],
         "vinted": "https://www.vinted.es/items/7879207041-talisman-stone",
         "wallapop": "https://es.wallapop.com/item/colgante-piedra-natural-macrame-1219647774"
@@ -59,7 +61,7 @@
         "wallapop": "https://es.wallapop.com/item/pendientes-de-plumas-y-piedras-1219649860"
     },
     {
-        "id": 5,
+        "id": 4,
         "imgPreview": "db/MolluskCouple.JPG",
         "title": "Mollusk couple",
         "price": 9,
@@ -78,7 +80,7 @@
         "wallapop": "https://es.wallapop.com/item/collar-ligero-concha-rosa-y-marron-1219652229"
     },
     {
-        "id": 6,
+        "id": 5,
         "imgPreview": "db/Indian.jpg",
         "title": "Indian",
         "price": 9,
@@ -89,14 +91,13 @@
             "img/wood.png"
         ],
         "imgs": [
-            "db/Indian.jpg",
-            "db/Indian1.jpg"
+            "db/Indian.jpg"
         ],
         "vinted": "https://www.vinted.es/items/7695552234-indian-necklace",
         "wallapop": "https://es.wallapop.com/item/colgante-etnico-madera-y-cuerda-1219652830"
     },
     {
-        "id": 7,
+        "id": 6,
         "imgPreview": "db/DreamCatcher.jpg",
         "title": "Forest Dreams",
         "price": 35,
@@ -116,7 +117,7 @@
         "wallapop": "https://es.wallapop.com/item/atrapasuenos-artesanal-1219654030"
     },
     {
-        "id": 8,
+        "id": 7,
         "imgPreview": "db/MemoryOfTheSea.jpg",
         "title": "Memory Of The Sea",
         "price": 11,
@@ -133,7 +134,7 @@
         "wallapop": "https://es.wallapop.com/item/colgante-vidrio-marino-marron-y-plata-1219656778"
     },
     {
-        "id": 9,
+        "id": 8,
         "imgPreview": "db/ChristmasStars.jpg",
         "title": "Stars",
         "price": 10,
@@ -151,7 +152,7 @@
         "wallapop": "https://es.wallapop.com/item/estrellas-decorativas-madera-y-yute-1219657861"
     },
     {
-        "id": 11,
+        "id": 9,
         "imgPreview": "db/Spirals.jpg",
         "title": "Spirals",
         "price": 15,
@@ -167,7 +168,7 @@
         "wallapop": "https://es.wallapop.com/user/olgak-440412669"
     },
     {
-        "id": 12,
+        "id": 10,
         "imgPreview": "db/StrongWind.jpg",
         "title": "Strong Wind",
         "price": 15,
@@ -185,7 +186,7 @@
         "wallapop": "https://es.wallapop.com/item/carillon-de-viento-de-conchas-marinas-1227149940"
     },
     {
-        "id": 13,
+        "id": 11,
         "imgPreview": "db/PairedBracelets.jpg",
         "title": "Paired Bracelets",
         "price": 8,
@@ -203,7 +204,7 @@
         "wallapop": "https://es.wallapop.com/item/pulseras-macrame-con-piedras-naturales-1227765347"
     },
     {
-        "id": 14,
+        "id": 12,
         "imgPreview": "db/DeepWinter.jpg",
         "title": "Deep Color",
         "price": 5,
@@ -221,7 +222,7 @@
         "wallapop": "https://es.wallapop.com/item/pulseras-macrame-piedras-naturales-1227766636"
     },
     {
-        "id": 15,
+        "id": 13,
         "imgPreview": "db/Domino.jpg",
         "title": "Domino Game",
         "price": 28,
@@ -233,14 +234,13 @@
         "imgs": [
             "db/Domino.jpg",
             "db/Domino1.jpg",
-            "db/Domino2.jpg",
-            "db/Domino3.jpg"
+            "db/Domino2.jpg"
         ],
         "vinted": "https://www.vinted.es/items/8148845802-domino-game",
         "wallapop": "https://es.wallapop.com/item/juego-de-domino-negro-con-detalles-dorados-1229671076"
     },
     {
-        "id": 101,
+        "id": 14,
         "imgPreview": "db/SoundOfTheSea.jpg",
         "title": "Sound of the Sea",
         "price": 28,
@@ -257,7 +257,7 @@
         ]
     },
     {
-        "id": 103,
+        "id": 15,
         "imgPreview": "db/MagicTree.jpg",
         "title": "Magic tree",
         "price": 30,
@@ -272,24 +272,7 @@
         ]
     },
     {
-        "id": 104,
-        "imgPreview": "db/Rings.jpg",
-        "title": "Rings",
-        "price": 20,
-        "available": false,
-        "category": "Home",
-        "materials": [
-            "img/wood.png",
-            "img/thread.png"
-        ],
-        "imgs": [
-            "db/Rings.jpg",
-            "db/Rings1.jpg",
-            "db/Rings2.jpg"
-        ]
-    },
-    {
-        "id": 105,
+        "id": 17,
         "imgPreview": "db/MoonCandle.jpg",
         "title": "Moon Land",
         "price": 7,
@@ -304,7 +287,7 @@
         ]
     },
     {
-        "id": 106,
+        "id": 18,
         "imgPreview": "db/CoastalShell.JPG",
         "title": "Coastal Shell",
         "price": 16,
@@ -319,7 +302,7 @@
         ]
     },
     {
-        "id": 107,
+        "id": 19,
         "imgPreview": "db/Orange.jpg",
         "title": "Orange",
         "price": 18,
@@ -335,7 +318,7 @@
         ]
     },
     {
-        "id": 108,
+        "id": 20,
         "imgPreview": "db/Chaos.jpg",
         "title": "Chaos",
         "price": 20,
@@ -352,7 +335,7 @@
         "wallapop": "https://es.wallapop.com/item/colgante-de-conchas-estilo-caotico-1219659164"
     },
     {
-        "id": 109,
+        "id": 21,
         "imgPreview": "db/MotherOfPearl.jpg",
         "title": "Mother of Pearl",
         "price": 15,
@@ -370,20 +353,5 @@
         ],
         "vinted": "https://www.vinted.es/items/7923042652-hanging-interior-decor",
         "wallapop": "https://es.wallapop.com/item/decoracion-colgante-de-conchas-y-cuentas-1219661358"
-    },
-    {
-        "id": 110,
-        "imgPreview": "db/GrayMoon.jpg",
-        "title": "Gray Moon set",
-        "price": 12,
-        "available": false,
-        "category": "Jewelry",
-        "materials": [
-            "img/stone.png"
-        ],
-        "imgs": [
-            "db/GrayMoon.jpg",
-            "db/GrayMoon1.JPG"
-        ]
     }
 ]

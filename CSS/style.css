@@ -342,7 +342,7 @@ input:checked+.slider:before {
 
 /* Fixed height for card paragraph — JS will shrink font-size if needed */
 .card p {
-    height: 5.5rem;
+    height: 6.5rem;
     overflow: initial;
     line-height: 1.2;
 }

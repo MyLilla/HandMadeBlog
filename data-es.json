@@ -18,117 +18,105 @@
         "category": "Jewelry"
     },
     {
-        "id": 5,
+        "id": 4,
         "title": "Pareja de Moluscos",
         "description": "Collar ligero con concha. El brillo de la perla siempre recuerda el brillo del sol de verano.",
         "category": "Jewelry"
     },
     {
-        "id": 6,
+        "id": 5,
         "title": "Indio",
         "description": "Un colgante étnico hecho de corteza de árbol en una cuerda trenzada en un tono cálido. Increíblemente ligero, es perfecto para looks de verano y otoño.",
         "category": "Jewelry"
     },
     {
-        "id": 7,
+        "id": 6,
         "title": "Sueños del Bosque",
         "description": "Un amuleto indio con el espíritu del bosque verde. Una decoración del hogar en tonos verdes cálidos que también protege contra las pesadillas.",
         "category": "Home"
     },
     {
-        "id": 8,
+        "id": 7,
         "title": "Memoria del Mar",
         "description": "Un colgante de vidrio de mar contrastante en marrón cálido y ramas de metal brillante. Severidad y suavidad en una pieza.",
         "category": "Jewelry"
     },
     {
-        "id": 9,
+        "id": 8,
         "title": "Estrellas",
         "description": "La decoración de tonos cálidos hecha de materiales naturales ayudará a crear una atmósfera acogedora sin desorden. Seguro para mascotas y niños.",
         "category": "Home"
     },
     {
-        "id": 11,
+        "id": 9,
         "title": "Espirales",
         "description": "Un conjunto de pendientes en diferentes colores en forma de espirales, puedes cambiar y combinarlos entre sí.",
         "category": "Jewelry"
     },
     {
-        "id": 12,
+        "id": 10,
         "title": "Viento Fuerte",
         "description": "Decoración colgante de viento hecha de conchas naturales. Apta para uso exterior.",
         "category": "Home"
     },
     {
-        "id": 13,
+        "id": 11,
         "title": "Pulseras Emparejadas",
         "description": "Unidad elegante en los detalles. Pulseras a juego con cuentas de ojo de tigre y otras piedras naturales. Ajustables, perfectas para una pareja o como regalo.",
         "category": "Jewelry"
     },
     {
-        "id": 14,
+        "id": 12,
         "title": "Color Profundo",
         "description": "Cada pulsera es única, ya que cada piedra es única. Podemos armar tu conjunto perfecto.",
         "category": "Jewelry"
     },
     {
-        "id": 15,
+        "id": 13,
         "title": "Juego de Dominó",
         "description": "Juego italiano originario de China (hecho sorprendente). Pero en este conjunto, las piedras fueron reemplazadas con plástico. Las reglas siguen siendo las mismas que en el siglo XVIII.",
         "category": "Souvenirs"
     },
     {
-        "id": 101,
+        "id": 14,
         "title": "Sonido del Mar",
         "description": "Un carillón de viento hecho de conchas naturales con un sonido marino suave. Crea una atmósfera tranquila y veraniega para tu hogar, patio o jardín.",
         "category": "Home"
     },
     {
-        "id": 103,
+        "id": 15,
         "title": "Árbol Mágico",
         "description": "Huellas de una ciudad construida por escarabajos de corteza en los bosques de Siberia. Las curvas únicas de los pasillos quedan grabadas para siempre en esta pieza de madera.",
         "category": "Jewelry"
     },
     {
-        "id": 104,
-        "title": "Anillos",
-        "description": "Un amuleto delicado, hecho completamente a mano. Hilo de algodón, madera y algunas piedras.",
-        "category": "Home"
-    },
-    {
-        "id": 105,
+        "id": 17,
         "title": "Tierra Lunar",
         "description": "No hay nada especial en el cemento, al igual que la superficie de la luna, solo polvo. Pero a la luz, esta simplicidad se transforma cien veces.",
         "category": "Home"
     },
     {
-        "id": 106,
+        "id": 18,
         "title": "Concha Costera",
         "description": "Un trozo de concha de la costa andaluza. Después de una aventura dura en el fondo marino, este fragmento de concha ha encontrado nueva vida en los brazos del algodón suave.",
         "category": "Jewelry"
     },
     {
-        "id": 107,
+        "id": 19,
         "title": "Naranja",
         "description": "Cristal de Citrino. Una piedra semipreciosa que combina con casi todos los signos del zodiaco. El cristal proporciona apoyo energético durante períodos de poca energía, apatía y depresión.",
         "category": "Jewelry"
     },
     {
-        "id": 108,
+        "id": 20,
         "title": "Caos",
         "description": "Carillones de viento en un estilo caótico con conchas aleatorias, cada una de las cuales suena diferente. Un gran regalo para aquellos que aman el mar y sus sonidos.",
         "category": "Home"
     },
     {
-        "id": 109,
+        "id": 21,
         "title": "Madreperla",
         "description": "Una decoración interior colgante hecha de conchas naturales y madreperla. Refleja suavemente la luz, creando una atmósfera de calma y comodidad.",
         "category": "Home"
-    },
-    {
-        "id": 110,
-        "title": "Conjunto de Luna Gris",
-        "description": "Un conjunto de joyas que incluye dos chokers y un colgante corto con una piedra costera de color lunar.",
-        "category": "Jewelry"
     }
 ]
