@@ -101,7 +101,7 @@
         "imgPreview": "db/DreamCatcher.jpg",
         "title": "Forest Dreams",
         "price": 35,
-        "available": true,
+        "available": false,
         "category": "Home",
         "materials": [
             "img/thread.png",
@@ -112,9 +112,7 @@
             "db/DreamCatcher.jpg",
             "db/DreamCatcher1.jpg",
             "db/DreamCatcher2.jpg"
-        ],
-        "vinted": "https://www.vinted.es/items/7548105516-dream-catcher",
-        "wallapop": "https://es.wallapop.com/item/atrapasuenos-artesanal-1219654030"
+        ]
     },
     {
         "id": 7,
