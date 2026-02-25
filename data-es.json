@@ -54,6 +54,12 @@
         "category": "Home"
     },
     {
+        "id": 11,
+        "title": "Sueños Suaves",
+        "description": "Plumas ligeras y un delicado tejido complementan suavemente el espacio, llenándolo de comodidad y tranquilidad. El detalle perfecto para un dormitorio o una sala de estar.",
+        "category": "Home"
+    },
+    {
         "id": 12,
         "title": "Armonía de los Elementos",
         "description": "Pulseras minimalistas con piedras naturales en tonos cálidos. Hechas a mano, con cierre ajustable. Un accesorio elegante para el día a día o un regalo simbólico.",

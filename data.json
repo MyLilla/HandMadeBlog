@@ -168,6 +168,25 @@
         "wallapop": "https://es.wallapop.com/item/carillon-de-viento-de-conchas-marinas-1227149940"
     },
     {
+        "id": 11,
+        "imgPreview": "db/SoftDreams.jpg",
+        "title": "Soft Dreams",
+        "price": 38,
+        "available": true,
+        "category": "Home",
+        "materials": [
+            "img/thread.png",
+            "img/wood.png"
+        ],
+        "imgs": [
+            "db/SoftDreams.jpg",
+            "db/SoftDreams1.jpg",
+            "db/SoftDreams2.jpg"
+        ],
+        "vinted": "https://www.vinted.es/items/8257564499-atrapasuenos-blanco-y-negro",
+        "wallapop": "https://es.wallapop.com/item/atrapasuenos-blanco-y-negro-1234693125"
+    },
+    {
         "id": 12,
         "imgPreview": "db/DeepColor.jpg",
         "title": "Harmony of the Elements",
