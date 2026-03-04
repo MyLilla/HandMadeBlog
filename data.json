@@ -150,6 +150,25 @@
         "wallapop": "https://es.wallapop.com/item/estrellas-decorativas-madera-y-yute-1219657861"
     },
     {
+        "id": 9,
+        "imgPreview": "db/FlowingShapes.jpg",
+        "title": "Flowing shapes",
+        "price": 18,
+        "available": true,
+        "category": "Jewelry",
+        "materials": [
+            "img/thread.png",
+            "img/stone.png",
+            "img/wood.png"
+        ],
+        "imgs": [
+            "db/FlowingShapes.jpg",
+            "db/FlowingShapes1.jpg"
+        ],
+        "vinted": "https://www.vinted.es/items/8316161470-las-pulseras-de-estilo-boho",
+        "wallapop": "https://es.wallapop.com/item/las-pulseras-de-estilo-boho-1237641257"
+    },
+    {
         "id": 10,
         "imgPreview": "db/StrongWind.jpg",
         "title": "Strong Wind",
@@ -176,7 +195,8 @@
         "category": "Home",
         "materials": [
             "img/thread.png",
-            "img/wood.png"
+            "img/wood.png",
+            "img/light.png"
         ],
         "imgs": [
             "db/SoftDreams.jpg",
