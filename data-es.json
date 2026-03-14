@@ -18,12 +18,6 @@
         "category": "Jewelry"
     },
     {
-        "id": 4,
-        "title": "Pareja de Moluscos",
-        "description": "Collar ligero con concha. El brillo de la perla siempre recuerda el brillo del sol de verano.",
-        "category": "Jewelry"
-    },
-    {
         "id": 5,
         "title": "Indio",
         "description": "Un colgante étnico hecho de corteza de árbol en una cuerda trenzada en un tono cálido. Increíblemente ligero, es perfecto para looks de verano y otoño.",
@@ -36,12 +30,6 @@
         "category": "Home"
     },
     {
-        "id": 7,
-        "title": "Memoria del Mar",
-        "description": "Un colgante de vidrio de mar contrastante en marrón cálido y ramas de metal brillante. Severidad y suavidad en una pieza.",
-        "category": "Jewelry"
-    },
-    {
         "id": 8,
         "title": "Estrellas",
         "description": "La decoración de tonos cálidos hecha de materiales naturales ayudará a crear una atmósfera acogedora sin desorden. Seguro para mascotas y niños.",
@@ -52,12 +40,6 @@
         "title": "Formas Fluidas",
         "description": "Tonos naturales cálidos, formas fluidas y la energía de las piedras. Las pulseras de estilo boho son para la libertad y una vida tranquila.",
         "category": "Jewelry"
-    },
-    {
-        "id": 10,
-        "title": "Viento Fuerte",
-        "description": "Decoración colgante de viento hecha de conchas naturales. Apta para uso exterior.",
-        "category": "Home"
     },
     {
         "id": 11,

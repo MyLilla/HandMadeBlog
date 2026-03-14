@@ -18,12 +18,6 @@
         "category": "Jewelry"
     },
     {
-        "id": 4,
-        "title": "Mollusk couple",
-        "description": "Light necklace with shell. The pearl shine is always reminiscent of the brightness of the summer sun.",
-        "category": "Jewelry"
-    },
-    {
         "id": 5,
         "title": "Indian",
         "description": "An ethnic pendant crafted from tree bark on a braided cord in a warm shade. Incredibly lightweight, it's perfect for both summer and fall looks.",
@@ -36,12 +30,6 @@
         "category": "Home"
     },
     {
-        "id": 7,
-        "title": "Memory Of The Sea",
-        "description": "A contrasting sea glass pendant in warm brown and shimmering metal branches. Severity and softness in one piece.",
-        "category": "Jewelry"
-    },
-    {
         "id": 9,
         "title": "Flowing Shapes",
         "description": "Warm natural tones, flowing shapes, and the energy of stones. Boho-style bracelets are for freedom and a leisurely life.",
@@ -51,12 +39,6 @@
         "id": 8,
         "title": "Stars",
         "description": "Warm-toned decor made from natural materials will help create a cozy atmosphere without the clutter. Safe for pets and children.",
-        "category": "Home"
-    },
-    {
-        "id": 10,
-        "title": "Strong Wind",
-        "description": "Wind Chime hanging decoration made from natural seashells. Suitable for outdoor use.",
         "category": "Home"
     },
     {

@@ -25,7 +25,7 @@
         "imgPreview": "db/SeaGlass3.jpg",
         "title": "Sea Glass",
         "description": "Sea glass keychains from the Costa del Sol. Fragments of a whole become individual personalities, taking on new life.",
-        "price": 13,
+        "price": 10,
         "available": true,
         "category": "Souvenirs",
         "materials": [
@@ -37,7 +37,7 @@
             "db/SeaGlass2.jpg",
             "db/SeaGlass3.jpg"
         ],
-        "vinted": "https://www.vinted.es/items/7879367323-sea-glass-keychains",
+        "vinted": "https://www.vinted.es/items/7923111338-sea-glass-keychains",
         "wallapop": "https://es.wallapop.com/item/llaveros-de-vidrio-marino-artesanales-1219648511"
     },
     {
@@ -59,25 +59,6 @@
         ],
         "vinted": "https://www.vinted.es/items/7377203890-earrings-bird-dances",
         "wallapop": "https://es.wallapop.com/item/pendientes-de-plumas-y-piedras-1219649860"
-    },
-    {
-        "id": 4,
-        "imgPreview": "db/MolluskCouple.JPG",
-        "title": "Mollusk couple",
-        "price": 9,
-        "available": true,
-        "category": "Jewelry",
-        "materials": [
-            "img/shell.png"
-        ],
-        "imgs": [
-            "db/MolluskCouple.JPG",
-            "db/MolluskCouple1.JPG",
-            "db/MolluskCouple2.JPG",
-            "db/MolluskCouple3.JPG"
-        ],
-        "vinted": "https://www.vinted.es/items/7377198687-mollusk-couple-necklaces",
-        "wallapop": "https://es.wallapop.com/item/collar-ligero-concha-rosa-y-marron-1219652229"
     },
     {
         "id": 5,
@@ -115,23 +96,6 @@
         ]
     },
     {
-        "id": 7,
-        "imgPreview": "db/MemoryOfTheSea.jpg",
-        "title": "Memory Of The Sea",
-        "price": 11,
-        "available": true,
-        "category": "Jewelry",
-        "materials": [
-            "img/thread.png",
-            "img/stone.png"
-        ],
-        "imgs": [
-            "db/MemoryOfTheSea.jpg"
-        ],
-        "vinted": "https://www.vinted.es/items/7695556528-necklace-memory-of-the-sea",
-        "wallapop": "https://es.wallapop.com/item/colgante-vidrio-marino-marron-y-plata-1219656778"
-    },
-    {
         "id": 8,
         "imgPreview": "db/ChristmasStars.jpg",
         "title": "Stars",
@@ -167,24 +131,6 @@
         ],
         "vinted": "https://www.vinted.es/items/8316161470-las-pulseras-de-estilo-boho",
         "wallapop": "https://es.wallapop.com/item/las-pulseras-de-estilo-boho-1237641257"
-    },
-    {
-        "id": 10,
-        "imgPreview": "db/StrongWind.jpg",
-        "title": "Strong Wind",
-        "price": 15,
-        "available": true,
-        "category": "Home",
-        "materials": [
-            "img/shell.png",
-            "img/thread.png",
-            "img/wood.png"
-        ],
-        "imgs": [
-            "db/StrongWind.jpg"
-        ],
-        "vinted": "",
-        "wallapop": "https://es.wallapop.com/item/carillon-de-viento-de-conchas-marinas-1227149940"
     },
     {
         "id": 11,
@@ -229,7 +175,7 @@
         "imgPreview": "db/Domino.jpg",
         "title": "Domino Game",
         "price": 28,
-        "available": true,
+        "available": false,
         "category": "Souvenirs",
         "materials": [
             "img/stone.png"
