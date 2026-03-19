@@ -18,6 +18,12 @@
         "category": "Jewelry"
     },
     {
+        "id": 4,
+        "title": "Pulseras medianas Macramé",
+        "description": "Pulseras de ancho medio. Patrón con una elección de cuentas (piedra, madera o cerámica) y color del hilo.",
+        "category": "Jewelry"
+    },
+    {
         "id": 5,
         "title": "Indio",
         "description": "Un colgante étnico hecho de corteza de árbol en una cuerda trenzada en un tono cálido. Increíblemente ligero, es perfecto para looks de verano y otoño.",
@@ -49,7 +55,7 @@
     },
     {
         "id": 12,
-        "title": "Armonía de los Elementos",
+        "title": "Pulseras pequeñas Macramé",
         "description": "Pulseras minimalistas con piedras naturales en tonos cálidos. Hechas a mano, con cierre ajustable. Un accesorio elegante para el día a día o un regalo simbólico.",
         "category": "Jewelry"
     },

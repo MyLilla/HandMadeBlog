@@ -18,6 +18,12 @@
         "category": "Jewelry"
     },
     {
+        "id": 4,
+        "title": "Medium Macramé Bracelets",
+        "description": "Medium-width bracelets. Pattern with a choice of bead (stone, wood, or ceramic) and thread color.",
+        "category": "Jewelry"
+    },
+    {
         "id": 5,
         "title": "Indian",
         "description": "An ethnic pendant crafted from tree bark on a braided cord in a warm shade. Incredibly lightweight, it's perfect for both summer and fall looks.",
@@ -49,7 +55,7 @@
     },
     {
         "id": 12,
-        "title": "Harmony of the Elements",
+        "title": "Small Macrame Bracelets",
         "description": "Minimalist bracelets with natural stones in warm shades. Hand-woven, adjustable clasp. A stylish everyday accessory or a symbolic gift.",
         "category": "Jewelry"
     },

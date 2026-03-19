@@ -61,6 +61,24 @@
         "wallapop": "https://es.wallapop.com/item/pendientes-de-plumas-y-piedras-1219649860"
     },
     {
+        "id": 4,
+        "imgPreview": "db/MacrameMp1.jpg",
+        "title": "Medium Macramé Bracelets",
+        "price": 10,
+        "available": true,
+        "category": "Jewelry",
+        "materials": [
+            "img/stone.png",
+            "img/thread.png",
+            "img/wood.png"
+        ],
+        "imgs": [
+            "db/MacrameMp1.jpg"
+        ],
+        "vinted": "https://www.vinted.es/items/8436455823-pulseras-de-macrame-medianas",
+        "wallapop": "https://es.wallapop.com/item/pulseras-macrame-medianas-1243066166"
+    },
+    {
         "id": 5,
         "imgPreview": "db/Indian.jpg",
         "title": "Indian",
@@ -155,8 +173,8 @@
     {
         "id": 12,
         "imgPreview": "db/DeepColor.jpg",
-        "title": "Harmony of the Elements",
-        "price": 10,
+        "title": "Small Macrame Bracelets",
+        "price": 6,
         "available": true,
         "category": "Jewelry",
         "materials": [
