@@ -42,12 +42,6 @@
         "category": "Home"
     },
     {
-        "id": 9,
-        "title": "Formas Fluidas",
-        "description": "Tonos naturales cálidos, formas fluidas y la energía de las piedras. Las pulseras de estilo boho son para la libertad y una vida tranquila.",
-        "category": "Jewelry"
-    },
-    {
         "id": 11,
         "title": "Sueños Suaves",
         "description": "Plumas ligeras y un delicado tejido complementan suavemente el espacio, llenándolo de comodidad y tranquilidad. El detalle perfecto para un dormitorio o una sala de estar.",
@@ -94,11 +88,5 @@
         "title": "Naranja",
         "description": "Cristal de Citrino. Una piedra semipreciosa que combina con casi todos los signos del zodiaco. El cristal proporciona apoyo energético durante períodos de poca energía, apatía y depresión.",
         "category": "Jewelry"
-    },
-    {
-        "id": 20,
-        "title": "Caos",
-        "description": "Carillones de viento en un estilo caótico con conchas aleatorias, cada una de las cuales suena diferente. Un gran regalo para aquellos que aman el mar y sus sonidos.",
-        "category": "Home"
     }
 ]

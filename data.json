@@ -54,8 +54,7 @@
         "imgs": [
             "db/BirdDances.JPG",
             "db/BirdDances1.JPG",
-            "db/BirdDances2.JPG",
-            "db/BirdDances3.JPG"
+            "db/BirdDances2.JPG"
         ],
         "vinted": "https://www.vinted.es/items/7377203890-earrings-bird-dances",
         "wallapop": "https://es.wallapop.com/item/pendientes-de-plumas-y-piedras-1219649860"
@@ -130,25 +129,6 @@
         ],
         "vinted": "https://www.vinted.es/items/7690623582-stars-decoration",
         "wallapop": "https://es.wallapop.com/item/estrellas-decorativas-madera-y-yute-1219657861"
-    },
-    {
-        "id": 9,
-        "imgPreview": "db/FlowingShapes.jpg",
-        "title": "Flowing shapes",
-        "price": 18,
-        "available": true,
-        "category": "Jewelry",
-        "materials": [
-            "img/thread.png",
-            "img/stone.png",
-            "img/wood.png"
-        ],
-        "imgs": [
-            "db/FlowingShapes.jpg",
-            "db/FlowingShapes1.jpg"
-        ],
-        "vinted": "https://www.vinted.es/items/8316161470-las-pulseras-de-estilo-boho",
-        "wallapop": "https://es.wallapop.com/item/las-pulseras-de-estilo-boho-1237641257"
     },
     {
         "id": 11,
@@ -283,22 +263,5 @@
             "db/Orange.jpg",
             "db/Orange1.jpg"
         ]
-    },
-    {
-        "id": 20,
-        "imgPreview": "db/Chaos.jpg",
-        "title": "Chaos",
-        "price": 20,
-        "available": false,
-        "category": "Home",
-        "materials": [
-            "img/shell.png",
-            "img/thread.png"
-        ],
-        "imgs": [
-            "db/Chaos.jpg"
-        ],
-        "vinted": "",
-        "wallapop": "https://es.wallapop.com/item/colgante-de-conchas-estilo-caotico-1219659164"
     }
 ]

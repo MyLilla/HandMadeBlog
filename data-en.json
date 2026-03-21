@@ -36,12 +36,6 @@
         "category": "Home"
     },
     {
-        "id": 9,
-        "title": "Flowing Shapes",
-        "description": "Warm natural tones, flowing shapes, and the energy of stones. Boho-style bracelets are for freedom and a leisurely life.",
-        "category": "Jewelry"
-    },
-    {
         "id": 8,
         "title": "Stars",
         "description": "Warm-toned decor made from natural materials will help create a cozy atmosphere without the clutter. Safe for pets and children.",
@@ -94,11 +88,5 @@
         "title": "Orange",
         "description": "Citrine crystal. A semi-precious stone that suits almost all zodiac signs. The crystal provides its owner with energetic support during periods of low energy, apathy, and depression.",
         "category": "Jewelry"
-    },
-    {
-        "id": 20,
-        "title": "Chaos",
-        "description": "Wind chimes in a chaotic style with random shells, each of which sounds different. A great gift for those who love the sea and its sounds.",
-        "category": "Home"
     }
 ]
