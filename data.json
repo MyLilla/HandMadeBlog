@@ -54,7 +54,8 @@
         "imgs": [
             "db/BirdDances.JPG",
             "db/BirdDances1.JPG",
-            "db/BirdDances2.JPG"
+            "db/BirdDances2.JPG",
+            "db/BirdDances3.JPG"
         ],
         "vinted": "https://www.vinted.es/items/7377203890-earrings-bird-dances",
         "wallapop": "https://es.wallapop.com/item/pendientes-de-plumas-y-piedras-1219649860"
@@ -152,7 +153,7 @@
     },
     {
         "id": 12,
-        "imgPreview": "db/DeepColor.jpg",
+        "imgPreview": "db/MacrameSp1.jpg",
         "title": "Small Macrame Bracelets",
         "price": 6,
         "available": true,
@@ -162,8 +163,8 @@
             "img/thread.png"
         ],
         "imgs": [
-            "db/DeepColor.jpg",
-            "db/DeepColor1.jpg"
+            "db/MacrameSp1.jpg",
+            "db/MacrameSp2.jpg"
         ],
         "vinted": "https://www.vinted.es/items/8109669795-pulseras-con-piedras-naturales",
         "wallapop": "https://es.wallapop.com/item/pulseras-macrame-piedras-naturales-1227766636"
@@ -200,7 +201,8 @@
         "imgs": [
             "db/SoundOfTheSea.jpg",
             "db/SoundOfTheSea1.jpg",
-            "db/SoundOfTheSea2.jpg"
+            "db/SoundOfTheSea2.jpg",
+            "db/SoundOfTheSea3.jpg"
         ]
     },
     {
