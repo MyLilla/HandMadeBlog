@@ -12,10 +12,10 @@
         "description": "Aquí encontrarás joyas, artículos decorativos, souvenirs y quizás otros productos hechos a mano. <br>\n                Cada uno de ellos tiene un toque de naturaleza que les da su propio carácter único."
     },
     "menu": {
-        "all": "Todo",
-        "home": "Casa",
-        "jewelry": "Joyas",
-        "souvenirs": "Souvenirs",
+        "uniqueIdeas": "Ideas Únicas",
+        "macrame": "Macramé",
+        "dreamCatcher": "Atrapasueños",
+        "seaSound": "Sonido del mar",
         "archive": "Archivo",
         "availableOnly": "Solo disponibles"
     },

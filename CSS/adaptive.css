@@ -50,6 +50,12 @@
         font-size: 0.875rem;
     }
 
+    .ringBtn:active {
+        transform: scale(0.95);
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        touch-action: manipulation;
+    }
+
     .product-card {
         max-width: 37.5rem;
         padding: 1.25rem 0.75rem;
@@ -192,6 +198,25 @@
     .more {
         margin-top: 1.5rem;
         padding-bottom: 1rem;
+    }
+}
+
+/* Мобильные устройства: кнопки меню в один ряд */
+@media (max-width: 48rem) {
+    .buttons {
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        gap: 0.25rem;
+    }
+
+    .ringBtn {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    .ringBtn h2 {
+        font-size: 0.625rem;
+        line-height: 1.1;
     }
 }
 

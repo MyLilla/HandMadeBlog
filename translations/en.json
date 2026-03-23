@@ -12,10 +12,10 @@
         "description": "Here you'll find jewelry, decorative items, souvenirs, and perhaps other random handmade products. <br>\n                Each of them has a touch of nature that gives them their own unique character."
     },
     "menu": {
-        "all": "All",
-        "home": "Home",
-        "jewelry": "Jewelry",
-        "souvenirs": "Souvenirs",
+        "uniqueIdeas": "Unique Ideas",
+        "macrame": "Macrame",
+        "dreamCatcher": "Dream Catcher",
+        "seaSound": "Sound of the Sea",
         "archive": "Archive",
         "availableOnly": "Available"
     },

@@ -27,6 +27,8 @@ async function initializeApp() {
     // Ждем загрузки переводов и данных
     await translator.waitForTranslations();
 
+    attachMenuHandlers(); // Привязываем обработчики после загрузки переводов
+
     // Загружаем базовые данные для ID и изображений
     fetch('data.json')
         .then(response => response.json())
@@ -35,11 +37,7 @@ async function initializeApp() {
             updateProductData();
             renderBatch(6);
             modalLouded();
-            // Устанавливаем первую кнопку как активную
-            const firstBtn = document.querySelector('.menu .ringBtn');
-            if (firstBtn) {
-                firstBtn.classList.add('active');
-            }
+            // Все кнопки отжаты по умолчанию
         })
         .catch(console.error);
 }
@@ -140,13 +138,19 @@ function filterByCategory(category) {
         dataToFilter = allData.filter(item => item.available);
     }
 
-    if (category === "All") {
-        // Используем отфильтрованные данные (или все, если фильтр отключен)
+    if (category === "All" || (Array.isArray(category) && category.length === 0)) {
         filteredData = dataToFilter;
         isFiltered = false;
     } else {
-        // Фильтруем по категории
-        const filtered = dataToFilter.filter(item => item.originalCategory === category);
+        const categorySet = new Set(
+            (Array.isArray(category) ? category : [category]).map(c => c.toString().toLowerCase())
+        );
+
+        const filtered = dataToFilter.filter(item => {
+            const itemCat = (item.originalCategory || item.category || "").toString().toLowerCase();
+            return categorySet.has(itemCat);
+        });
+
         const randomData = shuffleArray(filtered);
         filteredData = randomData;
         isFiltered = true;
@@ -261,17 +265,18 @@ modal.addEventListener('click', (e) => {
 
 // Маппинг переведенных названий в оригинальные
 const categoryMap = {
-    'All': 'All',
-    'Home': 'Home',
-    'Jewelry': 'Jewelry',
-    'Souvenirs': 'Souvenirs',
-    'Все': 'All',
-    'Дом': 'Home',
-    'Украшения': 'Jewelry',
-    'Сувениры': 'Souvenirs',
-    'Todo': 'All',
-    'Casa': 'Home',
-    'Joyas': 'Jewelry'
+    'Unique Ideas': ['Home', 'Jewelry', 'Souvenirs'],
+    'Macrame': 'Macrame',
+    'Dream Catcher': 'dreamCatcher',
+    'Sound of the Sea': 'seaSound',
+    'Штучные идеи': ['Home', 'Jewelry', 'Souvenirs'],
+    'Макраме': 'Macrame',
+    'Ловцы снов': 'dreamCatcher',
+    'Звук моря': 'seaSound',
+    'Ideas Únicas': ['Home', 'Jewelry', 'Souvenirs'],
+    'Macramé': 'Macrame',
+    'Atrapasueños': 'dreamCatcher',
+    'Sonido del mar': 'seaSound'
 };
 
 // Обновление текста при смене языка
@@ -284,14 +289,7 @@ window.addEventListener('languageChanged', () => {
     document.getElementById("cards").innerHTML = "";
     filterByCategory("All");
 
-    // Переустановить первую кнопку как активную
-    document.querySelectorAll('.menu .ringBtn').forEach(btn => {
-        btn.classList.remove('active');
-    });
-    const firstBtn = document.querySelector('.menu .ringBtn');
-    if (firstBtn) {
-        firstBtn.classList.add('active');
-    }
+    // Не устанавливать активные кнопки, чтобы показать все
 
     // Обновить текст на карточках
     document.querySelectorAll('.openModal').forEach(btn => {
@@ -322,36 +320,83 @@ window.addEventListener('languageChanged', () => {
 function attachMenuHandlers() {
     document.querySelectorAll(".menu .ringBtn").forEach(btn => {
         btn.removeEventListener("click", handleMenuClick); // Удалить старые слушатели
-        btn.addEventListener("click", handleMenuClick);
+        btn.removeEventListener("touchend", handleMenuClick);
+        btn.removeEventListener("pointerdown", handleMenuClick);
+        btn.addEventListener("pointerdown", handleMenuClick, { passive: false });
     });
 }
 
 function handleMenuClick(e) {
-    // Удаляем класс active у всех кнопок
-    document.querySelectorAll(".menu .ringBtn").forEach(btn => {
-        btn.classList.remove("active");
-    });
-    // Добавляем класс active текущей кнопке
-    this.classList.add("active");
+    const clickedBtn = this;
+    const clickedCategory = clickedBtn.textContent.trim();
+    const actualCategory = categoryMap[clickedCategory] || clickedCategory;
 
-    const category = this.textContent.trim();
-    const originalCategory = categoryMap[category] || category;
-    filterByCategory(originalCategory);
+    if (actualCategory === 'All') {
+        // при клике на All сбрасываем все и показываем все
+        document.querySelectorAll('.menu .ringBtn').forEach(btn => btn.classList.remove('active'));
+        clickedBtn.classList.add('active');
+        filterByCategory('All');
+        return;
+    }
+
+    // Toggle этого фильтра
+    clickedBtn.classList.toggle('active');
+    // Выключаем All (если есть)
+    const allBtn = document.querySelector('.menu .ringBtn h2[data-i18n="menu.all"]');
+    if (allBtn) {
+        allBtn.closest('.ringBtn').classList.remove('active');
+    }
+
+    const activeBtns = Array.from(document.querySelectorAll('.menu .ringBtn.active'));
+    if (activeBtns.length === 0) {
+        filterByCategory('All');
+        return;
+    }
+
+    const selectedCategories = activeBtns
+        .map(btn => {
+            const text = btn.textContent.trim();
+            return categoryMap[text] || text;
+        })
+        .flat()  // Развернуть массивы в плоский список
+        .filter(cat => cat !== 'All');
+
+    if (selectedCategories.length === 0) {
+        filterByCategory('All');
+    } else if (selectedCategories.length === 1) {
+        filterByCategory(selectedCategories[0]);
+    } else {
+        filterByCategory(selectedCategories);
+    }
 }
 
 // Первоначальное добавление обработчиков
 attachMenuHandlers();
 
+// Обработчик смены языка
+window.addEventListener('languageChanged', attachMenuHandlers);
+
 // Обработчик для toggle фильтра по доступности
 const availableToggle = document.getElementById('availableToggle');
 availableToggle.addEventListener('change', (e) => {
     showOnlyAvailable = e.target.checked;
-    // Перефильтруем текущую категорию при изменении toggle
-    const currentCategoryBtn = document.querySelector('.ringBtn.active');
-    const category = currentCategoryBtn
-        ? categoryMap[currentCategoryBtn.textContent.trim()] || 'All'
-        : 'All';
-    filterByCategory(category);
+    // Перефильтруем по текущим активным категориям
+    const activeBtns = Array.from(document.querySelectorAll('.menu .ringBtn.active'));
+    const selectedCategories = activeBtns
+        .map(btn => {
+            const text = btn.textContent.trim();
+            return categoryMap[text] || text;
+        })
+        .flat()
+        .filter(cat => cat !== 'All');
+
+    if (selectedCategories.length === 0) {
+        filterByCategory('All');
+    } else if (selectedCategories.length === 1) {
+        filterByCategory(selectedCategories[0]);
+    } else {
+        filterByCategory(selectedCategories);
+    }
 });
 
 // Переприсоединить обработчики при смене языка

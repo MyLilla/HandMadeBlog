@@ -1,25 +1,4 @@
-[
-    {
-        "id": 1,
-        "imgPreview": "db/TalismanStone.jpg",
-        "title": "Talisman Stone",
-        "price": 15,
-        "available": true,
-        "category": "Souvenirs",
-        "materials": [
-            "img/thread.png",
-            "img/stone.png"
-        ],
-        "imgs": [
-            "db/TalismanStone.jpg",
-            "db/TalismanStone1.jpg",
-            "db/TalismanStone2.jpg",
-            "db/TalismanStone3.jpg",
-            "db/TalismanStone4.jpg"
-        ],
-        "vinted": "https://www.vinted.es/items/7879207041-talisman-stone",
-        "wallapop": "https://es.wallapop.com/item/colgante-piedra-natural-macrame-1219647774"
-    },
+﻿[
     {
         "id": 2,
         "imgPreview": "db/SeaGlass3.jpg",
@@ -66,7 +45,7 @@
         "title": "Medium Macramé Bracelets",
         "price": 10,
         "available": true,
-        "category": "Jewelry",
+        "category": "Macrame",
         "materials": [
             "img/stone.png",
             "img/thread.png",
@@ -101,7 +80,7 @@
         "title": "Forest Dreams",
         "price": 35,
         "available": false,
-        "category": "Home",
+        "category": "dreamCatcher",
         "materials": [
             "img/thread.png",
             "img/wood.png",
@@ -137,7 +116,7 @@
         "title": "Soft Dreams",
         "price": 38,
         "available": true,
-        "category": "Home",
+        "category": "dreamCatcher",
         "materials": [
             "img/thread.png",
             "img/wood.png",
@@ -157,7 +136,7 @@
         "title": "Small Macrame Bracelets",
         "price": 6,
         "available": true,
-        "category": "Jewelry",
+        "category": "Macrame",
         "materials": [
             "img/stone.png",
             "img/thread.png"
@@ -193,7 +172,7 @@
         "title": "Sound of the Sea",
         "price": 28,
         "available": false,
-        "category": "Home",
+        "category": "seaSound",
         "materials": [
             "img/shell.png",
             "img/thread.png"
@@ -218,21 +197,6 @@
         ],
         "imgs": [
             "db/MagicTree.jpg"
-        ]
-    },
-    {
-        "id": 17,
-        "imgPreview": "db/MoonCandle.jpg",
-        "title": "Moon Land",
-        "price": 7,
-        "available": false,
-        "category": "Home",
-        "materials": [
-            "img/stone.png"
-        ],
-        "imgs": [
-            "db/MoonCandle.jpg",
-            "db/MoonCandle1.jpg"
         ]
     },
     {
