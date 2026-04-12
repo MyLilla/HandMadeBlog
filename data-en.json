@@ -1,80 +1,86 @@
 ﻿[
     {
-        "id":  2,
-        "title":  "Sea Glass",
-        "description":  "Sea glass keychains from the Costa del Sol. Fragments of a whole become individual personalities, taking on new life.",
-        "category":  "Souvenirs"
+        "id": 2,
+        "title": "Sea Glass",
+        "description": "Sea glass keychains from the Costa del Sol. Fragments of a whole become individual personalities, taking on new life.",
+        "category": "Souvenirs"
     },
     {
-        "id":  3,
-        "title":  "Bird Dances",
-        "description":  "Asymmetrical, lightweight quail feather earrings with stones and beads are able to catch every movement of the air.",
-        "category":  "Jewelry"
+        "id": 3,
+        "title": "Bird Dances",
+        "description": "Asymmetrical, lightweight quail feather earrings with stones and beads are able to catch every movement of the air.",
+        "category": "Jewelry"
     },
     {
-        "id":  4,
-        "title":  "Medium Macramé Bracelets",
-        "description":  "Medium-width bracelets. Pattern with a choice of bead (stone, wood, or ceramic) and thread color.",
-        "category":  "macrame"
+        "id": 4,
+        "title": "Medium Macramé Bracelets",
+        "description": "Medium-width bracelets. Pattern with a choice of bead (stone, wood, or ceramic) and thread color.",
+        "category": "macrame"
     },
     {
-        "id":  5,
-        "title":  "Indian",
-        "description":  "An ethnic pendant crafted from tree bark on a braided cord in a warm shade. Incredibly lightweight, it\u0027s perfect for both summer and fall looks.",
-        "category":  "Jewelry"
+        "id": 5,
+        "title": "Indian",
+        "description": "An ethnic pendant crafted from tree bark on a braided cord in a warm shade. Incredibly lightweight, it\u0027s perfect for both summer and fall looks.",
+        "category": "Jewelry"
     },
     {
-        "id":  6,
-        "title":  "Forest Dreams",
-        "description":  "An Indian amulet, with the spirit of the green forest. A decorative home decoration in warm green tones that also protects against nightmares.",
-        "category":  "dreamCatcher"
+        "id": 6,
+        "title": "Forest Dreams",
+        "description": "An Indian amulet, with the spirit of the green forest. A decorative home decoration in warm green tones that also protects against nightmares.",
+        "category": "dreamCatcher"
     },
     {
-        "id":  8,
-        "title":  "Stars",
-        "description":  "Warm-toned decor made from natural materials will help create a cozy atmosphere without the clutter. Safe for pets and children.",
-        "category":  "Home"
+        "id": 7,
+        "title": "Large Macrame Bracelets",
+        "description": "Handcrafted macrame bracelets with natural stones. Featuring a convenient adjustable clasp, durable weave, and a stylish design for everyday wear.",
+        "category": "macrame"
     },
     {
-        "id":  11,
-        "title":  "Soft Dreams",
-        "description":  "Airy feathers and delicate weaving softly complement the space, filling it with comfort and tranquility. The perfect accent for a bedroom or sitting area.",
-        "category":  "dreamCatcher"
+        "id": 8,
+        "title": "Stars",
+        "description": "Warm-toned decor made from natural materials will help create a cozy atmosphere without the clutter. Safe for pets and children.",
+        "category": "Home"
     },
     {
-        "id":  12,
-        "title":  "Small Macrame Bracelets",
-        "description":  "Minimalist bracelets with natural stones in warm shades. Hand-woven, adjustable clasp. A stylish everyday accessory or a symbolic gift.",
-        "category":  "macrame"
+        "id": 11,
+        "title": "Soft Dreams",
+        "description": "Airy feathers and delicate weaving softly complement the space, filling it with comfort and tranquility. The perfect accent for a bedroom or sitting area.",
+        "category": "dreamCatcher"
     },
     {
-        "id":  13,
-        "title":  "Domino Game",
-        "description":  "Italian game originated in China (surprising fact). But in this set, the stones were replaced with plastic. The rules remain the same as in the 18th century.",
-        "category":  "Souvenirs"
+        "id": 12,
+        "title": "Small Macrame Bracelets",
+        "description": "Minimalist bracelets with natural stones in warm shades. Hand-woven, adjustable clasp. A stylish everyday accessory or a symbolic gift.",
+        "category": "macrame"
     },
     {
-        "id":  14,
-        "title":  "Sound of the Sea",
-        "description":  "A wind chime made from natural shells with a soft, marine sound. Create a peaceful, summary atmosphere for your home, patio, or garden.",
-        "category":  "seaSound"
+        "id": 13,
+        "title": "Domino Game",
+        "description": "Italian game originated in China (surprising fact). But in this set, the stones were replaced with plastic. The rules remain the same as in the 18th century.",
+        "category": "Souvenirs"
     },
     {
-        "id":  15,
-        "title":  "Magic tree",
-        "description":  "Traces of a city built by bark beetles in the Siberian forests. The unique curves of the corridors are forever imprinted onthis piece of wood.",
-        "category":  "Jewelry"
+        "id": 14,
+        "title": "Sound of the Sea",
+        "description": "A wind chime made from natural shells with a soft, marine sound. Create a peaceful, summary atmosphere for your home, patio, or garden.",
+        "category": "seaSound"
     },
     {
-        "id":  18,
-        "title":  "Coastal Shell",
-        "description":  "A piece of shell from the Andalusian coast. After a harsh adventure on the seabed, this fragment of shell has found new life in theembrace of soft cotton.",
-        "category":  "Jewelry"
+        "id": 15,
+        "title": "Magic tree",
+        "description": "Traces of a city built by bark beetles in the Siberian forests. The unique curves of the corridors are forever imprinted onthis piece of wood.",
+        "category": "Jewelry"
     },
     {
-        "id":  19,
-        "title":  "Orange",
-        "description":  "Citrine crystal. A semi-precious stone that suits almost all zodiac signs. The crystal provides its owner with energetic support during periods of low energy, apathy, and depression.",
-        "category":  "Jewelry"
+        "id": 18,
+        "title": "Coastal Shell",
+        "description": "A piece of shell from the Andalusian coast. After a harsh adventure on the seabed, this fragment of shell has found new life in theembrace of soft cotton.",
+        "category": "Jewelry"
+    },
+    {
+        "id": 19,
+        "title": "Orange",
+        "description": "Citrine crystal. A semi-precious stone that suits almost all zodiac signs. The crystal provides its owner with energetic support during periods of low energy, apathy, and depression.",
+        "category": "Jewelry"
     }
 ]

@@ -87,7 +87,6 @@ function createCard(item) {
     tpl.querySelector("h2").textContent = item.title;
     tpl.querySelector("p").textContent = item.description;
     tpl.querySelector(".price").textContent = item.price;
-    tpl.querySelector(".vinted").textContent = item.vinted;
     tpl.querySelector(".wallapop").textContent = item.wallapop;
     tpl.querySelector(".status").textContent = item.available;
 
@@ -201,23 +200,17 @@ function modalLouded() {
                 .textContent = price + " €";
             modal.classList.add('show');
 
-            let vinted = card.querySelector('.vinted').textContent.trim();
-            document.querySelector('.vintedLink').setAttribute("href", vinted);
-
             let wallapop = card.querySelector('.wallapop').textContent.trim();
             document.querySelector('.wallapopLink').setAttribute("href", wallapop);
 
             let status = card.querySelector('.status').textContent.trim();
             if (status === "true") {
-                document.querySelector('.vintedLink').style.display = "block";
                 document.querySelector('.wallapopLink').style.display = "block";
                 document.querySelector('.order p').textContent = translator.get("modal.available");
             } else {
-                document.querySelector('.vintedLink').style.display = "none";
                 document.querySelector('.wallapopLink').style.display = "none";
                 document.querySelector('.order p').textContent = translator.get("modal.notAvailableOrder")
             }
-            document.querySelector('.vintedLink').setAttribute("href", vinted);
             document.querySelector('.wallapopLink').setAttribute("href", wallapop);
 
             // Обновляем фото в слайдере модального окна

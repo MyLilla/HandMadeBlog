@@ -16,7 +16,6 @@
             "db/SeaGlass2.jpg",
             "db/SeaGlass3.jpg"
         ],
-        "vinted": "https://www.vinted.es/items/7923111338-sea-glass-keychains",
         "wallapop": "https://es.wallapop.com/item/llaveros-de-vidrio-marino-artesanales-1219648511"
     },
     {
@@ -36,7 +35,6 @@
             "db/BirdDances2.JPG",
             "db/BirdDances3.JPG"
         ],
-        "vinted": "https://www.vinted.es/items/7377203890-earrings-bird-dances",
         "wallapop": "https://es.wallapop.com/item/pendientes-de-plumas-y-piedras-1219649860"
     },
     {
@@ -54,7 +52,6 @@
         "imgs": [
             "db/MacrameMp1.jpg"
         ],
-        "vinted": "https://www.vinted.es/items/8436455823-pulseras-de-macrame-medianas",
         "wallapop": "https://es.wallapop.com/item/pulseras-macrame-medianas-1243066166"
     },
     {
@@ -71,7 +68,6 @@
         "imgs": [
             "db/Indian.jpg"
         ],
-        "vinted": "https://www.vinted.es/items/7695552234-indian-necklace",
         "wallapop": "https://es.wallapop.com/item/colgante-etnico-madera-y-cuerda-1219652830"
     },
     {
@@ -93,6 +89,22 @@
         ]
     },
     {
+        "id": 7,
+        "imgPreview": "db/MacrameLp1.jpg",
+        "title": "Large Macramé Bracelets",
+        "price": 13,
+        "available": true,
+        "category": "Macrame",
+        "materials": [
+            "img/stone.png",
+            "img/thread.png"
+        ],
+        "imgs": [
+            "db/MacrameLp1.jpg"
+        ],
+        "wallapop": "https://es.wallapop.com/item/pulseras-macrame-con-piedra-central-1251567688"
+    },
+    {
         "id": 8,
         "imgPreview": "db/ChristmasStars.jpg",
         "title": "Stars",
@@ -107,14 +119,13 @@
             "db/ChristmasStars.jpg",
             "db/ChristmasStars1.jpg"
         ],
-        "vinted": "https://www.vinted.es/items/7690623582-stars-decoration",
         "wallapop": "https://es.wallapop.com/item/estrellas-decorativas-madera-y-yute-1219657861"
     },
     {
         "id": 11,
         "imgPreview": "db/SoftDreams.jpg",
         "title": "Soft Dreams",
-        "price": 38,
+        "price": 30,
         "available": true,
         "category": "dreamCatcher",
         "materials": [
@@ -127,7 +138,6 @@
             "db/SoftDreams1.jpg",
             "db/SoftDreams2.jpg"
         ],
-        "vinted": "https://www.vinted.es/items/8257564499-atrapasuenos-blanco-y-negro",
         "wallapop": "https://es.wallapop.com/item/atrapasuenos-blanco-y-negro-1234693125"
     },
     {
@@ -145,7 +155,6 @@
             "db/MacrameSp1.jpg",
             "db/MacrameSp2.jpg"
         ],
-        "vinted": "https://www.vinted.es/items/8109669795-pulseras-con-piedras-naturales",
         "wallapop": "https://es.wallapop.com/item/pulseras-macrame-piedras-naturales-1227766636"
     },
     {
@@ -163,7 +172,6 @@
             "db/Domino1.jpg",
             "db/Domino2.jpg"
         ],
-        "vinted": "https://www.vinted.es/items/8148845802-domino-game",
         "wallapop": "https://es.wallapop.com/item/juego-de-domino-negro-con-detalles-dorados-1229671076"
     },
     {
